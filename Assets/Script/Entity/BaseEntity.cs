@@ -12,9 +12,20 @@ public class BaseEntity : MonoBehaviour {
     [SerializeField]
     protected Rigidbody2D rigidBody2D;
     protected Attribute attribute = new Attribute();
+    [SerializeField]
+    private GameObject interactHint;
     
     public Attribute GetAttribute() {
         return this.attribute;
+    }
+    public void ShowInteractor() {
+        this.interactHint.SetActive(true);
+    }
+    public void HideInteractor() {
+        this.interactHint.SetActive(false);
+    }
+    public virtual void BeenInteract() {
+        
     }
 
     protected virtual void Start() {
