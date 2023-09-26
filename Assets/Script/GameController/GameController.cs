@@ -1,18 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class GameController : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
+public class GameController : MonoBehaviour {
+    void Start() {
+        DontDestroyOnLoad(this.gameObject);
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private static void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
+    }
+
+    void Update() {
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void LoadInGame() {
+
     }
+
 }
