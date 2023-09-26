@@ -9,6 +9,7 @@ public class Player : BaseEntity {
     protected float runSpeed;
     protected float runDirection;
     List<KeyCode> actionCodes;
+    public GameObject slash;
     public Player(){
         this.actionReset();
     }
@@ -37,8 +38,18 @@ public class Player : BaseEntity {
         base.direction.x = Input.GetKey(this.actionCodes[0]) ? (Input.GetKey(this.actionCodes[1]) ? 0 : 1) : (Input.GetKey(this.actionCodes[1]) ? -1 : 0);
         base.direction.y = Input.GetKey(this.actionCodes[2]) ? (Input.GetKey(this.actionCodes[3]) ? 0 : 1) : (Input.GetKey(this.actionCodes[3]) ? -1 : 0);
         this.runSpeed = Input.GetKey(KeyCode.C) ? 5f : 1f;
+        base.animator.SetInteger("xspeed", Convert.ToInt16(base.direction.x * this.runSpeed));
+        base.animator.SetInteger("yspeed", Convert.ToInt16(base.direction.y * this.runSpeed));
+        if(Input.GetKeyDown(this.actionCodes[0]) || Input.GetKeyDown(this.actionCodes[1]) || Input.GetKeyDown(this.actionCodes[2]) || Input.GetKeyDown(this.actionCodes[3])){
+            base.animator.SetTrigger("walk");
+        }
         if(Input.GetKeyDown(KeyCode.K)){
             this.ShuffleInput();
+        }
+        if(Input.GetKeyDown(KeyCode.T)){
+            // this.slash.transform.position = this.gameObject.transform.position
+            this.slash?.SetActive(true);
+            base.animator.SetTrigger("attack");
         }
     }
     protected override void FixedUpdate() {
