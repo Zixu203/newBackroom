@@ -10,6 +10,10 @@ public class Player : BaseEntity {
     protected float runDirection;
     List<KeyCode> actionCodes;
     public GameObject slash;
+    
+    [SerializeField]
+    private Interactor interactor;
+
     public Player(){
         this.actionReset();
     }
@@ -50,6 +54,12 @@ public class Player : BaseEntity {
             // this.slash.transform.position = this.gameObject.transform.position
             this.slash?.SetActive(true);
             base.animator.SetTrigger("attack");
+        }
+        if(Input.GetKeyDown(KeyCode.F)){
+            this.interactor?.Interact();
+        }
+        if(Input.GetKeyDown(KeyCode.R)){
+            this.interactor?.InteractAll();
         }
     }
     protected override void FixedUpdate() {
