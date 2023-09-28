@@ -1,0 +1,3462 @@
+fileFormatVersion: 2
+guid: e4882bf66fe7f7d45a96273d72e9fc8d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tree_map_0
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 509
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7599b99045eb634aa8fb819d9e87a39
+      internalID: 778350360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 493
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a405b5587fd6d63408fe3263ecce4bd1
+      internalID: -1177253709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 493
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2146fb1c753a824e96c96327684f731
+      internalID: 168682475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 493
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738140e90f3601443b23a54b79103db1
+      internalID: 1169307467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_4
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 493
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cd7ea6b39d33940b185b4e6342cd87
+      internalID: -1451124914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 493
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d27e7937fcb2334ba4a1bb733a6e9fe
+      internalID: 1518403835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364380d3922d5da4a8abef8cc96b8c7c
+      internalID: -2035964368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c729f5ecd8d2f4d91172c2df3a5280
+      internalID: 1619465243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a4541b0a601cc49845b369998dd87e
+      internalID: 383608577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ecc7196d99f9040a5d6f683064c31b
+      internalID: -1133317508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529cb029ce45e2a4194c855f20d5c511
+      internalID: 1284269018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a815d83a66a179c4cbe59cf2c838b448
+      internalID: 2006046980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_12
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf4453ef3a248f4e8a9d0bb7209ac40
+      internalID: 252907205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07e77335bc580346add65a905ac02c2
+      internalID: -2045061561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_14
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27b6ffbdfc50844e90db85d323c3e38
+      internalID: 1165008714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 461
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b632a0bafea94044a48dfedb7711998
+      internalID: 834748053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 461
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c0da97a42b8834db76884aedce830f
+      internalID: 864813364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 461
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41367f4c68350248a3dd5fbfff71eb0
+      internalID: -640652665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_18
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 461
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b092b13bc4a7a4eb511f7926ef2bd8
+      internalID: 433701487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 461
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aaecbe21e576864392d5ee9d4262518
+      internalID: 1799018947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67e16a4bdd1af34caa3a3fa7f294098
+      internalID: -1816012350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cb39ea248d92a4d9dc46f879573d2c
+      internalID: 1696055357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_22
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca49cad85b9adf44be5de7b629d9995
+      internalID: -1249402788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a29e603ddcb1646a5f1857acf442e4
+      internalID: -1805463015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_24
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4737389e570396244af8761997f71db4
+      internalID: -1526756388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1e306a2ab10b44a8d3facdad6b3a4b
+      internalID: 414160487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8367af511b2e442b365a3e3932fccc
+      internalID: -1532590376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_27
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418280fdbf7f3e747bbe296dece2f5fe
+      internalID: 2009035066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_28
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90f6c2f56c3f6645a65a258e90c0b07
+      internalID: 213761397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_29
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 429
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e7c80624a2b674eb1a10bb54cbe2be
+      internalID: -803043759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_30
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 429
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84681e4534eded94d91257dd885b03e0
+      internalID: 684266690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e5ec2cb048cfb4b8f20d3502cb4b8c
+      internalID: 1881377322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce64c63e41d08c44a287b067713dbf8
+      internalID: -248168350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_33
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1f154c4714d2a4c85eb90fdd0150cb
+      internalID: -1876321095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952d2f73f3ab58440b948b77ae07b4bf
+      internalID: -1580268368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_35
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96ea2a18ef70cd48a2dd69bfa5745a6
+      internalID: -429465539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_36
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d7087f7d635c34fa1882c4e8979042
+      internalID: 1996100986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_37
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d318d04dd5697f04dbd1368deac0c714
+      internalID: 729255579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9420c547a53c8c4595c340d97e9968f
+      internalID: -976145840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_39
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cf21e09b9a38c4b944136dc1d2505e
+      internalID: 1908660169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_40
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 397
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e469ba3528ee14f85be6d9f7e545e0
+      internalID: 1024877664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_41
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 397
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e41653ae0a8bf43a85723b3420d36c
+      internalID: -552832589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_42
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 397
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc20cf03071373e4b93abbba9bf7f9b3
+      internalID: 614693093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_43
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 397
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b14bb4e76df0ac458a7990d5a572c8c
+      internalID: -1710873573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_44
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 397
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95469a4dbf2b669489889a924ee98a79
+      internalID: -2968958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_45
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 397
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcfe6854505e7741a23fe88e8939ce8
+      internalID: 43785476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 397
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809404aacff30b5488f893794812b6e7
+      internalID: -1928124648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_47
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 397
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304f5c1fab7cb894a8450aadba7b6440
+      internalID: 992077564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_48
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 397
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcbe9386062512488a2ea5177aeb35a
+      internalID: -889403608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_49
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 397
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f94f2d60084fb48ad7fe8578006a90
+      internalID: -1329937463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_50
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 381
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2529a68f602c373439bfa78b719643cb
+      internalID: -1708384652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_51
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 381
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb8fa321a3ba5d4abfe3ee2a95e0dee
+      internalID: 556416921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_52
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 381
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb50fb0f271423a4d9ab99db6754c574
+      internalID: -784752794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_53
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 381
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1beb4254ad8ce447a39e9a34b967d0e
+      internalID: -1352124276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 365
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce9c278efdd9594c90f710b0913d73b
+      internalID: 2017397757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_55
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 365
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c2ed807b3eed34c9dd6450a9853607
+      internalID: -1960395824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_56
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 365
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12e0498c3b250e4d9fe8734c48012ec
+      internalID: 2005750816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_57
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 365
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740f46927e51547459ebbbf14ca26b53
+      internalID: 907580353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_58
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 365
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477645f8d0ec2a54299a35dcab94bfb2
+      internalID: 1124965665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_59
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 365
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097846d8e848bd744ad81c540568f4ca
+      internalID: 1158624042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_60
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 349
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5703c99b1a089d8489a9fe713ab24a5e
+      internalID: -1911366965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 349
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892380d25d6619f4caada4769c1e646c
+      internalID: -604155864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_62
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 349
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f33e43b260ccc4c85920253bf273d2
+      internalID: -1156508073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_63
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 349
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03286a2d0e639284a808f68c1f180017
+      internalID: 2060895971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_64
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 349
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7164062a616cb364f97f77eadfac88a9
+      internalID: 1426923571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_65
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 349
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a1599c911e545449cd79edf835556c
+      internalID: 557227184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_66
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 349
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e9fd5d138c25241bfbbe906ff9e530
+      internalID: -303401469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_67
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa92d93d1112304d84e74ffe2dc61dc
+      internalID: 811029584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_68
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9f322d05d632843aff7be93898dca5
+      internalID: -1015278426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_69
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d390cf086f1c68646b13fcc8e2a51730
+      internalID: 1225537599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_70
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f680a780f56384385168ffbf031017
+      internalID: 832857085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_71
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f17fce46e75b0f44bea5e6f0b019b05
+      internalID: 1859629798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_72
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcd865efdbd02c4f912ca1cf2e8a529
+      internalID: 1899842340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_73
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672d9856a3bb3b8479680a5df14b7f82
+      internalID: -248777320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_74
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ef2d6f6279a0844828798dfaadc5fc
+      internalID: -368307126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_75
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677ce9c384ed5ae448bdcad950541c24
+      internalID: 158542711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_76
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2af5230f590ed24e8b82bce603ec56f
+      internalID: 1484674976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_77
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874f0acd5862b5e4b84f1f9d8d3f438c
+      internalID: -316286574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_78
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c20d3887d350c747aa3d94979e871f9
+      internalID: 1677126647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_79
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2e3653b08e9294c855b480bf8b339d
+      internalID: -1957753803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_80
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ababae7fdf53747ae06c2cff0cbff3
+      internalID: -542906204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_81
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48841f4405ca48442b1e0edd301e3a91
+      internalID: -688032787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_82
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5eb68708ed62bb4ca04a72f3d6fc9d4
+      internalID: 542185316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_83
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9913d97b6208ee740b88bc29e5fd23ae
+      internalID: 1951953685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_84
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60293a6f636077145b6b236ec5356b24
+      internalID: -1092823531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_85
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3056abcfd58ea5e44b92c28a706e6fc1
+      internalID: -780702647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_86
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fe17849de7f244fb413d24f70f283f
+      internalID: 40201642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_87
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 285
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a5d81c777362d4ab7bc8143cedadc5
+      internalID: 280763918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 285
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abe0b62319db5449b18fb64a80f6ce8
+      internalID: -1656422052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_89
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 285
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb497e15ff631a94a950f4b2b54c2236
+      internalID: 602375765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_90
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 285
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c872abb6df84f9e48bc0e813a4d9cd52
+      internalID: 784788123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_91
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 269
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c89d7a585c64646a863259f7bbb8f7
+      internalID: -941525349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_92
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 269
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5880a5f75a8c974594e48ff5353d2c0
+      internalID: -1714319977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_93
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 269
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb92b2c26fcc394a83b14c5e64b9f6e
+      internalID: 1601093356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_94
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 253
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb5b118c7f25af42bc53283fe9ca52d
+      internalID: -2039550914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_95
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 253
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1f43ce43981ae4d89d14d63962e562
+      internalID: 355482085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_96
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 253
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e799d72e2c8a2b4b9499c898250b127
+      internalID: -1690612066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_97
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 253
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9154e65ae1adf8c4795d515b6480c50d
+      internalID: -1073628882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_98
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 253
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124aef856846b8342b3e88ce057cd75d
+      internalID: 1734872361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_99
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 253
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9d0dd2fab25ee48809a757cbfa5fe8
+      internalID: -699291539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_100
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 253
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8b5076230f5ba4c9268e9d68cc6fa2
+      internalID: -1760614742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_101
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 237
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b0f77be148ddf4691fa484aaa4c5e7
+      internalID: 1892082448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_102
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 237
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c783f979596e94984bb8de016ac81a
+      internalID: 1778098315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_103
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 237
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbeeada8e745f9468bdec4daf96135b
+      internalID: 266671592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_104
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 237
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889300d76a2a24749b09790f129fb336
+      internalID: 1593820834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_105
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 237
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5b0d5d304325845a6af5e7cb64d486
+      internalID: -186197780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_106
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 237
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b86a134239170940b7c89054a0946e1
+      internalID: -302563781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_107
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 221
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5513aabdf1676e84c99dda3f720fa91a
+      internalID: -1519284539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_108
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 221
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acdda3a5812f9948826ac966f0e6e2e
+      internalID: -292325770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_109
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 221
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d83d2f0da665a46bdc618eefdb0d31
+      internalID: -2061360577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_110
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 221
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f416fc9bd50797c4f9d5d22b1caa8f3d
+      internalID: -394314684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_111
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 221
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c678fab07926c924aaf5706f58817293
+      internalID: -2030194684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_112
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7ef8c63ac13b749b37aeda09bc9b55
+      internalID: -1293596182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_113
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a81b07c79ffcc14391ef58fe7830f40
+      internalID: 2143625355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_114
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1efbbf5d03ba0046854fd193c836578
+      internalID: 1111486719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_115
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 189
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8f8ea6212e505448af26f1c0fa27c4
+      internalID: -203555030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_116
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 189
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e455589ad3d816745831d82f2c107369
+      internalID: 804260352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_117
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 189
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9beb9f579645faf4cbcd881a45923740
+      internalID: -1746091916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_118
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 189
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72661c5432533594a89b79b7d8ea7537
+      internalID: 850583495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_119
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efa518cfe87e014eb9ec66fc2dae623
+      internalID: -1464893692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_120
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70eb568308eb7848abb4f9565a67fbc
+      internalID: 799846638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_121
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c6fed52e915b541acc219987ca9c3f
+      internalID: 1692340476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_122
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babc22dc0cfce984f987555d655158e3
+      internalID: -1125323942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_123
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 141
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad766471b9211a84ba352fe1f487bebb
+      internalID: -1955134455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_124
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 141
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816d29ea1e89db5499c22ec391092b32
+      internalID: -84426123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_125
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 125
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebedbe496706cc2489f774b7c775cf97
+      internalID: -687477228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_126
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 125
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbea44a7811b2414aa0edd163a13909c
+      internalID: -976178472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_127
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 125
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd8de7086c8fb04bb080a039c910c75
+      internalID: 383118246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_128
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 125
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6544c4aaeb79c7643b73deada584bcd3
+      internalID: 927341933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_129
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 125
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6950e1da9397e478e69332dbd28656
+      internalID: -598020382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_130
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 125
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e049e520cbb8d44594920b1f1ae86c2
+      internalID: 1999203910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_131
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43caebed230b9ef4398cd47b4c609a9a
+      internalID: 15312621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_132
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e102329929db0534eb0a2d38926d7c32
+      internalID: -1873598373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_133
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa83affea00700408a399472d4d277a
+      internalID: -1752875559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_134
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7795dfa28317c7c4d9b4a59c087c87f2
+      internalID: 2099561986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_135
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f020dddf31bcdee4b8a84a033aa9c388
+      internalID: -209920260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_136
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f218bdbacbb8c4f9e847046bb822a5
+      internalID: 1073840308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_137
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 61
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15851026657ec0140b00a7cf74307814
+      internalID: 326605748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_138
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 61
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b270231e6bd1114e807a87d5cd7243f
+      internalID: 481710261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_139
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 61
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb79c845fb1e6b4fa86c82c37f0d296
+      internalID: 1789379234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_140
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 61
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc6c6b53a3930d42928c6905ed0c69d
+      internalID: 2041916568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_141
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 61
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b6ff92a4021774d89f980c2efdb9cc
+      internalID: 673644408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_142
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 61
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cdec865fc560c4296b8f5fa3bb7996
+      internalID: 1273341207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_143
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 45
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27af098816de4824a822a86e6dd6ec01
+      internalID: 1145600055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_144
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 45
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedc105453b93bb498c00bba58a10ee1
+      internalID: 1413383049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_145
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 45
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fd6d68625f8f04caaa215dc1b5330c
+      internalID: 1696964145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_146
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 45
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b900d2d18b4644682b898f879b2cf8
+      internalID: -2088174477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_147
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 45
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23e3ef68fea62943949f0c55861a44d
+      internalID: 1731888772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_148
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 45
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5b13ce5e19c2342bded00ba8f1dd4a
+      internalID: -420000401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_149
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f9971acc210a94ebda1070bdbaff31
+      internalID: 1764273819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_map_150
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ef0dcb49f5ba546abfbc8cc5584151
+      internalID: 479267441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 08adcfb5af01ba24687be843aa2ffc07
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      tree_map_0: 778350360
+      tree_map_1: -1177253709
+      tree_map_10: 1284269018
+      tree_map_100: -1760614742
+      tree_map_101: 1892082448
+      tree_map_102: 1778098315
+      tree_map_103: 266671592
+      tree_map_104: 1593820834
+      tree_map_105: -186197780
+      tree_map_106: -302563781
+      tree_map_107: -1519284539
+      tree_map_108: -292325770
+      tree_map_109: -2061360577
+      tree_map_11: 2006046980
+      tree_map_110: -394314684
+      tree_map_111: -2030194684
+      tree_map_112: -1293596182
+      tree_map_113: 2143625355
+      tree_map_114: 1111486719
+      tree_map_115: -203555030
+      tree_map_116: 804260352
+      tree_map_117: -1746091916
+      tree_map_118: 850583495
+      tree_map_119: -1464893692
+      tree_map_12: 252907205
+      tree_map_120: 799846638
+      tree_map_121: 1692340476
+      tree_map_122: -1125323942
+      tree_map_123: -1955134455
+      tree_map_124: -84426123
+      tree_map_125: -687477228
+      tree_map_126: -976178472
+      tree_map_127: 383118246
+      tree_map_128: 927341933
+      tree_map_129: -598020382
+      tree_map_13: -2045061561
+      tree_map_130: 1999203910
+      tree_map_131: 15312621
+      tree_map_132: -1873598373
+      tree_map_133: -1752875559
+      tree_map_134: 2099561986
+      tree_map_135: -209920260
+      tree_map_136: 1073840308
+      tree_map_137: 326605748
+      tree_map_138: 481710261
+      tree_map_139: 1789379234
+      tree_map_14: 1165008714
+      tree_map_140: 2041916568
+      tree_map_141: 673644408
+      tree_map_142: 1273341207
+      tree_map_143: 1145600055
+      tree_map_144: 1413383049
+      tree_map_145: 1696964145
+      tree_map_146: -2088174477
+      tree_map_147: 1731888772
+      tree_map_148: -420000401
+      tree_map_149: 1764273819
+      tree_map_15: 834748053
+      tree_map_150: 479267441
+      tree_map_16: 864813364
+      tree_map_17: -640652665
+      tree_map_18: 433701487
+      tree_map_19: 1799018947
+      tree_map_2: 168682475
+      tree_map_20: -1816012350
+      tree_map_21: 1696055357
+      tree_map_22: -1249402788
+      tree_map_23: -1805463015
+      tree_map_24: -1526756388
+      tree_map_25: 414160487
+      tree_map_26: -1532590376
+      tree_map_27: 2009035066
+      tree_map_28: 213761397
+      tree_map_29: -803043759
+      tree_map_3: 1169307467
+      tree_map_30: 684266690
+      tree_map_31: 1881377322
+      tree_map_32: -248168350
+      tree_map_33: -1876321095
+      tree_map_34: -1580268368
+      tree_map_35: -429465539
+      tree_map_36: 1996100986
+      tree_map_37: 729255579
+      tree_map_38: -976145840
+      tree_map_39: 1908660169
+      tree_map_4: -1451124914
+      tree_map_40: 1024877664
+      tree_map_41: -552832589
+      tree_map_42: 614693093
+      tree_map_43: -1710873573
+      tree_map_44: -2968958
+      tree_map_45: 43785476
+      tree_map_46: -1928124648
+      tree_map_47: 992077564
+      tree_map_48: -889403608
+      tree_map_49: -1329937463
+      tree_map_5: 1518403835
+      tree_map_50: -1708384652
+      tree_map_51: 556416921
+      tree_map_52: -784752794
+      tree_map_53: -1352124276
+      tree_map_54: 2017397757
+      tree_map_55: -1960395824
+      tree_map_56: 2005750816
+      tree_map_57: 907580353
+      tree_map_58: 1124965665
+      tree_map_59: 1158624042
+      tree_map_6: -2035964368
+      tree_map_60: -1911366965
+      tree_map_61: -604155864
+      tree_map_62: -1156508073
+      tree_map_63: 2060895971
+      tree_map_64: 1426923571
+      tree_map_65: 557227184
+      tree_map_66: -303401469
+      tree_map_67: 811029584
+      tree_map_68: -1015278426
+      tree_map_69: 1225537599
+      tree_map_7: 1619465243
+      tree_map_70: 832857085
+      tree_map_71: 1859629798
+      tree_map_72: 1899842340
+      tree_map_73: -248777320
+      tree_map_74: -368307126
+      tree_map_75: 158542711
+      tree_map_76: 1484674976
+      tree_map_77: -316286574
+      tree_map_78: 1677126647
+      tree_map_79: -1957753803
+      tree_map_8: 383608577
+      tree_map_80: -542906204
+      tree_map_81: -688032787
+      tree_map_82: 542185316
+      tree_map_83: 1951953685
+      tree_map_84: -1092823531
+      tree_map_85: -780702647
+      tree_map_86: 40201642
+      tree_map_87: 280763918
+      tree_map_88: -1656422052
+      tree_map_89: 602375765
+      tree_map_9: -1133317508
+      tree_map_90: 784788123
+      tree_map_91: -941525349
+      tree_map_92: -1714319977
+      tree_map_93: 1601093356
+      tree_map_94: -2039550914
+      tree_map_95: 355482085
+      tree_map_96: -1690612066
+      tree_map_97: -1073628882
+      tree_map_98: 1734872361
+      tree_map_99: -699291539
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
