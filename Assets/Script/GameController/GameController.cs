@@ -13,6 +13,7 @@ public class GameController : MonoBehaviour {
             return GameController.instance;
         }
     }
+    public GamingPoolSystem gamingPool = new GamingPoolSystem();
     void Awake() {
         GameController.instance = this;
     }
