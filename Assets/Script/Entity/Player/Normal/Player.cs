@@ -2,11 +2,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class Player : BaseEntity {
     [SerializeField]
     protected float runSpeed;
+    protected float calcRunSpeed;
     protected float runDirection;
     List<KeyCode> actionCodes;
     public GameObject slash;
@@ -41,9 +43,9 @@ public class Player : BaseEntity {
     protected override void Update() {
         base.direction.x = Input.GetKey(this.actionCodes[0]) ? (Input.GetKey(this.actionCodes[1]) ? 0 : 1) : (Input.GetKey(this.actionCodes[1]) ? -1 : 0);
         base.direction.y = Input.GetKey(this.actionCodes[2]) ? (Input.GetKey(this.actionCodes[3]) ? 0 : 1) : (Input.GetKey(this.actionCodes[3]) ? -1 : 0);
-        this.runSpeed = Input.GetKey(KeyCode.C) ? 5f : 1f;
-        base.animator.SetInteger("xspeed", Convert.ToInt16(base.direction.x * this.runSpeed));
-        base.animator.SetInteger("yspeed", Convert.ToInt16(base.direction.y * this.runSpeed));
+        this.calcRunSpeed = Input.GetKey(KeyCode.C) ? this.runSpeed : 1f;
+        base.animator.SetInteger("xspeed", Convert.ToInt16(math.sign(base.direction.x) * math.ceil(math.abs(base.direction.x * this.calcRunSpeed))));
+        base.animator.SetInteger("yspeed", Convert.ToInt16(math.sign(base.direction.y) * math.ceil(math.abs(base.direction.y * this.calcRunSpeed))));
         if(Input.GetKeyDown(this.actionCodes[0]) || Input.GetKeyDown(this.actionCodes[1]) || Input.GetKeyDown(this.actionCodes[2]) || Input.GetKeyDown(this.actionCodes[3])){
             base.animator.SetTrigger("walk");
         }
@@ -64,6 +66,6 @@ public class Player : BaseEntity {
     }
     protected override void FixedUpdate() {
         base.FixedUpdate();
-        this.rigidBody2D.velocity = this.rigidBody2D.velocity * runSpeed;
+        this.rigidBody2D.velocity *= this.calcRunSpeed;
     }
 }
