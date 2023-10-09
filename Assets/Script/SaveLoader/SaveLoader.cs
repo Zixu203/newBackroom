@@ -58,4 +58,12 @@ public class SaveLoader {
         SaveLoader.lowFrequencyData.sampleText = sampleText;
         SaveLoader.SaveLow();
     }
+
+    public static int getEntityDialogueIndex(BaseEntity baseEntity) {
+        return -1;
+    }
+
+    public static void setEntityDialogueIndex(BaseEntity baseEntity, int index) {
+        
+    }
 }

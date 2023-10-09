@@ -59,6 +59,7 @@ public class Player : BaseEntity {
         }
         if(Input.GetKeyDown(KeyCode.F)){
             this.interactor?.Interact();
+            // GameController.getInstance.dialogueSystem.StartDialogue();
         }
         if(Input.GetKeyDown(KeyCode.R)){
             this.interactor?.InteractAll();

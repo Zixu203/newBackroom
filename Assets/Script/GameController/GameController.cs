@@ -13,11 +13,15 @@ public class GameController : MonoBehaviour {
             return GameController.instance;
         }
     }
+    [SerializeField]
+    public List<BaseEntity> npcs;
+    public DialogueSystem dialogueSystem;
     public GamingPoolSystem gamingPool = new GamingPoolSystem();
     void Awake() {
         GameController.instance = this;
     }
     void Start() {
+        this.dialogueSystem = new DialogueSystem();
         DontDestroyOnLoad(this.gameObject);
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
