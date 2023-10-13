@@ -60,10 +60,14 @@ public class SaveLoader {
     }
 
     public static int getEntityDialogueIndex(BaseEntity baseEntity) {
-        return -1;
+        if(SaveLoader.lowFrequencyData.dialogueSave.ContainsKey(baseEntity.gameObject.name) == false){
+            setEntityDialogueIndex(baseEntity, 0);
+        }
+        return SaveLoader.lowFrequencyData.dialogueSave[baseEntity.gameObject.name];
     }
 
     public static void setEntityDialogueIndex(BaseEntity baseEntity, int index) {
-        
+        SaveLoader.lowFrequencyData.dialogueSave[baseEntity.gameObject.name] = index;
+        SaveLoader.SaveLow();
     }
 }
