@@ -14,7 +14,7 @@ public class Player : BaseEntity {
     }
     [SerializeField]
     protected float runSpeed;
-    protected float runMulti;
+    protected float calcRunSpeed;
     protected float runDirection;
     protected PlayerDirection playerDirection;
     List<KeyCode> actionCodes;
@@ -79,17 +79,14 @@ public class Player : BaseEntity {
         PlayerDirection lastPlayerState = this.playerDirection;
         base.direction.x = Input.GetKey(this.actionCodes[0]) ? (Input.GetKey(this.actionCodes[1]) ? 0 : 1) : (Input.GetKey(this.actionCodes[1]) ? -1 : 0);
         base.direction.y = Input.GetKey(this.actionCodes[2]) ? (Input.GetKey(this.actionCodes[3]) ? 0 : 1) : (Input.GetKey(this.actionCodes[3]) ? -1 : 0);
+        this.calcRunSpeed = Input.GetKey(KeyCode.C) ? this.runSpeed : 1f;
+        base.animator.SetInteger("xspeed", Convert.ToInt16(math.sign(base.direction.x) * math.ceil(math.abs(base.direction.x * this.calcRunSpeed))));
+        base.animator.SetInteger("yspeed", Convert.ToInt16(math.sign(base.direction.y) * math.ceil(math.abs(base.direction.y * this.calcRunSpeed))));
         this.playerDirection = Input.GetKey(this.actionCodes[0]) ? (Input.GetKey(this.actionCodes[1]) ? this.playerDirection : PlayerDirection.Right) : (Input.GetKey(this.actionCodes[1]) ? PlayerDirection.Left : this.playerDirection);
         this.playerDirection = Input.GetKey(this.actionCodes[2]) ? (Input.GetKey(this.actionCodes[3]) ? this.playerDirection : PlayerDirection.Up) : (Input.GetKey(this.actionCodes[3]) ? PlayerDirection.Down : this.playerDirection);
-        this.runMulti = Input.GetKey(KeyCode.C) ? this.runSpeed : 1f;
-        base.animator.SetInteger("xspeed", Convert.ToInt16(math.sign(base.direction.x) * math.ceil(this.runMulti)));
-        base.animator.SetInteger("yspeed", Convert.ToInt16(math.sign(base.direction.y) * math.ceil(this.runMulti)));
         bool actionKeyDown = this.actionCodes.Any(x => Input.GetKeyDown(x));
         bool actionKey = this.actionCodes.Any(x=>Input.GetKey(x));
         bool actionKeyUp = this.actionCodes.Any(x=>Input.GetKeyUp(x));
-        // if(actionKeyDown || ( actionKey && actionKeyUp)){
-        //     base.animator.SetTrigger("walk");
-        // }
         if(actionKeyDown || (lastPlayerState != this.playerDirection)){
             base.animator.SetTrigger("walk");
         }
@@ -112,6 +109,6 @@ public class Player : BaseEntity {
     }
     protected override void FixedUpdate() {
         base.FixedUpdate();
-        this.rigidBody2D.velocity = this.rigidBody2D.velocity * this.runMulti;
+        this.rigidBody2D.velocity *= this.calcRunSpeed;
     }
 }
