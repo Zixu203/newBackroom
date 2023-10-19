@@ -18,7 +18,7 @@ public class Player : BaseEntity {
     protected float runDirection;
     protected PlayerDirection playerDirection;
     List<KeyCode> actionCodes;
-    public GameObject slash;
+    public Slash slash;
     
     [SerializeField]
     private Interactor interactor;
@@ -94,10 +94,10 @@ public class Player : BaseEntity {
             this.ShuffleInput();
         }
         if(Input.GetKeyDown(KeyCode.T)){
-            this.slash.transform.position = this.gameObject.transform.position + this.DirectionToForward(this.playerDirection) * 0.2f;
+            this.slash.transform.position = this.gameObject.transform.position + this.DirectionToForward(this.playerDirection) * 0.7f;
             this.slash.transform.rotation = quaternion.identity;
             this.slash.transform.Rotate(Vector3.forward, DiectionToRotate(this.playerDirection));
-            this.slash?.SetActive(true);
+            this.slash?.gameObject.SetActive(true);
             base.animator.SetTrigger("attack");
         }
         if(Input.GetKeyDown(KeyCode.F)){

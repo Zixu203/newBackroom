@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,21 +13,26 @@ public class GameController : MonoBehaviour {
                 return GameController.instance = new GameController();
             return GameController.instance;
         }
+        
     }
-    public GamingPoolSystem gamingPool = new GamingPoolSystem();
+    public EnemySpawner enemySpawner;
+    public GamingPoolSystem gamingPool;
     void Awake() {
         GameController.instance = this;
     }
     void Start() {
         DontDestroyOnLoad(this.gameObject);
         SceneManager.sceneLoaded += OnSceneLoaded;
-    }
-
-    private static void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
+        // enemySpawner = new EnemySpawner();
+        // this.gamingPool = new GamingPoolSystem();
+        this.enemySpawner.Start();
     }
 
     void Update() {
-        
+        this.enemySpawner.Update();
+    }
+
+    private static void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
     }
 
     public void LoadInGame() {

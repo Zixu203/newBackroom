@@ -18,11 +18,12 @@ public class GamingPool {
         if(unusedGameObjects.Count == 0){
             usingGameObjects.Add(GamingPoolSystem.initGameObject(prefab, place, orient));
         }else{
-            unusedGameObjects.First().transform.SetPositionAndRotation(place, orient);
+            // unusedGameObjects.First().transform.SetPositionAndRotation(place, orient);
             usingGameObjects.Add(unusedGameObjects.First());
             unusedGameObjects.RemoveAt(0);
         }
-            usingGameObjects.Last().SetActive(true);
+        usingGameObjects.Last().transform.SetPositionAndRotation(place, orient);
+        usingGameObjects.Last().SetActive(true);
         return usingGameObjects.Last();
     }
 
