@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
-    public GameObject targetPlayer;
+    public Player targetPlayer;
     public static GameController instance;
     public static GameController getInstance {
         get {

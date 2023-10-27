@@ -120,6 +120,7 @@ public class DialogueSystem{
     }
 
     public void StartDialogue(BaseEntity baseEntity) {
+        GameController.getInstance.targetPlayer.isInDialogue = true;
         currentDialogue = baseEntity;
         currentIndex = SaveLoader.getEntityDialogueIndex(currentDialogue);
         Dialogue dialogue = this.keyValuePairs[currentDialogue][currentIndex];

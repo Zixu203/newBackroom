@@ -21,13 +21,9 @@ public class Player : BaseEntity {
     protected PlayerWeapon playerWeapon;
     List<KeyCode> actionCodes;
     public Slash slash;
-    
     [SerializeField]
-    public GameObject slash;
-    [SerializeField]
-    public BaseEntity testEntity;
-    public bool isInDialogue;
     private Interactor interactor;
+    public bool isInDialogue;
 
     public Player(){
         this.actionReset();
@@ -111,11 +107,7 @@ public class Player : BaseEntity {
             base.animator.SetTrigger("shoot");
         }
         if(Input.GetKeyDown(KeyCode.F)){
-            if(!isInDialogue){
-                this.interactor?.Interact();
-                GameController.getInstance.dialogueSystem.StartDialogue(testEntity);
-                isInDialogue = true;
-            }
+            this.interactor?.Interact();
         }
         if(Input.GetKeyDown(KeyCode.R)){
             this.interactor?.InteractAll();
