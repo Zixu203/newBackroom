@@ -29,13 +29,13 @@ public class Interactor : MonoBehaviour {
             baseEntity.BeenInteract();
         }
     }
-    public void OnTriggerEnter(Collider collider) {
+    public void OnTriggerEnter2D(Collider2D collider) {
         BaseEntity colliEntity = collider.gameObject.GetComponent<BaseEntity>();
         if(colliEntity == null) return;
         this.colliderBaseEntityList.Add(colliEntity);
         colliEntity.ShowInteractor();
     }
-    void OnTriggerExit(Collider collider) {
+    void OnTriggerExit2D(Collider2D collider) {
         BaseEntity colliEntity = collider.gameObject.GetComponent<BaseEntity>();
         if(colliEntity == null) return;
         this.colliderBaseEntityList.Remove(colliEntity);
