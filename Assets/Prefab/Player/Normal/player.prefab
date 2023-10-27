@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 8160293912223883400}
   - component: {fileID: 5964632944574181119}
   - component: {fileID: 3195495084369526714}
+  - component: {fileID: 7232718482595670557}
   - component: {fileID: 3380860013159051568}
   - component: {fileID: 2230896418422974450}
-  - component: {fileID: 7232718482595670557}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -131,6 +131,20 @@ MonoBehaviour:
   playerWeapon: {fileID: 7232718482595670557}
   slash: {fileID: 0}
   interactor: {fileID: 7768706620964456426}
+  isInDialogue: 0
+--- !u!114 &7232718482595670557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262560410432620387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8613198e681ca4a79a20acb73e062906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 3195495084369526714}
 --- !u!50 &3380860013159051568
 Rigidbody2D:
   serializedVersion: 4
@@ -203,19 +217,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.97, y: 0.5}
   m_EdgeRadius: 0
---- !u!114 &7232718482595670557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 262560410432620387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8613198e681ca4a79a20acb73e062906, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 3195495084369526714}
 --- !u!1 &7265157279030222391
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,7 +6,7 @@ using Unity.Mathematics;
 using UnityEngine;
 
 public class Player : BaseEntity {
-    protected enum PlayerDirection {
+    public enum PlayerDirection {
         Up,
         Down,
         Left,
@@ -20,7 +20,6 @@ public class Player : BaseEntity {
     [SerializeField]
     protected PlayerWeapon playerWeapon;
     List<KeyCode> actionCodes;
-    public Slash slash;
     [SerializeField]
     private Interactor interactor;
     public bool isInDialogue;
@@ -96,14 +95,11 @@ public class Player : BaseEntity {
             this.ShuffleInput();
         }
         if(Input.GetKeyDown(KeyCode.T)){
-            this.slash.transform.position = this.gameObject.transform.position + this.DirectionToForward(this.playerDirection) * 1.4f;
-            this.slash.transform.rotation = quaternion.identity;
-            this.slash.transform.Rotate(Vector3.forward, DiectionToRotate(this.playerDirection));
-            this.slash.setAttribute(new AttributePack(this, 5));
-            this.slash?.gameObject.SetActive(true);
+            this.playerWeapon.slashAttack(this.playerDirection);
             base.animator.SetTrigger("attack");
         }
         if(Input.GetKeyDown(KeyCode.Y)){
+            this.playerWeapon.shootAttack(this.playerDirection);
             base.animator.SetTrigger("shoot");
         }
         if(Input.GetKeyDown(KeyCode.F)){
