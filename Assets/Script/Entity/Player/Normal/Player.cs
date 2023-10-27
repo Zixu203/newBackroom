@@ -23,6 +23,10 @@ public class Player : BaseEntity {
     public Slash slash;
     
     [SerializeField]
+    public GameObject slash;
+    [SerializeField]
+    public BaseEntity testEntity;
+    public bool isInDialogue;
     private Interactor interactor;
 
     public Player(){
@@ -107,10 +111,20 @@ public class Player : BaseEntity {
             base.animator.SetTrigger("shoot");
         }
         if(Input.GetKeyDown(KeyCode.F)){
-            this.interactor?.Interact();
+            if(!isInDialogue){
+                this.interactor?.Interact();
+                GameController.getInstance.dialogueSystem.StartDialogue(testEntity);
+                isInDialogue = true;
+            }
         }
         if(Input.GetKeyDown(KeyCode.R)){
             this.interactor?.InteractAll();
+        }
+        if(Input.GetKeyDown(KeyCode.Mouse0)){
+            if(isInDialogue){
+                bool isDialogueEnd = GameController.getInstance.dialogueSystem.ContinueDialogue();
+                if(isDialogueEnd) isInDialogue = false;
+            }
         }
     }
     protected override void FixedUpdate() {

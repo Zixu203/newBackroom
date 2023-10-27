@@ -17,10 +17,16 @@ public class GameController : MonoBehaviour {
     }
     public EnemySpawner enemySpawner;
     public GamingPoolSystem gamingPool;
+    [SerializeField]
+    public List<BaseEntity> npcs;
+    public DialogueSystem dialogueSystem;
     void Awake() {
         GameController.instance = this;
     }
     void Start() {
+        SaveLoader.Load();
+        this.dialogueSystem = new DialogueSystem();
+        this.dialogueSystem.init();
         DontDestroyOnLoad(this.gameObject);
         SceneManager.sceneLoaded += OnSceneLoaded;
         // enemySpawner = new EnemySpawner();

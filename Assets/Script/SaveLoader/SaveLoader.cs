@@ -58,4 +58,16 @@ public class SaveLoader {
         SaveLoader.lowFrequencyData.sampleText = sampleText;
         SaveLoader.SaveLow();
     }
+
+    public static int getEntityDialogueIndex(BaseEntity baseEntity) {
+        if(SaveLoader.lowFrequencyData.dialogueSave.ContainsKey(baseEntity.gameObject.name) == false){
+            setEntityDialogueIndex(baseEntity, 0);
+        }
+        return SaveLoader.lowFrequencyData.dialogueSave[baseEntity.gameObject.name];
+    }
+
+    public static void setEntityDialogueIndex(BaseEntity baseEntity, int index) {
+        SaveLoader.lowFrequencyData.dialogueSave[baseEntity.gameObject.name] = index;
+        SaveLoader.SaveLow();
+    }
 }
