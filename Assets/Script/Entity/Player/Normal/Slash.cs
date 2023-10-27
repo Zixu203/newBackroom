@@ -4,14 +4,8 @@ using UnityEngine;
 
 public class Slash : MonoBehaviour {
     AttributePack attributePack;
-    // Start is called before the first frame update
-    void Start() {
-        
-    }
-
-    // Update is called once per frame
-    void Update() {
-        
+    public void OnAnimeEnd() {
+        this.gameObject.SetActive(false);
     }
     public void setAttribute(AttributePack attributePack) {
         this.attributePack = attributePack;
@@ -19,6 +13,7 @@ public class Slash : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collider2D) {
         var baseEntity = collider2D.gameObject.GetComponent<BaseEntity>();
-        Debug.Log(baseEntity);
+        if(baseEntity == null) return;
+        baseEntity.GetAttribute().Damage(this.attributePack.value);
     }
 }

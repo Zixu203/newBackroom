@@ -8,4 +8,8 @@ public class AttributePack {
     }
     public BaseEntity Owner {get; set;}
     public float value;
+    public AttributePack(BaseEntity owner, float value) {
+        this.Owner = owner;
+        this.value = value;
+    }
 }

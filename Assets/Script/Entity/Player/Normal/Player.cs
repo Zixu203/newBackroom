@@ -17,6 +17,8 @@ public class Player : BaseEntity {
     protected float calcRunSpeed;
     protected float runDirection;
     protected PlayerDirection playerDirection;
+    [SerializeField]
+    protected PlayerWeapon playerWeapon;
     List<KeyCode> actionCodes;
     public Slash slash;
     
@@ -94,11 +96,15 @@ public class Player : BaseEntity {
             this.ShuffleInput();
         }
         if(Input.GetKeyDown(KeyCode.T)){
-            this.slash.transform.position = this.gameObject.transform.position + this.DirectionToForward(this.playerDirection) * 0.7f;
+            this.slash.transform.position = this.gameObject.transform.position + this.DirectionToForward(this.playerDirection) * 1.4f;
             this.slash.transform.rotation = quaternion.identity;
             this.slash.transform.Rotate(Vector3.forward, DiectionToRotate(this.playerDirection));
+            this.slash.setAttribute(new AttributePack(this, 5));
             this.slash?.gameObject.SetActive(true);
             base.animator.SetTrigger("attack");
+        }
+        if(Input.GetKeyDown(KeyCode.Y)){
+            base.animator.SetTrigger("shoot");
         }
         if(Input.GetKeyDown(KeyCode.F)){
             this.interactor?.Interact();

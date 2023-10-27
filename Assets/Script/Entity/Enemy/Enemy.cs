@@ -41,6 +41,8 @@ public class Enemy : BaseEntity {
     }
     protected override void Start() {
         Debug.Log("enemy " + this.GetEnemyName() + "  start");
+        base.attribute = new Attribute(10, 1, 1, 1, 1);
+        this.GetAttribute().OnDead += () => this.Die();
         this.spawnPosition = this.transform.position;
         this.spawnRotation = this.transform.rotation;
         this.navMeshAgent.updateRotation = false;
