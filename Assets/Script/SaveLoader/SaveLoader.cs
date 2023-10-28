@@ -10,23 +10,23 @@ public class SaveLoader {
     private static LowFrequencyData lowFrequencyData;
     public static void SaveAll() {
         if(!File.Exists(SaveLoader.baseDir + "HighFrequencyData.txt")){
-            File.Create(SaveLoader.baseDir + "HighFrequencyData.txt");
+            File.Create(SaveLoader.baseDir + "HighFrequencyData.txt").Close();
         }
         if(!File.Exists(SaveLoader.baseDir + "LowFrequencyData.txt")){
-            File.Create(SaveLoader.baseDir + "LowFrequencyData.txt");
+            File.Create(SaveLoader.baseDir + "LowFrequencyData.txt").Close();
         }
         File.WriteAllText(SaveLoader.baseDir + "HighFrequencyData.txt", JsonConvert.SerializeObject(SaveLoader.highFrequencyData));
         File.WriteAllText(SaveLoader.baseDir + "LowFrequencyData.txt", JsonConvert.SerializeObject(SaveLoader.lowFrequencyData));
     }
     public static void SaveHigh() {
         if(!File.Exists(SaveLoader.baseDir + "HighFrequencyData.txt")){
-            File.Create(SaveLoader.baseDir + "HighFrequencyData.txt");
+            File.Create(SaveLoader.baseDir + "HighFrequencyData.txt").Close();
         }
         File.WriteAllText(SaveLoader.baseDir + "HighFrequencyData.txt", JsonConvert.SerializeObject(SaveLoader.highFrequencyData));
     }
     public static void SaveLow() {
         if(!File.Exists(SaveLoader.baseDir + "LowFrequencyData.txt")){
-            File.Create(SaveLoader.baseDir + "LowFrequencyData.txt");
+            File.Create(SaveLoader.baseDir + "LowFrequencyData.txt").Close();
         }
         File.WriteAllText(SaveLoader.baseDir + "LowFrequencyData.txt", JsonConvert.SerializeObject(SaveLoader.lowFrequencyData));
     }
@@ -44,7 +44,9 @@ public class SaveLoader {
             SaveLoader.lowFrequencyData = JsonConvert.DeserializeObject<LowFrequencyData>(File.ReadAllText(SaveLoader.baseDir + "LowFrequencyData.txt"));
             if(SaveLoader.lowFrequencyData == null) SaveLoader.lowFrequencyData = new LowFrequencyData();
         }else{
-            SaveLoader.lowFrequencyData = new LowFrequencyData();
+            SaveLoader.lowFrequencyData = new LowFrequencyData() {
+                dialogueSave = new Dictionary<string, int>()
+            };
             Debug.Log("low give new");
         }
     }
