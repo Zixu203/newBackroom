@@ -16,6 +16,10 @@ public class Attribute {
     //Dynamic Attr
     public double damageReduce {get; private set;}
 
+    //event
+
+    public Action OnDead;
+
     public Attribute() {
 
     }
@@ -33,6 +37,7 @@ public class Attribute {
     }
     public void Damage(double damage) {
         this.hp = Math.Clamp(this.hp - damage, 0, this.maxHp);
+        if(this.IsDead()) this.OnDead?.Invoke();
     }
     public void Heal(double heal) {
         this.hp = Math.Clamp(this.hp + heal, 0, this.maxHp);
