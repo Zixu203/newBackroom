@@ -20,5 +20,6 @@ public class Door : build
         is_open = !is_open;
         door.SetActive(is_open);
         BoxCollider2D.isTrigger = is_open;
+        GameController.getInstance.changeWorld();
     }
 }

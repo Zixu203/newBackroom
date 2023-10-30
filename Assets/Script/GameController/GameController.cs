@@ -37,8 +37,18 @@ public class GameController : MonoBehaviour {
     void Update() {
         this.enemySpawner.Update();
     }
-
+    public void changeWorld() {
+        //in backroom scene
+        if(SceneManager.GetActiveScene().buildIndex == 2) {
+            SceneManager.LoadScene("SimilarWorldScenes");
+        }
+        //in similarWorld scene
+        if(SceneManager.GetActiveScene().buildIndex == 3) {
+            SceneManager.LoadScene("BackRoomScenes");
+        }
+    }
     private static void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
+        GameController.getInstance.targetPlayer = GameObject.Find("player").GetComponent<Player>();
     }
 
     public void LoadInGame() {
