@@ -45,11 +45,13 @@ public class Enemy : BaseEntity {
         this.GetAttribute().OnDead += () => this.Die();
         this.spawnPosition = this.transform.position;
         this.spawnRotation = this.transform.rotation;
-        this.navMeshAgent.updateRotation = false;
+        // this.navMeshAgent.updateRotation = false;
     }
 
     protected override void Update() {
         this.state = this.disToState(Vector2.Distance(this.gameObject.transform.position, GameController.getInstance.targetPlayer.transform.position));
+        // base.direction *= 0.7f;
+        base.direction = Vector2.zero;
         switch(this.state) {
             case State.Idle:
                 this.Idle();
@@ -67,12 +69,14 @@ public class Enemy : BaseEntity {
                 this.Scape();
                 break;
         }
+        base.animator.SetFloat("x", base.direction.x);
+        base.animator.SetBool("walk", base.direction.x != 0);
         if(Input.GetKeyDown(KeyCode.P)){
             this.Die();
         }
     }
     protected virtual void Idle() {
-        this.navMeshAgent.isStopped = true;
+        // this.navMeshAgent.isStopped = true;
     }
     
     protected virtual void Walk() {
@@ -80,7 +84,8 @@ public class Enemy : BaseEntity {
     }
 
     protected virtual void Chase() {
-        this.navMeshAgent.SetDestination(GameController.getInstance.targetPlayer.transform.position);
+        // this.navMeshAgent.SetDestination(GameController.getInstance.targetPlayer.transform.position);
+        base.direction = (GameController.getInstance.targetPlayer.transform.position - this.transform.position).normalized;
     }
 
     protected virtual void Attack() {
@@ -88,7 +93,7 @@ public class Enemy : BaseEntity {
     }
 
     protected virtual void Scape() {
-
+        base.direction = (this.transform.position - GameController.getInstance.targetPlayer.transform.position).normalized;
     }
 
     protected virtual void Die() {
@@ -112,6 +117,7 @@ public class Enemy : BaseEntity {
     }
 
     protected override void FixedUpdate() {
+        base.FixedUpdate();
     }
 
     protected void OnDrawGizmos() {
