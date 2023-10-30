@@ -19,10 +19,10 @@ public class BaseEntity : MonoBehaviour {
         return this.attribute;
     }
     public void ShowInteractor() {
-        this.interactHint.SetActive(true);
+        if(this.interactHint) this.interactHint.SetActive(true);
     }
     public void HideInteractor() {
-        this.interactHint.SetActive(false);
+        if(this.interactHint) this.interactHint.SetActive(false);
     }
     public virtual void BeenInteract() {
         
