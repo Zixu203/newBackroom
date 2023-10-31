@@ -17,9 +17,12 @@ public class Door : build
     }
     public override void BeenInteract()
     {
+        if(is_open && !Input.GetKey(KeyCode.G)) {
+            GameController.getInstance.changeWorld();
+            return;
+        }
         is_open = !is_open;
         door.SetActive(is_open);
         BoxCollider2D.isTrigger = is_open;
-        GameController.getInstance.changeWorld();
     }
 }
