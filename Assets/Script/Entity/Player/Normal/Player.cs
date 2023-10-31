@@ -27,6 +27,9 @@ public class Player : BaseEntity {
     public Player(){
         this.actionReset();
     }
+    public Animator GetAnimator() {
+        return base.animator;
+    }
     private void actionReset() {
         actionCodes = new List<KeyCode>() {
             KeyCode.D,
@@ -96,11 +99,9 @@ public class Player : BaseEntity {
         }
         if(Input.GetKeyDown(KeyCode.T)){
             this.playerWeapon.slashAttack(this.playerDirection);
-            base.animator.SetTrigger("attack");
         }
         if(Input.GetKeyDown(KeyCode.Y)){
             this.playerWeapon.shootAttack(this.playerDirection);
-            base.animator.SetTrigger("shoot");
         }
         if(Input.GetKeyDown(KeyCode.F)){
             this.interactor?.Interact();

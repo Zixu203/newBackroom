@@ -33,8 +33,15 @@ public class PlayerWeapon : MonoBehaviour {
         this.slash.transform.Rotate(Vector3.forward, DiectionToRotate(playerDirection));
         this.slash.setAttribute(new AttributePack(this.player, 5));
         this.slash?.gameObject.SetActive(true);
+        this.player.GetAnimator().SetBool("attacking", true);
+        this.player.GetAnimator().SetTrigger("attack");
     }
     public void shootAttack(Player.PlayerDirection playerDirection) {
+        this.player.GetAnimator().SetBool("attacking", true);
+        this.player.GetAnimator().SetTrigger("shoot");
+    }
+    public void endAttack() {
+        this.player.GetAnimator().SetBool("attacking", false);
     }
     private Vector3 DirectionToForward(Player.PlayerDirection playerDirection) {
         switch (playerDirection) {
