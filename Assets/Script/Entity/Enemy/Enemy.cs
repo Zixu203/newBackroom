@@ -32,6 +32,8 @@ public class Enemy : BaseEntity {
 
     [SerializeField]
     State state = State.Idle;
+
+    bool die = false;
     private Enemy.State disToState(float dis) {
         if(dis <= scapeRange) return State.Scape;
         if(dis <= attackRange) return State.Attack;
@@ -40,18 +42,22 @@ public class Enemy : BaseEntity {
         return State.Idle;
     }
     protected override void Start() {
-        Debug.Log("enemy " + this.GetEnemyName() + "  start");
-        base.attribute = new Attribute(10, 1, 1, 1, 1);
+        this.Init();
         this.GetAttribute().OnDead += () => this.Die();
+        this.GetAttribute().OnBeenAttack += () => base.animator.SetTrigger("beenAttack");
         this.spawnPosition = this.transform.position;
         this.spawnRotation = this.transform.rotation;
-        // this.navMeshAgent.updateRotation = false;
+        GameController.getInstance.gamingPool.RegisterGamingPool(this.GetEnemyName(), this.gameObject);
+    }
+
+    protected void Init() {
+        base.attribute = new Attribute(10, 1, 1, 1, 1);
     }
 
     protected override void Update() {
         this.state = this.disToState(Vector2.Distance(this.gameObject.transform.position, GameController.getInstance.targetPlayer.transform.position));
-        // base.direction *= 0.7f;
         base.direction = Vector2.zero;
+        if(this.die) return;
         switch(this.state) {
             case State.Idle:
                 this.Idle();
@@ -97,7 +103,10 @@ public class Enemy : BaseEntity {
     }
 
     protected virtual void Die() {
-        GameController.getInstance.enemySpawner.EnemyDie(this);
+        // base.animator.Play("DieRight");
+        this.die = true;
+        base.animator.SetTrigger("die");
+        // GameController.getInstance.enemySpawner.EnemyDie(this);
     }
 
     public string GetEnemyName() {

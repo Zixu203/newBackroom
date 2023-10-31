@@ -19,6 +19,7 @@ public class Attribute {
     //event
 
     public Action OnDead;
+    public Action OnBeenAttack;
 
     public Attribute() {
 
@@ -38,6 +39,7 @@ public class Attribute {
     public void Damage(double damage) {
         this.hp = Math.Clamp(this.hp - damage, 0, this.maxHp);
         if(this.IsDead()) this.OnDead?.Invoke();
+        else this.OnBeenAttack?.Invoke();
     }
     public void Heal(double heal) {
         this.hp = Math.Clamp(this.hp + heal, 0, this.maxHp);
