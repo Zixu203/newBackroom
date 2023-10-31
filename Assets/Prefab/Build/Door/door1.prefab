@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1388196195204430823
 Transform:
   m_ObjectHideFlags: 0
@@ -260,7 +260,7 @@ MonoBehaviour:
   rigidBody2D: {fileID: 1118778640513436569}
   interactHint: {fileID: 0}
   door: {fileID: 266600938765185262}
-  is_open: 1
+  is_open: 0
   BoxCollider2D: {fileID: 8312453944105359629}
 --- !u!1 &6544120372383631950
 GameObject:
@@ -287,7 +287,7 @@ Transform:
   m_GameObject: {fileID: 6544120372383631950}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.77, y: 0.73, z: -0.029315542}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
