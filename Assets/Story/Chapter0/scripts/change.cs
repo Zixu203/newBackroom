@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
+using UnityEngine.UI;
 using TMPro;
 public class change : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class change : MonoBehaviour
 "隊長真是的，寫這麼不清楚",
 "嗯? 衣服嗎..,過去看看好了",
 "…好漂亮",
+"........",
 "？!",
 "!……",
 "看來是我太緊張了",
@@ -19,7 +21,7 @@ public class change : MonoBehaviour
     };
     public PlayableDirector player;
     private int textIndex = 0;
-    public TextMeshProUGUI text;
+    public Text text;
     float showTextTime = 1f;
     public void showText()
     {
