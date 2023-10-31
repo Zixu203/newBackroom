@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Slash : MonoBehaviour {
     AttributePack attributePack;
+    public Animator animator;
     public void OnAnimeEnd() {
         this.gameObject.SetActive(false);
     }

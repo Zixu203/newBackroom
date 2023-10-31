@@ -28,11 +28,23 @@ public class PlayerWeapon : MonoBehaviour {
         }
     }
     public void slashAttack(Player.PlayerDirection playerDirection) {
-        this.slash.transform.position = this.player.transform.position + this.DirectionToForward(playerDirection) * 1.4f;
-        this.slash.transform.rotation = quaternion.identity;
-        this.slash.transform.Rotate(Vector3.forward, DiectionToRotate(playerDirection));
+        this.slash.transform.position = this.player.transform.position + this.DirectionToForward(playerDirection) * 0.3f;
         this.slash.setAttribute(new AttributePack(this.player, 5));
         this.slash?.gameObject.SetActive(true);
+        switch(playerDirection){
+            case Player.PlayerDirection.Up:
+                this.slash.animator.SetBool("up", true);
+                break;
+            case Player.PlayerDirection.Down:
+                this.slash.animator.SetBool("down", true);
+                break;
+            case Player.PlayerDirection.Left:
+                this.slash.animator.SetBool("left", true);
+                break;
+            case Player.PlayerDirection.Right:
+                this.slash.animator.SetBool("right", true);
+                break;
+        }
         this.player.GetAnimator().SetBool("attacking", true);
         this.player.GetAnimator().SetTrigger("attack");
     }
@@ -55,20 +67,6 @@ public class PlayerWeapon : MonoBehaviour {
                 return Vector3.right;
             default:
                 return Vector3.zero;
-        }
-    }
-    private float DiectionToRotate(Player.PlayerDirection playerDirection) {
-        switch (playerDirection) {
-            case Player.PlayerDirection.Up:
-                return 180f;
-            case Player.PlayerDirection.Down:
-                return 0f;
-            case Player.PlayerDirection.Left:
-                return 270f;
-            case Player.PlayerDirection.Right:
-                return 90f;
-            default:
-                return 0f;
         }
     }
 }
