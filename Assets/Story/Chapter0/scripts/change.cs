@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
+using UnityEngine.XR;
 public class change : MonoBehaviour
 {
     private List<string> textList = new List<string>() {
@@ -23,6 +25,11 @@ public class change : MonoBehaviour
     private int textIndex = 0;
     public Text text;
     float showTextTime = 1f;
+    public void Update() {
+        if(Input.GetKeyDown(KeyCode.P)) {
+            this.AnimeEnd();
+        }
+    }
     public void showText()
     {
         StartCoroutine("typingText", textList[textIndex]);
@@ -39,5 +46,9 @@ public class change : MonoBehaviour
         player.playableGraph.GetRootPlayable(0).SetSpeed(0);
         yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
         player.playableGraph.GetRootPlayable(0).SetSpeed(1);
+    }
+    public void AnimeEnd() {
+        Debug.Log("animeEnd");
+        SceneManager.LoadScene("BackRoomScenes");
     }
 }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1323,6 +1323,8 @@ PlayableDirector:
     value: {fileID: 2106686756}
   - key: {fileID: 5472166600416768058, guid: c4ce7a0414c15a54bbfd6e97f20e473b, type: 2}
     value: {fileID: 1351628050}
+  - key: {fileID: -4895846301067982625, guid: c4ce7a0414c15a54bbfd6e97f20e473b, type: 2}
+    value: {fileID: 1986271149}
   m_ExposedReferences:
     m_References:
     - e3d026e5b90b74548aaed37afaa5b8cc: {fileID: 0}
@@ -6396,6 +6398,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1986271148}
   - component: {fileID: 1986271149}
+  - component: {fileID: 1986271150}
   m_Layer: 0
   m_Name: sig
   m_TagString: Untagged
@@ -6451,6 +6454,36 @@ MonoBehaviour:
           m_CallState: 2
     - m_PersistentCalls:
         m_Calls: []
+--- !u!114 &1986271150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986271147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 92842760ad6c74554933080d82b95168, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 552416590}
+          m_TargetAssemblyTypeName: change, Assembly-CSharp
+          m_MethodName: AnimeEnd
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &2069524637
 MonoBehaviour:
   m_ObjectHideFlags: 0
