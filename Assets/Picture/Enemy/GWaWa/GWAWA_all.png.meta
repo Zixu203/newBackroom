@@ -1,0 +1,4023 @@
+fileFormatVersion: 2
+guid: 6be81f4418e3b432785e3430acd72065
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GWAWA_all_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1605
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b7f1818098f478b92c876daec51633
+      internalID: 1050296609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1605
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d2fd31e0e7c4e2abf087fd3f0f3e87
+      internalID: 1094710009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_2
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1605
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2a83a15834d4b83b95188e20e2c469
+      internalID: 1714858511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_3
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1605
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c589fc4eb6124303a4588cdbf2967bf
+      internalID: -2022718854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_4
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1605
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d8f717d02bb4b9e9bc41ff5188feb7
+      internalID: 1841606060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_5
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1605
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4922e2a7cbd477885858b41df422cf
+      internalID: -1343048062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_6
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1605
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111756714ae6e4824a8edd27c519f51b
+      internalID: -26371503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_7
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1605
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a370213de52f04868bed22982ae13de6
+      internalID: -1591932266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_8
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1605
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb17abc1ea837462fb8f4f796a377d08
+      internalID: -152291225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_9
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1605
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5182ea227484a18983e07a9cefd823
+      internalID: -606098711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_10
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 1605
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cddb6cfe3e847a39ca18641f0a39ba
+      internalID: -755829237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_11
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 1605
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2c485c4f0ce40fd9952fd641308e20
+      internalID: 1999702826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_12
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 1605
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30eaea0662f144d6af92adb548f3de5
+      internalID: -1042098453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1498
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a4d1afb24e14e0a92ab00fd6ad5ff9
+      internalID: -437381245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_14
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1498
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77583c797a89485382018b45ec025ec
+      internalID: -1426005521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_15
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1498
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f57c90dae3434b38b9b5e67d07a0939
+      internalID: 1519530555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_16
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1498
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efca7150019c4f0bb780ac1d22ebf4d
+      internalID: -724488269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_17
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1498
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3595788ade646139eed18720d9961f
+      internalID: 1222965052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_18
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1498
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8215f6015f44e82afd539700292d4c
+      internalID: -1354343597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_19
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1498
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89be80606cdd34f7aae1be5675382ed5
+      internalID: -1249722613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_20
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1498
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08cdca8bf71bf41ef96db7962504dd52
+      internalID: -794918482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_21
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1498
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4a0c14526664ec8a3a4e8819555130
+      internalID: -161072436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_22
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1498
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f1282a0d1174c2c9ada14f710b5e22
+      internalID: 375476933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_23
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 1498
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f869f391d9ccc4518bde3f267dc718df
+      internalID: 182926513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_24
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 1498
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6830219ead684256b51a698cda61933
+      internalID: 1111485502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_25
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 1498
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2badcddb30bc44435ae10c0c843cb2d3
+      internalID: 2046994264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1391
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066a3da616166430ca048db99a83f1a2
+      internalID: 2062943236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_27
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1391
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e6085651a974ac28dd7a553da649c8
+      internalID: 110919080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_28
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1391
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afd69a7820b2412bb1bf476f30d6f05
+      internalID: 617339488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_29
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1391
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15aa34de3e7704635ab82782ff9b5c87
+      internalID: -1734928488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_30
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1391
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9ee6fd130b3474bba4f5212b335412
+      internalID: -2027669016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_31
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1391
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26bf80e25ded1460591b6a84e2a9bcfb
+      internalID: 240376272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_32
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1391
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed074793dbd654bb7a79b86169e6e2d1
+      internalID: -852490706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_33
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1391
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b235910c6a8904d4f962eb781e44d38d
+      internalID: -354872189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_34
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1391
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b3067ae2d3346bc8473bfc44075a9e
+      internalID: -1447597561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1284
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51191b12ff66416fb38f4107a513639
+      internalID: -1717269225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_40
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1284
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabd8d488c43d49b7aa82680f620383c
+      internalID: 462149512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_41
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1284
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31d75f968969485c931ff18576b95dc
+      internalID: -2022699661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_42
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1284
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223b97d700c8c4aafb1d2dac708bdf4a
+      internalID: -1310545938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_43
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1284
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cbc2a3ad73c40b89f3163c9d22b0dd
+      internalID: 363329251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_44
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1284
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2738f67344c4b4e3592c390298030fda
+      internalID: -627044018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_45
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1284
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e32944e2b3e495591010f008b408ff
+      internalID: -1390270278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_46
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1284
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2001a023ccd4f939e3fd9fb56adc78
+      internalID: 155182531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_47
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1284
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740044ec6ccf849aab18b73d9e16f189
+      internalID: 1442295886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1177
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74074d6159979425f8b96263e7a0af29
+      internalID: -981290853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_49
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1177
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c41f367bf724157a074eaa40eda5ee
+      internalID: 2036623427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_50
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1177
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e54d0d884310439390d66b39f0428ba
+      internalID: -726325152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_51
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1177
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd769b8f79aa542f699b0192fac403cf
+      internalID: 1340199023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_52
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1177
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f4488f50fe94ba0accea56ad96271f
+      internalID: -1147568164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_53
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1177
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c39573d523b844adbe5bd3efbd856db
+      internalID: -695031725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_54
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1177
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9750a80171834e468a32012687cd24c
+      internalID: 1089003695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_55
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1177
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65aa1e4d2091459d9d3a320d7d9712e
+      internalID: 117484935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_56
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1177
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d369c7d7239a242b8b6e9b5256dbe671
+      internalID: 984763214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1070
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e77dae80866c452d9599fba2b3fc4a7
+      internalID: -1194987704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_58
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1070
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a30d7feb20ec461b94c3152c859a30a
+      internalID: 1281743765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_59
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1070
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d11afbf9098549deaa81483e41d5eb4
+      internalID: -519007147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_60
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1070
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0cd403b536243c49ade712ee3941e8
+      internalID: -403494346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_61
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1070
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922930823021b4b6d83142fcc8d49d28
+      internalID: 1454099707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_62
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1070
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a05742e491084aff9db6bb060c60eea
+      internalID: 1006445328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_63
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1070
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6799903227f410a976f3a3fff3c834
+      internalID: -1390840641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_64
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1070
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4596aa5f0a2404cd580b2b8c00a95560
+      internalID: -1708921251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_65
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1070
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9be4f90bb32843dd98ffff590c35b3d
+      internalID: 1005762328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 963
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ebbc0dcc7ad417c85118c4ab2ca237
+      internalID: -885084197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_67
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 963
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4796466aef5084a36a787eb8ee967a45
+      internalID: 1150267786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 856
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a10e7c8d48341e4865f894aa1fa3ad
+      internalID: -903481444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_76
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 856
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256be2b18c82847e8a57a1138e49cd33
+      internalID: 1944519490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 749
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b6fc6977cf749faa6b0fe8def7d6b3
+      internalID: 313770010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_78
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 749
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c431fe8c1e78d4d3289e34324fe04ea6
+      internalID: 1853780779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_79
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 749
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4c2fbf1895e4b08a1a0546deeccf05
+      internalID: 1245337358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_80
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 749
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27b99369b8344a60bb9c58bd52945bc
+      internalID: 479111051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_81
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 749
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdbe5d9500d94dc998ce4183cc30442
+      internalID: -1036337702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_82
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 749
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d15872bd527a449ca7116571d66039d
+      internalID: -331825314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_83
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 749
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d090b368f6f5c415db99e86426b5593d
+      internalID: -2085069451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_84
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 749
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2582211ca41494c36b0f89ecb8025090
+      internalID: -867004459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_85
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 749
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23948355cf5b46568812db4ca4c8f44
+      internalID: 823849470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_86
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 749
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd1783f336a247139d2ea4a434e2d1c
+      internalID: -2074426532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_87
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 749
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87c85cc0c9974521af6fbc6fb19e533
+      internalID: -2025332389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_88
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 749
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31f9731ee1b34760822a5510650d468
+      internalID: -1363984763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_89
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 749
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b7b167701f34239b8c01d6b347f4e8
+      internalID: 442403582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_90
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 749
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932fbde7c04bc4e7087297bef3888bbf
+      internalID: -2114504978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_91
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 749
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48dd234f9acb444ba33833b9644c088
+      internalID: 1929071875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 642
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0901d694fad4b1685313526e8287c1
+      internalID: -1923358616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_93
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 642
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b075ead73b8f34998b5d0ab520a613d1
+      internalID: 386564262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_94
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 642
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e711769904e4d3481dabfb88af296f
+      internalID: -120132672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_95
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 642
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca07b839f6354a99ac9ef3306e536c8
+      internalID: -637813442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_96
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 642
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9064ed01ca3fb40a8a21cc5922edc164
+      internalID: -978316693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_97
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 642
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c19ef9e0e4e4ae786d65a9e05c132d
+      internalID: -307737243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_98
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 642
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239c769ec79fe48c3b73fbdb125de4dc
+      internalID: -2127160888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_99
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 642
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e926ac6276be641588adeb7ffdaac240
+      internalID: -1445291522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_100
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 642
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d3a8cfb2f1847ecb40eef91e7772b6
+      internalID: -152403216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_101
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 642
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc482751e3a8445ab45543650130187
+      internalID: 1340425064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_102
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 642
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327fa78396fa24370960b496aad86085
+      internalID: 389275556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_103
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 642
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8535362111944038765c1d91708fff
+      internalID: 2084485633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_104
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 642
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b0c87a797844580b1f4e3a65c21b7e
+      internalID: 1563114721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_105
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 642
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be192dcdab314d02b9f7c32efec80b8
+      internalID: 2112399378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_106
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 642
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f968ccd6be6b1472ca9484f03e82785c
+      internalID: -133289785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_107
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 535
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56532d555b2eb44ea8465086684d6a60
+      internalID: -698687824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_108
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 535
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa421ec535470448c991790ab3888d5e
+      internalID: 1070358983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_109
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 535
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90770d724b69f4469b8f4c0af2860c32
+      internalID: -61848117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_110
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 535
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f5fcb961e73424297af63916505afa
+      internalID: 2035033002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_111
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 535
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752cfc0f17168443786ad29d643da358
+      internalID: -1231491177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_112
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 535
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1596a8e775442918a0291d4fe670cb
+      internalID: -1698930736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_113
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 535
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e0d5d4ed117434796988edb6f8e3e2
+      internalID: -453105588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_114
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 535
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95dafc669d22542aeb6ea1367147d2c0
+      internalID: 485438077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_115
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 535
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f40aeed5983e4d0e9967c53a57a1acc
+      internalID: 201725353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_116
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 535
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626505ce3cf564a8d984f0561acabe0e
+      internalID: 1207084773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_117
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 535
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0c605a6bcbc47e18303e87355981b3
+      internalID: 1155009417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_118
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 535
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae71cec91f93a43c8873acefcead79de
+      internalID: -28902497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_119
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 535
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7838ae3282e2f4f48a3714ea9790a4c1
+      internalID: -319382774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_120
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 535
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5c2b8cb5d27492da7e20752709a95e
+      internalID: -471943436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_121
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 535
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d335760c0ba4299b144369340cc99f
+      internalID: 1268826257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_122
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 428
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeeb630166cd94816b5d8b7bd38fb68a
+      internalID: -39082969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_123
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 428
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0e03a4a08c94c5abdd1d18b800cb46
+      internalID: -784294293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_124
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 428
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02b012b06a4c4299a4d447538d1ad42
+      internalID: -771542123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_125
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 428
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a976d90d907da4ee1b6edb6934c60b8f
+      internalID: 1544680981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_126
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 428
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accbee55284704c028b814ee9806750c
+      internalID: -1456648237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_127
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 428
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb77c3a9c5b4c452c9e5ca19341ecce1
+      internalID: -1966549227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_128
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 428
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a1319f3c02f45fe91bb70265173135
+      internalID: -1908123941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_129
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 428
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5388e33f2f746f0a1864e011936ef7
+      internalID: -864077544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_130
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 428
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d85cfaaed4714af7814acb8506b54ee
+      internalID: 1699141053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_131
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 428
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6b15ebbc6814af1bbce164c9bc28fd
+      internalID: -1231065843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 321
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5ab0dad92f64a6da69982af45f2b31
+      internalID: 614229983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_133
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 321
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d2fab1ed89949b691f3c21ecb763a5
+      internalID: -1863462238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_134
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 321
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a37524aaef324f9186b3cdc3a7ab902
+      internalID: -1385574799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_135
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 321
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3737697b88e48b3b896f919da7df88
+      internalID: -1264026351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_136
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 321
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfaa5c52a47d4fe68d8e574f30cae2e
+      internalID: -919361034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_137
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 321
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3798d31d614384ada9384fe76694ac6b
+      internalID: 1077000077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_138
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 321
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d35b8c8e87b0434f863d85d2e428e1f
+      internalID: -1237192335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_139
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 321
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7d4a13a7e364eeb8c3d37c1a1b2640
+      internalID: -657798615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_140
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 321
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d605fb0b8524cdc92bf566cfb37f02
+      internalID: 1979903754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_141
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 321
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6f542d6ac0d481389cfaab2c8c8b05
+      internalID: 2029919711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_142
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 321
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a296ddd557c4fcbae0d9d7ab05f523
+      internalID: -1436119198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_143
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 321
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0c6e65e3e2840d0a0a7a557d5f8231
+      internalID: 533899580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_144
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 321
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d7a8a17003749de849965ad972d71f
+      internalID: 1185583545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_145
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 321
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c13f42d8cdf042e39c1e5d3837893fc
+      internalID: -1293258516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_146
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 321
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea73ebe145fa64eea8c661a208256ac2
+      internalID: 687743568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 214
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c219300b5450d464398cd9d647aef15d
+      internalID: -866286390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_148
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 214
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46eae2ddbe1d94d988549a670b10506e
+      internalID: -43738481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_149
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 214
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bcc44b67a3c4aedbc4794ecd389a8b
+      internalID: -603894088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_150
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 214
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3615bb14c8f249c895e2af7a271d97f
+      internalID: -633631651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_151
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 214
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7533d1a372a9048b79d0b57b4297506d
+      internalID: -284559893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_152
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 214
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9edcd40f0e6f4ad89c01c6355ca1831
+      internalID: 405105528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_153
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 214
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86e3e83353b64936bea33f37e4a78ad
+      internalID: 177591368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_154
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 214
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212197eda09224c82a389a9f7f016a97
+      internalID: -1559814099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_155
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 214
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ca2732df6cc43b0b4d8b79897dc5a2
+      internalID: -490309147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_156
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 214
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e356c7afb9a54beaba96d651cbb5594
+      internalID: -1578452998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_157
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 214
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d870a4608c30b436788e38485163836d
+      internalID: -881508105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_158
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 214
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a28613283fd481bb2b593bf6ab99a9
+      internalID: 1544544695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_159
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 214
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e69036f421554ba084ca198cdeb151e
+      internalID: 414176071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_160
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 214
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8edd8b9e5ad324e639eb62dd49c7bc86
+      internalID: -1375590842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_161
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 214
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0615d2d032241e3b4ec1466fa9f89b
+      internalID: -1822654142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_162
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 107
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107b8156e03844fcca63aa2768e49d68
+      internalID: 957325577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_163
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 107
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c911dadc72d9411ca49889738838669
+      internalID: 1366712409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_164
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 107
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8836c34a6c7444e159bcc6f23c76e253
+      internalID: 1892686756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_165
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 107
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610bf2d6a7cc643fba0068ee587a206d
+      internalID: 1223733942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_166
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 107
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a164f927b89424aa497d42d289685c63
+      internalID: -1612080955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_167
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 107
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43f9a7b81c6e4ab1979c2c87295048d
+      internalID: 1934600603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_168
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 107
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8882b64c4f0524fdf946d4b9ad8b818c
+      internalID: 495850765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_169
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 107
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db461663bd9bb4586814cf3dd3a5aa07
+      internalID: 1552108945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_170
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 107
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170a7b7ff285e47f48a399f12b294960
+      internalID: -220830684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_171
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 107
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c23409a65f14016beed826a801b579
+      internalID: -466717257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_172
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 107
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ef2260c3aea4902bf7062229a98151
+      internalID: 387782533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_173
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 107
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1643f41b3ee4d5a9631f310f23ae4e
+      internalID: -254287947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_174
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 107
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09880af504ce042c4906cf0fc79b3210
+      internalID: 1833426184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_175
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 107
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f408159fac6ce48bf80ec205b0d7640c
+      internalID: 1093723257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_176
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 107
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9eab3d19f724a25a55a61091f65eec
+      internalID: 1208850512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_177
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9823f55f794b84024a0ec3af2a1ec960
+      internalID: -70346268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_178
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 0
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01277a79aa7844d6b8d876851913afd3
+      internalID: 1782146164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_179
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 0
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d334a6692e14759b505eef8623c100
+      internalID: -1168683240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_180
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 0
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d55ad09a643a45c1b0c72cf3d017ce3
+      internalID: 1848325541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_181
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 0
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313ad1cd738634e24ba35b7668656aae
+      internalID: -1577046558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_182
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 0
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc36eda4b8a424ce7aa63b9702543f35
+      internalID: -199766503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_183
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 0
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c16c9dc0d9874055838ad911a0db256
+      internalID: -926868420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_184
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 0
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ca890daa6364019a5fa7a66038de18
+      internalID: 887769230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_185
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 0
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb177b6846ef4d528478e0013ad273d
+      internalID: -740129918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GWAWA_all_186
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 0
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446808385b9574bac976edfb5db14708
+      internalID: 631155144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 020679d047b374e94ae41bd19f019b8f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GWAWA_all_0: 1050296609
+      GWAWA_all_1: 1094710009
+      GWAWA_all_10: -755829237
+      GWAWA_all_100: -152403216
+      GWAWA_all_101: 1340425064
+      GWAWA_all_102: 389275556
+      GWAWA_all_103: 2084485633
+      GWAWA_all_104: 1563114721
+      GWAWA_all_105: 2112399378
+      GWAWA_all_106: -133289785
+      GWAWA_all_107: -698687824
+      GWAWA_all_108: 1070358983
+      GWAWA_all_109: -61848117
+      GWAWA_all_11: 1999702826
+      GWAWA_all_110: 2035033002
+      GWAWA_all_111: -1231491177
+      GWAWA_all_112: -1698930736
+      GWAWA_all_113: -453105588
+      GWAWA_all_114: 485438077
+      GWAWA_all_115: 201725353
+      GWAWA_all_116: 1207084773
+      GWAWA_all_117: 1155009417
+      GWAWA_all_118: -28902497
+      GWAWA_all_119: -319382774
+      GWAWA_all_12: -1042098453
+      GWAWA_all_120: -471943436
+      GWAWA_all_121: 1268826257
+      GWAWA_all_122: -39082969
+      GWAWA_all_123: -784294293
+      GWAWA_all_124: -771542123
+      GWAWA_all_125: 1544680981
+      GWAWA_all_126: -1456648237
+      GWAWA_all_127: -1966549227
+      GWAWA_all_128: -1908123941
+      GWAWA_all_129: -864077544
+      GWAWA_all_13: -437381245
+      GWAWA_all_130: 1699141053
+      GWAWA_all_131: -1231065843
+      GWAWA_all_132: 614229983
+      GWAWA_all_133: -1863462238
+      GWAWA_all_134: -1385574799
+      GWAWA_all_135: -1264026351
+      GWAWA_all_136: -919361034
+      GWAWA_all_137: 1077000077
+      GWAWA_all_138: -1237192335
+      GWAWA_all_139: -657798615
+      GWAWA_all_14: -1426005521
+      GWAWA_all_140: 1979903754
+      GWAWA_all_141: 2029919711
+      GWAWA_all_142: -1436119198
+      GWAWA_all_143: 533899580
+      GWAWA_all_144: 1185583545
+      GWAWA_all_145: -1293258516
+      GWAWA_all_146: 687743568
+      GWAWA_all_147: -866286390
+      GWAWA_all_148: -43738481
+      GWAWA_all_149: -603894088
+      GWAWA_all_15: 1519530555
+      GWAWA_all_150: -633631651
+      GWAWA_all_151: -284559893
+      GWAWA_all_152: 405105528
+      GWAWA_all_153: 177591368
+      GWAWA_all_154: -1559814099
+      GWAWA_all_155: -490309147
+      GWAWA_all_156: -1578452998
+      GWAWA_all_157: -881508105
+      GWAWA_all_158: 1544544695
+      GWAWA_all_159: 414176071
+      GWAWA_all_16: -724488269
+      GWAWA_all_160: -1375590842
+      GWAWA_all_161: -1822654142
+      GWAWA_all_162: 957325577
+      GWAWA_all_163: 1366712409
+      GWAWA_all_164: 1892686756
+      GWAWA_all_165: 1223733942
+      GWAWA_all_166: -1612080955
+      GWAWA_all_167: 1934600603
+      GWAWA_all_168: 495850765
+      GWAWA_all_169: 1552108945
+      GWAWA_all_17: 1222965052
+      GWAWA_all_170: -220830684
+      GWAWA_all_171: -466717257
+      GWAWA_all_172: 387782533
+      GWAWA_all_173: -254287947
+      GWAWA_all_174: 1833426184
+      GWAWA_all_175: 1093723257
+      GWAWA_all_176: 1208850512
+      GWAWA_all_177: -70346268
+      GWAWA_all_178: 1782146164
+      GWAWA_all_179: -1168683240
+      GWAWA_all_18: -1354343597
+      GWAWA_all_180: 1848325541
+      GWAWA_all_181: -1577046558
+      GWAWA_all_182: -199766503
+      GWAWA_all_183: -926868420
+      GWAWA_all_184: 887769230
+      GWAWA_all_185: -740129918
+      GWAWA_all_186: 631155144
+      GWAWA_all_19: -1249722613
+      GWAWA_all_2: 1714858511
+      GWAWA_all_20: -794918482
+      GWAWA_all_21: -161072436
+      GWAWA_all_22: 375476933
+      GWAWA_all_23: 182926513
+      GWAWA_all_24: 1111485502
+      GWAWA_all_25: 2046994264
+      GWAWA_all_26: 2062943236
+      GWAWA_all_27: 110919080
+      GWAWA_all_28: 617339488
+      GWAWA_all_29: -1734928488
+      GWAWA_all_3: -2022718854
+      GWAWA_all_30: -2027669016
+      GWAWA_all_31: 240376272
+      GWAWA_all_32: -852490706
+      GWAWA_all_33: -354872189
+      GWAWA_all_34: -1447597561
+      GWAWA_all_35: -2095258200
+      GWAWA_all_36: 300772282
+      GWAWA_all_37: 516281263
+      GWAWA_all_38: -516369907
+      GWAWA_all_39: -1717269225
+      GWAWA_all_4: 1841606060
+      GWAWA_all_40: 462149512
+      GWAWA_all_41: -2022699661
+      GWAWA_all_42: -1310545938
+      GWAWA_all_43: 363329251
+      GWAWA_all_44: -627044018
+      GWAWA_all_45: -1390270278
+      GWAWA_all_46: 155182531
+      GWAWA_all_47: 1442295886
+      GWAWA_all_48: -981290853
+      GWAWA_all_49: 2036623427
+      GWAWA_all_5: -1343048062
+      GWAWA_all_50: -726325152
+      GWAWA_all_51: 1340199023
+      GWAWA_all_52: -1147568164
+      GWAWA_all_53: -695031725
+      GWAWA_all_54: 1089003695
+      GWAWA_all_55: 117484935
+      GWAWA_all_56: 984763214
+      GWAWA_all_57: -1194987704
+      GWAWA_all_58: 1281743765
+      GWAWA_all_59: -519007147
+      GWAWA_all_6: -26371503
+      GWAWA_all_60: -403494346
+      GWAWA_all_61: 1454099707
+      GWAWA_all_62: 1006445328
+      GWAWA_all_63: -1390840641
+      GWAWA_all_64: -1708921251
+      GWAWA_all_65: 1005762328
+      GWAWA_all_66: -885084197
+      GWAWA_all_67: 1150267786
+      GWAWA_all_68: -1244788254
+      GWAWA_all_69: -121109171
+      GWAWA_all_7: -1591932266
+      GWAWA_all_70: 199673308
+      GWAWA_all_71: -1069446930
+      GWAWA_all_72: 1556227365
+      GWAWA_all_73: 1568616864
+      GWAWA_all_74: 33071755
+      GWAWA_all_75: -903481444
+      GWAWA_all_76: 1944519490
+      GWAWA_all_77: 313770010
+      GWAWA_all_78: 1853780779
+      GWAWA_all_79: 1245337358
+      GWAWA_all_8: -152291225
+      GWAWA_all_80: 479111051
+      GWAWA_all_81: -1036337702
+      GWAWA_all_82: -331825314
+      GWAWA_all_83: -2085069451
+      GWAWA_all_84: -867004459
+      GWAWA_all_85: 823849470
+      GWAWA_all_86: -2074426532
+      GWAWA_all_87: -2025332389
+      GWAWA_all_88: -1363984763
+      GWAWA_all_89: 442403582
+      GWAWA_all_9: -606098711
+      GWAWA_all_90: -2114504978
+      GWAWA_all_91: 1929071875
+      GWAWA_all_92: -1923358616
+      GWAWA_all_93: 386564262
+      GWAWA_all_94: -120132672
+      GWAWA_all_95: -637813442
+      GWAWA_all_96: -978316693
+      GWAWA_all_97: -307737243
+      GWAWA_all_98: -2127160888
+      GWAWA_all_99: -1445291522
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
