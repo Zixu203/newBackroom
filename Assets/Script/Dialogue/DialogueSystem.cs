@@ -47,58 +47,61 @@ public class DialogueSystem{
     Dictionary<BaseEntity, List<Dialogue>> keyValuePairs;
 
     public void init(){
+        // string npcString = "1413566-photo-1-source-small";
+        string npcString = "heshi";
+
         keyValuePairs = new Dictionary<BaseEntity, List<Dialogue>>(){
             [GameController.getInstance.npcs[0]] = new List<Dialogue>() {
                 new Dialogue(new List<string>() {
                     "幫我裝水",
-                    "1413566-photo-1-source-small"
+                    npcString
                 }, 1, false, GameController.getInstance.npcs[0].name, false),
                 new Dialogue(new List<string>() {
                     "拜託",
-                    "1413566-photo-1-source-small",
+                    npcString,
                     "要",
                     "不要"
                 }, 1, false, GameController.getInstance.npcs[0].name, true),
                 new Dialogue(new List<string>(){
                     "謝拉啊啊啊啊",
-                    "1413566-photo-1-source-small"
+                    npcString
                 }, 4, false, GameController.getInstance.npcs[0].name, false),
                 new Dialogue(new List<string>(){
                     "為什麼不要 嗚嗚",
-                    "1413566-photo-1-source-small"
+                    npcString
                 }, 5, false, GameController.getInstance.npcs[0].name, false),
                 new Dialogue(new List<string>() {
                     "你拿回來了喔",
-                    "1413566-photo-1-source-small"             
+                    npcString             
                 }, 0, true, GameController.getInstance.npcs[0].name, false),
                 new Dialogue(new List<string>() {
                     "不理你了",
-                    "1413566-photo-1-source-small"             
+                    npcString             
                 }, 0, true, GameController.getInstance.npcs[0].name, false)
             },
 
             [GameController.getInstance.npcs[1]] = new List<Dialogue>() {
                 new Dialogue(new List<string>() {
                     "你是張雨生嗎?",
-                    "1413566-photo-1-source-small",
+                    npcString,
                     "是",
                     "不是"
                 }, 0, false, GameController.getInstance.npcs[1].name,true),
                 new Dialogue(new List<string>() {
                     "我是張雨生",
-                    "1413566-photo-1-source-small"
+                    npcString
                 }, 3, false, GameController.getInstance.npcs[1].name,false),
                 new Dialogue(new List<string>() {
                     "不是，我是吳克蘭",
-                    "1413566-photo-1-source-small"
+                    npcString
                 }, 4, false, GameController.getInstance.npcs[1].name,false),
                 new Dialogue(new List<string>() {
                     "我是歌手",
-                    "1413566-photo-1-source-small"
+                    npcString
                 }, 0, true, GameController.getInstance.npcs[1].name,false),
                 new Dialogue(new List<string>() {
                     "我是丹麥記者",
-                    "1413566-photo-1-source-small"
+                    npcString
                 }, 0, true, GameController.getInstance.npcs[1].name,false)
             }
         };
