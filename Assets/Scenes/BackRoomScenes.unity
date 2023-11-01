@@ -1540,10 +1540,10 @@ MonoBehaviour:
   enemySpawner:
     enemies: []
   gamingPool: {fileID: 340831943}
-  npcs:
-  - {fileID: 410163837274930030}
-  - {fileID: 1757737299}
   dialogueSystem:
+    npcs:
+    - {fileID: 410163837274930030}
+    - {fileID: 1757737299}
     dialogueBox: {fileID: 362263432}
     dialogueText: {fileID: 2110023847}
     dialogueTalker: {fileID: 997847926}
@@ -1554,8 +1554,6 @@ MonoBehaviour:
     ResponceButtonTexts:
     - {fileID: 1803923419}
     - {fileID: 336605104}
-    needEndDialogue: 0
-    isInOption: 0
 --- !u!4 &340831942
 Transform:
   m_ObjectHideFlags: 0

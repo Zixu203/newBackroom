@@ -28,6 +28,7 @@ public class Dialogue {
 
 [Serializable]
 public class DialogueSystem {
+    [SerializeField] private List<BaseEntity> npcs;
     [SerializeField] private Image dialogueBox;
     [SerializeField] private Text dialogueText;
     [SerializeField] private Text dialogueTalker;
@@ -43,16 +44,16 @@ public class DialogueSystem {
         string npcPicFileName = "heshi";
 
         this.EntityToDialogues = new Dictionary<BaseEntity, List<Dialogue>>(){
-            [GameController.getInstance.npcs[0]] = new List<Dialogue>() {
+            [this.npcs[0]] = new List<Dialogue>() {
                 new Dialogue(
-                    GameController.getInstance.npcs[0].name,
+                    this.npcs[0].name,
                     npcPicFileName,
                     "幫我裝水",
                     1,
                     false
                 ),
                 new Dialogue(
-                    GameController.getInstance.npcs[0].name,
+                    this.npcs[0].name,
                     npcPicFileName,
                     "拜託",
                     new List<Tuple<string, int>>(){
@@ -61,28 +62,28 @@ public class DialogueSystem {
                     }
                 ),
                 new Dialogue(
-                    GameController.getInstance.npcs[0].name,
+                    this.npcs[0].name,
                     npcPicFileName,
                     "謝拉啊啊啊啊",
                     4,
                     false
                 ),
                 new Dialogue(
-                    GameController.getInstance.npcs[0].name,
+                    this.npcs[0].name,
                     npcPicFileName,
                     "為什麼不要 嗚嗚",
                     5,
                     false
                 ),
                 new Dialogue(
-                    GameController.getInstance.npcs[0].name,
+                    this.npcs[0].name,
                     npcPicFileName,
                     "你拿回來了喔",
                     0,
                     true
                 ),
                 new Dialogue(
-                    GameController.getInstance.npcs[0].name,
+                    this.npcs[0].name,
                     npcPicFileName,
                     "不理你了",
                     0,
@@ -90,9 +91,9 @@ public class DialogueSystem {
                 )
             },
 
-            [GameController.getInstance.npcs[1]] = new List<Dialogue>() {
+            [this.npcs[1]] = new List<Dialogue>() {
                 new Dialogue(
-                    GameController.getInstance.npcs[1].name,
+                    this.npcs[1].name,
                     npcPicFileName,
                     "你是張雨生嗎?",
                     new List<Tuple<string, int>>(){
@@ -101,28 +102,28 @@ public class DialogueSystem {
                     }
                 ),
                 new Dialogue(
-                    GameController.getInstance.npcs[1].name,
+                    this.npcs[1].name,
                     npcPicFileName,
                     "我是張雨生",
                     3,
                     false
                 ),
                 new Dialogue(
-                    GameController.getInstance.npcs[1].name,
+                    this.npcs[1].name,
                     npcPicFileName,
                     "不是，我是吳克蘭",
                     4,
                     false
                 ),
                 new Dialogue(
-                    GameController.getInstance.npcs[1].name,
+                    this.npcs[1].name,
                     npcPicFileName,
                     "我是歌手",
                     0,
                     true
                 ),
                 new Dialogue(
-                    GameController.getInstance.npcs[1].name,
+                    this.npcs[1].name,
                     npcPicFileName,
                     "我是丹麥記者",
                     0,
