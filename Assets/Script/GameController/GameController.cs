@@ -25,7 +25,7 @@ public class GameController : MonoBehaviour {
     }
     void Start() {
         SaveLoader.Load();
-        this.dialogueSystem = new DialogueSystem();
+        // this.dialogueSystem = new DialogueSystem();
         this.dialogueSystem.init();
         DontDestroyOnLoad(this.gameObject);
         SceneManager.sceneLoaded += OnSceneLoaded;

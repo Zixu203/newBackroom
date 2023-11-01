@@ -82,10 +82,7 @@ public class Player : CombatableEntity {
             this.interactor?.InteractAll();
         }
         if(Input.GetKeyDown(KeyCode.Mouse0)){
-            if(isInDialogue){
-                bool isDialogueEnd = GameController.getInstance.dialogueSystem.ContinueDialogue();
-                if(isDialogueEnd) isInDialogue = false;
-            }
+            GameController.getInstance.dialogueSystem.ClickAction?.Invoke();
         }
     }
     protected override void FixedUpdate() {
