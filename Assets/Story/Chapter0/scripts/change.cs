@@ -9,17 +9,17 @@ using UnityEngine.XR;
 public class change : MonoBehaviour
 {
     private List<string> textList = new List<string>() {
-"工作終於告一段落了~",
-"看地址應該在這附近",
-"隊長真是的，寫這麼不清楚",
-"嗯? 衣服嗎..,過去看看好了",
-"…好漂亮",
-"........",
-"？!",
-"!……",
-"看來是我太緊張了",
-"喂，你這什麼姿勢阿",
-"嗯？!"
+        "工作終於告一段落了~",
+        "看地址應該在這附近",
+        "隊長真是的，寫這麼不清楚",
+        "嗯? 衣服嗎..,過去看看好了",
+        "…好漂亮",
+        "........",
+        "？!",
+        "!……",
+        "看來是我太緊張了",
+        "喂，你這什麼姿勢阿",
+        "嗯？!"
     };
     public PlayableDirector player;
     private int textIndex = 0;
