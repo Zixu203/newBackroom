@@ -25,4 +25,7 @@ public class Door : build
         door.SetActive(is_open);
         BoxCollider2D.isTrigger = is_open;
     }
+    protected override void FixedUpdate() {
+
+    }
 }
