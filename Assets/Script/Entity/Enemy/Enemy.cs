@@ -5,8 +5,7 @@ using Unity.Collections.LowLevel.Unsafe;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Enemy : BaseEntity {
-// public class Enemy : MonoBehaviour {
+public class Enemy : CombatableEntity {
     enum State {
         Idle,
         Walk,

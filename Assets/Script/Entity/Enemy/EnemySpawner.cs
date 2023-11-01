@@ -13,7 +13,6 @@ public class EnemySpawner {
 
     }
     public void Start() {
-        Debug.Log(this.enemies + " " + this.enemies.Count);
         foreach(var enemy in this.enemies) {
             GameController.getInstance.gamingPool.RegisterGamingPool(enemy.GetEnemyName(), enemy.gameObject);
         }

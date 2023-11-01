@@ -6,15 +6,11 @@ using UnityEngine;
 public class Interactor : MonoBehaviour {
     [SerializeField]
     private BaseEntity baseEntity;
-    private List<BaseEntity> colliderBaseEntityList = new List<BaseEntity>();
-    void Start() {
-    }
-    void Update() {
-    }
+    private List<InteractableEntity> colliderBaseEntityList = new List<InteractableEntity>();
     public BaseEntity GetBaseEntity(){
         return this.baseEntity;
     }
-    public List<BaseEntity> GetColliderBaseEntityList(){
+    public List<InteractableEntity> GetColliderBaseEntityList(){
         return this.colliderBaseEntityList;
     }
 
@@ -28,14 +24,14 @@ public class Interactor : MonoBehaviour {
             baseEntity.BeenInteract();
         }
     }
-    public void OnTriggerEnter2D(Collider2D collider) {
-        BaseEntity colliEntity = collider.gameObject.GetComponent<BaseEntity>();
+    private void OnTriggerEnter2D(Collider2D collider) {
+        InteractableEntity colliEntity = collider.gameObject.GetComponent<InteractableEntity>();
         if(colliEntity == null) return;
         this.colliderBaseEntityList.Add(colliEntity);
         colliEntity.ShowInteractor();
     }
-    void OnTriggerExit2D(Collider2D collider) {
-        BaseEntity colliEntity = collider.gameObject.GetComponent<BaseEntity>();
+    private void OnTriggerExit2D(Collider2D collider) {
+        InteractableEntity colliEntity = collider.gameObject.GetComponent<InteractableEntity>();
         if(colliEntity == null) return;
         this.colliderBaseEntityList.Remove(colliEntity);
         colliEntity.HideInteractor();

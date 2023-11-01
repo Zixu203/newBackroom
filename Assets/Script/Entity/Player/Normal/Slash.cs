@@ -13,7 +13,7 @@ public class Slash : MonoBehaviour {
     }
 
     private void OnTriggerEnter2D(Collider2D collider2D) {
-        var baseEntity = collider2D.gameObject.GetComponent<BaseEntity>();
+        var baseEntity = collider2D.gameObject.GetComponent<CombatableEntity>();
         if(baseEntity == null) return;
         baseEntity.GetAttribute().Damage(this.attributePack.value);
     }

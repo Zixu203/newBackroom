@@ -5,7 +5,7 @@ using System.Linq;
 using Unity.Mathematics;
 using UnityEngine;
 
-public class Player : BaseEntity {
+public class Player : CombatableEntity {
     public enum PlayerDirection {
         Up,
         Down,
@@ -47,34 +47,6 @@ public class Player : BaseEntity {
             keyCode = actionCodes[i];
             actionCodes[i] = actionCodes[other];
             actionCodes[other] = keyCode;
-        }
-    }
-    private Vector3 DirectionToForward(PlayerDirection playerDirection) {
-        switch (playerDirection) {
-            case PlayerDirection.Up:
-                return Vector3.up;
-            case PlayerDirection.Down:
-                return Vector3.down;
-            case PlayerDirection.Left:
-                return Vector3.left;
-            case PlayerDirection.Right:
-                return Vector3.right;
-            default:
-                return Vector3.zero;
-        }
-    }
-    private float DiectionToRotate(PlayerDirection playerDirection) {
-        switch (playerDirection) {
-            case PlayerDirection.Up:
-                return 180f;
-            case PlayerDirection.Down:
-                return 0f;
-            case PlayerDirection.Left:
-                return 270f;
-            case PlayerDirection.Right:
-                return 90f;
-            default:
-                return 0f;
         }
     }
     protected override void Start() {
