@@ -39,11 +39,11 @@ public class GameController : MonoBehaviour {
     }
     public void changeWorld() {
         //in backroom scene
-        if(SceneManager.GetActiveScene().buildIndex == 2) {
+        if(SceneManager.GetActiveScene().name == "BackRoomScenes") {
             SceneManager.LoadScene("SimilarWorldScenes");
         }
         //in similarWorld scene
-        if(SceneManager.GetActiveScene().buildIndex == 3) {
+        if(SceneManager.GetActiveScene().name == "SimilarWorldScenes") {
             SceneManager.LoadScene("BackRoomScenes");
         }
     }
