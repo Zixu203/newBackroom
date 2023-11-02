@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9140746124913954209}
   - component: {fileID: 3424723364913432179}
   - component: {fileID: 5688922643384220218}
+  - component: {fileID: 5705236264467786665}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -152,6 +153,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &5705236264467786665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2390090248195701096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58ddcb14a408248d1b1882152ae56b62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseEnemy: {fileID: 5769742452182437306}
 --- !u!1 &6310435036153244603
 GameObject:
   m_ObjectHideFlags: 0
@@ -162,6 +176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6483360389887562810}
   - component: {fileID: 5769742452182437306}
+  - component: {fileID: 4167851585543994801}
   - component: {fileID: 5661136647178756069}
   - component: {fileID: 6410342860639556199}
   m_Layer: 0
@@ -202,7 +217,8 @@ MonoBehaviour:
   moveSpeed: 200
   animator: {fileID: 3424723364913432179}
   rigidBody2D: {fileID: 5661136647178756069}
-  interactHint: {fileID: 0}
+  baseEnemyAnime: {fileID: 5705236264467786665}
+  baseEnemyActionMachine: {fileID: 4167851585543994801}
   enemyName: 
   spawnType: 1
   patrolRange: 10
@@ -210,7 +226,21 @@ MonoBehaviour:
   attackRange: 2
   scapeRange: 0.5
   navMeshAgent: {fileID: 0}
+--- !u!114 &4167851585543994801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6310435036153244603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43b1decfb870b4122ac2bb27aec913f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  die: 0
   state: 0
+  baseEnemy: {fileID: 5769742452182437306}
 --- !u!50 &5661136647178756069
 Rigidbody2D:
   serializedVersion: 4
