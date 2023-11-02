@@ -753,7 +753,6 @@ GameObject:
   - component: {fileID: 552416587}
   - component: {fileID: 552416586}
   - component: {fileID: 552416590}
-  - component: {fileID: 552416591}
   m_Layer: 0
   m_Name: timeline
   m_TagString: Untagged
@@ -869,37 +868,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 552416586}
   text: {fileID: 2137215059}
---- !u!114 &552416591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 552416585}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0558014488d76648a51cc93fabef4f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  image: {fileID: 534103562}
-  baiyaGraph:
-  - {fileID: 21300000, guid: 6249f4608e1f895498e0d61c3fce7c2c, type: 3}
-  - {fileID: 21300000, guid: 478071a3f9994194197fe4d571a2318e, type: 3}
-  - {fileID: 21300000, guid: 49e40ecd139f6c24cbee118d8fde0df4, type: 3}
-  - {fileID: 21300000, guid: ba826c4b818e05c4f93c903e77639f52, type: 3}
-  - {fileID: 21300000, guid: 8580f98ef0ad9564684586a4bde7a071, type: 3}
-  - {fileID: 21300000, guid: 33d0d0a75c6596640af954aff640b473, type: 3}
-  - {fileID: 21300000, guid: ab3d0be400f5ca4489f459e29ee295a6, type: 3}
-  - {fileID: 21300000, guid: 3815a8e96ce7f5d4b89922a13e25c982, type: 3}
-  - {fileID: 21300000, guid: 7dd6e4ca6a1c2184d8bdbc5cd80b6e31, type: 3}
-  baiyaEmoji:
-  - {fileID: 21300000, guid: 0135e62ac483d4048aa4a3d6e109014c, type: 3}
-  - {fileID: 21300000, guid: a1eae1d62fe1098499afa1c35694674f, type: 3}
-  - {fileID: 21300000, guid: 529cb1b08ad39ef438d7783688dd354b, type: 3}
-  - {fileID: 21300000, guid: dc8d489645a0d0644875f2ac0f5dd8dc, type: 3}
-  - {fileID: 21300000, guid: f816df2b0db880a40aeb050f1fed6a6e, type: 3}
-  - {fileID: 21300000, guid: c51a608c5d53c2c418316ee814575621, type: 3}
-  - {fileID: 21300000, guid: 61f06d2f34eb04c49b6d6411b0908fe9, type: 3}
 --- !u!1 &558014559
 GameObject:
   m_ObjectHideFlags: 0

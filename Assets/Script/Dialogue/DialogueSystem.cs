@@ -149,7 +149,7 @@ public class DialogueSystem {
         if(dialogue.ResponseTextAndNext.Count != 0) {
             for (int i = 0; i < dialogue.ResponseTextAndNext.Count; ++i) {
                 this.ResponceButtons[i].gameObject.SetActive(true);
-                this.ResponceButtons[i].transform.GetChild(0).GetComponent<UnityEngine.UI.Text>().text = dialogue.ResponseTextAndNext[i].Item1;
+                this.ResponceButtonTexts[i].text = dialogue.ResponseTextAndNext[i].Item1;
                 this.ResponceButtons[i].onClick.RemoveAllListeners();
                 int a = i;
                 this.ResponceButtons[i].onClick.AddListener(() => {
