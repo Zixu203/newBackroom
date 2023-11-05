@@ -21,6 +21,6 @@ public class BaseEnemyAnime : MonoBehaviour {
     }
 
     public void OnDeadAnime() {
-        
+        this.baseEnemy.BaseEnemyActionMachine.Dead();
     }
 }

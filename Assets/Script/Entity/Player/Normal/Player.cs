@@ -84,6 +84,10 @@ public class Player : CombatableEntity {
         if(Input.GetKeyDown(KeyCode.Mouse0)){
             GameController.getInstance.dialogueSystem.ClickAction?.Invoke();
         }
+        if(Input.GetKeyDown(KeyCode.O)) {
+            GameObject bubble = GameController.getInstance.gamingPool.GetGameObject("SoundBubble", this.gameObject.transform.position, quaternion.identity);
+            bubble.GetComponent<SoundBubble>().Init(this, SoundBubble.SoundBubbleType.Normal, 10);
+        }
     }
     protected override void FixedUpdate() {
         base.FixedUpdate();

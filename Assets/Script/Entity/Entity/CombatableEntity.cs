@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CombatableEntity : BaseEntity {
+    [Header("CombatableAttribute")]
     [SerializeField] protected float moveSpeed;
     protected Vector2 direction;
     public Vector2 Direction {

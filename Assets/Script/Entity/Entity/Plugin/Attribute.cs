@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public class OnDeadEventArg : EventArgs {}
+public class OnBeenAttackArg : EventArgs {}
 public class Attribute {
     //Static Attr
     public double maxHp { get; private set; }
@@ -17,9 +19,8 @@ public class Attribute {
     public double damageReduce {get; private set;}
 
     //event
-
-    public Action OnDead;
-    public Action OnBeenAttack;
+    public EventHandler<OnDeadEventArg> OnDeadEvent;
+    public EventHandler<OnBeenAttackArg> OnBeenAtackEvent;
 
     public Attribute() {
 
@@ -38,8 +39,8 @@ public class Attribute {
     }
     public void Damage(double damage) {
         this.hp = Math.Clamp(this.hp - damage, 0, this.maxHp);
-        if(this.IsDead()) this.OnDead?.Invoke();
-        else this.OnBeenAttack?.Invoke();
+        if(this.IsDead()) this.OnDeadEvent?.Invoke(this, new OnDeadEventArg());
+        else this.OnBeenAtackEvent?.Invoke(this, new OnBeenAttackArg());
     }
     public void Heal(double heal) {
         this.hp = Math.Clamp(this.hp + heal, 0, this.maxHp);

@@ -1581,7 +1581,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdd168a5522424df5bcdd630ae6ac6fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gamingPools: []
+  gamingPools:
+  - name: SoundBubble
+    prefab: {fileID: 6721711915472579851, guid: 314e34baaeb414c7f8cd53e7a038e767, type: 3}
+    unusedGameObjects: []
+    usingGameObjects: []
 --- !u!82 &340831944
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1589,7 +1593,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 340831940}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bc6aa2359bac94023824556f703c342a, type: 3}
@@ -3773,7 +3777,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &748148145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4297,6 +4301,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4357559309713134428, guid: b2ff22152c6ff475ca05535b4e23dab2, type: 3}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6310435036153244603, guid: b2ff22152c6ff475ca05535b4e23dab2, type: 3}
       propertyPath: m_Name
       value: GWAWA
@@ -4311,7 +4319,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6483360389887562810, guid: b2ff22152c6ff475ca05535b4e23dab2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.37556747
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6483360389887562810, guid: b2ff22152c6ff475ca05535b4e23dab2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5907,6 +5915,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Slash
       objectReference: {fileID: 0}
+    - target: {fileID: 7071460834635316968, guid: 403d934d1a58c40f988804d309275fd8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7239153225647833267, guid: 403d934d1a58c40f988804d309275fd8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -6358,6 +6370,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GWAWA (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6310435036153244603, guid: b2ff22152c6ff475ca05535b4e23dab2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6483360389887562810, guid: b2ff22152c6ff475ca05535b4e23dab2, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.3
@@ -6380,7 +6396,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6483360389887562810, guid: b2ff22152c6ff475ca05535b4e23dab2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.37556747
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6483360389887562810, guid: b2ff22152c6ff475ca05535b4e23dab2, type: 3}
       propertyPath: m_LocalRotation.w
