@@ -27,6 +27,9 @@ public class Player : CombatableEntity {
     public Player(){
         this.actionReset();
     }
+    public void Init() {
+        this.attribute = new Attribute(10, 2, 1, 2, 2);
+    }
     public Animator GetAnimator() {
         return base.animator;
     }
@@ -50,8 +53,15 @@ public class Player : CombatableEntity {
         }
     }
     protected override void Start() {
+        this.Init();
     }
     protected override void Update() {
+        if(GameController.getInstance.targetPlayer.isInDialogue){
+            if(Input.GetKeyDown(KeyCode.Mouse0)){
+                GameController.getInstance.dialogueSystem.ClickAction?.Invoke();
+            }
+            return;
+        }
         PlayerDirection lastPlayerState = this.playerDirection;
         base.direction.x = Input.GetKey(this.actionCodes[0]) ? (Input.GetKey(this.actionCodes[1]) ? 0 : 1) : (Input.GetKey(this.actionCodes[1]) ? -1 : 0);
         base.direction.y = Input.GetKey(this.actionCodes[2]) ? (Input.GetKey(this.actionCodes[3]) ? 0 : 1) : (Input.GetKey(this.actionCodes[3]) ? -1 : 0);
@@ -80,9 +90,6 @@ public class Player : CombatableEntity {
         }
         if(Input.GetKeyDown(KeyCode.R)){
             this.interactor?.InteractAll();
-        }
-        if(Input.GetKeyDown(KeyCode.Mouse0)){
-            GameController.getInstance.dialogueSystem.ClickAction?.Invoke();
         }
         if(Input.GetKeyDown(KeyCode.O)) {
             GameObject bubble = GameController.getInstance.gamingPool.GetGameObject("SoundBubble", this.gameObject.transform.position, quaternion.identity);

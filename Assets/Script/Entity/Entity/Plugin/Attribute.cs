@@ -4,7 +4,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class OnDeadEventArg : EventArgs {}
-public class OnBeenAttackArg : EventArgs {}
+public class OnBeenAttackArg : EventArgs {
+    public Vector2 inputVector { get; }
+    public OnBeenAttackArg(Vector2 inputVector){
+        this.inputVector = inputVector;
+    }
+}
 public class Attribute {
     //Static Attr
     public double maxHp { get; private set; }
@@ -37,10 +42,10 @@ public class Attribute {
     void calcNewValue() {
 
     }
-    public void Damage(double damage) {
-        this.hp = Math.Clamp(this.hp - damage, 0, this.maxHp);
+    public void Damage(AttributePack attributePack) {
+        this.hp = Math.Clamp(this.hp - attributePack.value, 0, this.maxHp);
         if(this.IsDead()) this.OnDeadEvent?.Invoke(this, new OnDeadEventArg());
-        else this.OnBeenAtackEvent?.Invoke(this, new OnBeenAttackArg());
+        else this.OnBeenAtackEvent?.Invoke(this, new OnBeenAttackArg(attributePack.inputVector));
     }
     public void Heal(double heal) {
         this.hp = Math.Clamp(this.hp + heal, 0, this.maxHp);
