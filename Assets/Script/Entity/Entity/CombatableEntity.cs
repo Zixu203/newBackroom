@@ -16,6 +16,9 @@ public class CombatableEntity : BaseEntity {
         set { this.animator = value; }
     }
     [SerializeField] protected Rigidbody2D rigidBody2D;
+    public Rigidbody2D Rigidbody2D {
+        get { return this.rigidBody2D; }
+    }
     protected Attribute attribute = new Attribute();
     public Attribute Attribute { get { return this.attribute; } }
     protected virtual void FixedUpdate() {

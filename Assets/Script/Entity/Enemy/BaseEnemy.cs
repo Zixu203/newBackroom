@@ -24,12 +24,9 @@ public class BaseEnemy : CombatableEntity {
     public string EnemyName { get { return this.enemyName; } }
     [SerializeField] EnemySpawnType spawnType = EnemySpawnType.Common;
     public EnemySpawnType SpawnType { get { return this.spawnType; } }
-    [SerializeField] public float patrolRange = 8f;
-    [SerializeField] public float chaseRange = 4f;
-    [SerializeField] public float attackRange = 1f;
-    [SerializeField] public float scapeRange = 0.5f;
     [SerializeField] NavMeshAgent navMeshAgent;
     public NavMeshAgent NavMeshAgent { get { return this.navMeshAgent; } }
+    public GameObject AgentGameObject;
 
     Vector3 spawnPosition;
     public Vector3 SpawnPosition { get { return this.spawnPosition; } }
@@ -39,15 +36,20 @@ public class BaseEnemy : CombatableEntity {
         this.Init();
         this.Attribute.OnDeadEvent += (s, e) => this.baseEnemyActionMachine.Die();
         this.Attribute.OnDeadEvent += (s, e) => this.baseEnemyAnime.Die();
-        this.Attribute.OnBeenAtackEvent += (s, e) => this.baseEnemyActionMachine.BeenAttack();
+        this.Attribute.OnBeenAtackEvent += (s, e) => this.baseEnemyActionMachine.BeenAttack(e);
         this.Attribute.OnBeenAtackEvent += (s, e) => this.baseEnemyAnime.BeenAttack();
+
         this.EnemyHearingDetector.OnTriggerEnterEvent += (s, e) => this.baseEnemyActionMachine.HearSound(e.element.Owner.transform.position);
         this.enemyHearingDetector.OnTriggerEnterEvent += (s, e) => this.EnemyVisionDetector.lookAt(e.element.Owner.transform);
         this.EnemyVisionDetector.OnUpdateEvent += (s, e) => this.baseEnemyActionMachine.SetChaseTarget(e.FirstOrDefault().element.transform);
         this.enemyVisionDetector.OnUpdateEvent += (s, e) => this.EnemyVisionDetector.lookAt(e.FirstOrDefault().element.transform);
+
         this.spawnPosition = this.transform.position;
         this.spawnRotation = this.transform.rotation;
         GameController.getInstance.gamingPool.RegisterGamingPool(this.EnemyName, this.gameObject);
+
+        this.NavMeshAgent.updateRotation = false;
+        this.NavMeshAgent.updateUpAxis = false;
     }
 
     protected void Init() {
@@ -55,14 +57,30 @@ public class BaseEnemy : CombatableEntity {
     }
 
     protected override void Update() {
-
+        // this.NavMeshAgent.SetDestination(GameController.getInstance.targetPlayer.transform.position);
     }
 
     protected override void FixedUpdate() {
         base.FixedUpdate();
+        this.AgentGameObject.transform.position = this.transform.position;
     }
 
+    public Vector3[] point;
     protected void OnDrawGizmos() {
+        // NavMeshPath navMeshPath = new NavMeshPath();
+        // if(GameController.getInstance?.targetPlayer ?? null != null){
+        //     bool isRoadFound = this.NavMeshAgent.CalculatePath(GameController.getInstance.targetPlayer.transform.position, navMeshPath);
+        //     if(isRoadFound) {
+        //         point = navMeshPath.corners.ToArray();
+        //         Gizmos.DrawLineStrip(point, false);
+        //     }
+        // }
+        if(GameController.getInstance?.targetPlayer ?? null != null){
+            point = this.BaseEnemyActionMachine.NavMeshPath.corners.ToArray();
+            Gizmos.DrawLineStrip(point, false);
+        }
+
+
         // Vector3 origin = new Vector3 (0,0,0);
         // Vector3 direction = new Vector3 (1,0,0);
         // Gizmos.color = Color.red;
