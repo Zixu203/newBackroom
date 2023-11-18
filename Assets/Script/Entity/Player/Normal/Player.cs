@@ -115,6 +115,9 @@ public class Player : BaseEntity {
                 if(isDialogueEnd) isInDialogue = false;
             }
         }
+        if(Input.GetKeyDown(KeyCode.Escape)){
+            GameController.getInstance.inGameUIController.openSetting();
+        }
     }
     protected override void FixedUpdate() {
         base.FixedUpdate();
