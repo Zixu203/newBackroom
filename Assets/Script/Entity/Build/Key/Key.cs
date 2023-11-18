@@ -10,7 +10,7 @@ public class Key : BaseBuild
     public override void BeenInteract()
     {
         this.gameObject.SetActive(false);
-        
+        GameController.getInstance.inGameUIController.pushInKnapsack("key");
         GameController.getInstance.targetPlayer.have_door_key = true;
         //KeyCollider2D.isTrigger = false;
     }

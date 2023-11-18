@@ -101,10 +101,10 @@ public class Player : CombatableEntity {
         }
 
         // Trigger Test Event
-        if(Input.GetKeyDown(KeyCode.V))
-        {
-            GameController.getInstance.inGameUIController.pushInKnapsack("key");
-        }
+        //if(Input.GetKeyDown(KeyCode.V))
+        //{
+        //    GameController.getInstance.inGameUIController.pushInKnapsack("key");
+        //}
         if (Input.GetKeyDown(KeyCode.B))
         {
             GameController.getInstance.inGameUIController.popOutKnapsack("key");

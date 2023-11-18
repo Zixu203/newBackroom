@@ -14,6 +14,9 @@ public class Door : BaseBuild {
             GameController.getInstance.changeWorld();
             return;
         }
+        if (is_open == false){
+            GameController.getInstance.inGameUIController.popOutKnapsack("key");
+        }
         is_open = !is_open;
         door.SetActive(is_open);
         BoxCollider2D.isTrigger = is_open;
