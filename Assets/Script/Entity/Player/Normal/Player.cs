@@ -118,6 +118,17 @@ public class Player : BaseEntity {
         if(Input.GetKeyDown(KeyCode.Escape)){
             GameController.getInstance.inGameUIController.openSetting();
         }
+
+        // Trigger Test Event
+        if(Input.GetKeyDown(KeyCode.V))
+        {
+            GameController.getInstance.inGameUIController.pushInKnapsack("key");
+        }
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            GameController.getInstance.inGameUIController.popOutKnapsack("key");
+        }
+
     }
     protected override void FixedUpdate() {
         base.FixedUpdate();
