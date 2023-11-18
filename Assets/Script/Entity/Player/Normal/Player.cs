@@ -96,6 +96,20 @@ public class Player : CombatableEntity {
             GameObject bubble = GameController.getInstance.gamingPool.GetGameObject("SoundBubble", this.gameObject.transform.position, quaternion.identity);
             bubble.GetComponent<SoundBubble>().Init(this, SoundBubble.SoundBubbleType.Normal, 10);
         }
+        if(Input.GetKeyDown(KeyCode.Escape)){
+            GameController.getInstance.inGameUIController.openSetting();
+        }
+
+        // Trigger Test Event
+        if(Input.GetKeyDown(KeyCode.V))
+        {
+            GameController.getInstance.inGameUIController.pushInKnapsack("key");
+        }
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            GameController.getInstance.inGameUIController.popOutKnapsack("key");
+        }
+
     }
     protected override void FixedUpdate() {
         base.FixedUpdate();

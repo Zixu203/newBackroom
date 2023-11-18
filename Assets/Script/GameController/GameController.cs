@@ -18,11 +18,15 @@ public class GameController : MonoBehaviour {
     public EnemySpawner enemySpawner;
     public GamingPoolSystem gamingPool;
     public DialogueSystem dialogueSystem;
+    public InGameUIController inGameUIController;
     void Awake() {
         GameController.instance = this;
     }
     void Start() {
         SaveLoader.Load();
+        this.inGameUIController = new InGameUIController();
+        this.inGameUIController.init();
+        this.dialogueSystem = new DialogueSystem();
         this.dialogueSystem.init();
         DontDestroyOnLoad(this.gameObject);
         SceneManager.sceneLoaded += OnSceneLoaded;

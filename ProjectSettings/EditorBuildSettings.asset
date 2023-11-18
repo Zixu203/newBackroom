@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StoryScenes/ShoppingScenes.unity
     guid: 1fd9fbab2c7684967a96088d3c0b2984
+  - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+    guid: cb3b976a0d28bb04295c883d704c9e37
+  - enabled: 1
+    path: Assets/Scenes/TestScene.unity
+    guid: b08f08b8ef245b74395a8f2f905bc876
   m_configObjects: {}
