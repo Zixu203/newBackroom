@@ -6,6 +6,7 @@ using Unity.Mathematics;
 using UnityEngine;
 
 public class Player : CombatableEntity {
+    public bool have_door_key;
     public enum PlayerDirection {
         Up,
         Down,

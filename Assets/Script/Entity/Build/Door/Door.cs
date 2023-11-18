@@ -7,6 +7,9 @@ public class Door : BaseBuild {
     public bool is_open = false;
     public BoxCollider2D BoxCollider2D;
     public override void BeenInteract() {
+        if (GameController.getInstance.targetPlayer.have_door_key==false){
+            return;
+        }
         if(is_open && !Input.GetKey(KeyCode.G)) {
             GameController.getInstance.changeWorld();
             return;
