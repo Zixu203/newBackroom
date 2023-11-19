@@ -22,6 +22,8 @@ public class BaseEnemyActionMachine : MonoBehaviour {
     public AttackState AttackState { get { return this.attackState; } }
     [SerializeField] SearchState searchState;
     public SearchState SearchState { get { return this.searchState; } }
+    [SerializeField] BeenAttackState beenAttackState;
+    public BeenAttackState BeenAttackState { get { return this.beenAttackState; } }
     [SerializeField] DeadState deadState;
     public DeadState DeadState { get { return this.deadState; } }
     public bool die = false;
@@ -54,7 +56,7 @@ public class BaseEnemyActionMachine : MonoBehaviour {
         this.CurrentState.Enter();
     }
     public virtual void Update() {
-        // Debug.Log(this.CurrentState);
+        Debug.Log(this.CurrentState);
         this.baseEnemy.Direction = Vector2.zero;
         this.CurrentState.Update();
         if(this.die) return;
@@ -65,14 +67,19 @@ public class BaseEnemyActionMachine : MonoBehaviour {
     }
     public virtual void HearSound(Vector3 targetPosition) {
         this.lastTargetPosition = targetPosition;
-        this.ChangeState(this.walkState);
+        this.ChangeState(this.WalkState);
     }
     public virtual void BeenAttack(OnBeenAttackArg onBeenAttackArg) {
-        this.baseEnemy.Rigidbody2D.AddForce(-onBeenAttackArg.inputVector * 10000);
+        this.baseEnemy.Rigidbody2D.AddForce(onBeenAttackArg.inputVector * 500000);
+        this.ChangeState(this.BeenAttackState);
     }
 
     public virtual void Die() {
         this.die = true;
+        this.BaseEnemy.Collider2D.enabled = false;
+        // this.BaseEnemy.Collider2D.isTrigger = true;
+        // Debug.Log(this.baseEnemy.Collider2D);
+        this.ChangeState(this.DeadState);
     }
     public virtual void Dead() {
         GameController.getInstance.enemySpawner.EnemyDie(this.baseEnemy);

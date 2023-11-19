@@ -93,8 +93,8 @@ PolygonCollider2D:
     - - {x: 5, y: 5}
       - {x: 0, y: 0}
       - {x: 5, y: -5}
-      - {x: 7, y: -1}
-      - {x: 7, y: 1}
+      - {x: 14, y: -3}
+      - {x: 14, y: 3}
   m_UseDelaunayMesh: 0
 --- !u!1 &2390090248195701096
 GameObject:
@@ -171,7 +171,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 7
   m_Sprite: {fileID: 1050296609, guid: 6be81f4418e3b432785e3430acd72065, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -355,7 +355,7 @@ GameObject:
   - component: {fileID: 5769742452182437306}
   - component: {fileID: 4167851585543994801}
   - component: {fileID: 5661136647178756069}
-  - component: {fileID: 6410342860639556199}
+  - component: {fileID: 7805013586103573806}
   m_Layer: 0
   m_Name: GWAWA
   m_TagString: Untagged
@@ -397,17 +397,15 @@ MonoBehaviour:
   moveSpeed: 200
   animator: {fileID: 3424723364913432179}
   rigidBody2D: {fileID: 5661136647178756069}
+  _collider2D: {fileID: 7805013586103573806}
   baseEnemyAnime: {fileID: 5705236264467786665}
   baseEnemyActionMachine: {fileID: 4167851585543994801}
   enemyHearingDetector: {fileID: 754514617934117438}
   enemyVisionDetector: {fileID: 3008069026720816627}
   enemyName: GWAWA
   spawnType: 0
-  patrolRange: 10
-  chaseRange: 9
-  attackRange: 2
-  scapeRange: 0.5
   navMeshAgent: {fileID: 5413692596294655116}
+  AgentGameObject: {fileID: 8954785216482330627}
 --- !u!114 &4167851585543994801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -420,8 +418,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b1decfb870b4122ac2bb27aec913f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  idleState:
+    baseEnemyActionMachine: {fileID: 4167851585543994801}
+    idleStateData: {fileID: 11400000, guid: 62ba8ce56ba7b440293f0cf0febaa3f8, type: 2}
+  patrolState:
+    baseEnemyActionMachine: {fileID: 4167851585543994801}
+    patrolStateData: {fileID: 11400000, guid: 20a180ec0476f4d58b605394c32e1c37, type: 2}
+  walkState:
+    baseEnemyActionMachine: {fileID: 4167851585543994801}
+    walkStateData: {fileID: 11400000, guid: bf6364aef07ef4dd68fe457bf2f40165, type: 2}
+  chaseState:
+    baseEnemyActionMachine: {fileID: 4167851585543994801}
+    chaseStateData: {fileID: 11400000, guid: 2b4c7030fbfb14ec89edd30da72c2fcf, type: 2}
+  attackState:
+    baseEnemyActionMachine: {fileID: 4167851585543994801}
+    attackStateData: {fileID: 11400000, guid: deb56af3743454b17b533da29b1ab784, type: 2}
+  searchState:
+    baseEnemyActionMachine: {fileID: 4167851585543994801}
+    searchStateData: {fileID: 11400000, guid: 055ca073c77a54727a3bcfe68a242b6a, type: 2}
+  beenAttackState:
+    baseEnemyActionMachine: {fileID: 4167851585543994801}
+    beenAttackStateData: {fileID: 11400000, guid: e0b15d7d954f54267b9f3b6465e3144c, type: 2}
+  deadState:
+    baseEnemyActionMachine: {fileID: 4167851585543994801}
+    deadStateData: {fileID: 11400000, guid: 9d8cf86dde47a4bcbae8f67c0838eecf, type: 2}
   die: 0
-  state: 0
   baseEnemy: {fileID: 5769742452182437306}
 --- !u!50 &5661136647178756069
 Rigidbody2D:
@@ -450,8 +471,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &6410342860639556199
-BoxCollider2D:
+--- !u!58 &7805013586103573806
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -482,19 +503,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.3}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 6, y: 1}
-  m_EdgeRadius: 0
+  m_Radius: 1.3
 --- !u!1 &8954785216482330627
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,13 +546,13 @@ NavMeshAgent:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8954785216482330627}
   m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 1
+  m_AgentTypeID: -1923039037
+  m_Radius: 1.3
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 0
+  m_StoppingDistance: 1
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1

@@ -39,6 +39,7 @@ public class ChaseState : State {
         this.baseEnemyActionMachine.ChangeState(this.baseEnemyActionMachine.AttackState);
     }
     public override void Exit() {
+        this.baseEnemyActionMachine.BaseEnemy.MoveSpeedMultiplier = 1f;
         base.Exit();
     }
 }

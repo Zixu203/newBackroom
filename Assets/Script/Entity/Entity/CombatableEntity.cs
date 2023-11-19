@@ -20,6 +20,10 @@ public class CombatableEntity : BaseEntity {
     public Rigidbody2D Rigidbody2D {
         get { return this.rigidBody2D; }
     }
+    [SerializeField] protected CircleCollider2D _collider2D;
+    public CircleCollider2D Collider2D {
+        get { return this._collider2D; }
+    }
     protected Attribute attribute = new Attribute();
     public Attribute Attribute { get { return this.attribute; } }
     protected override void Start() {
