@@ -123,10 +123,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c49cb86c2ff8547ea9eaf623a882a25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 400
+  moveSpeed: 200
   animator: {fileID: 5964632944574181119}
   rigidBody2D: {fileID: 3380860013159051568}
-  runSpeed: 1.1
+  _collider2D: {fileID: 0}
+  have_door_key: 0
+  runSpeed: 1.2
   playerWeapon: {fileID: 7232718482595670557}
   interactor: {fileID: 7768706620964456426}
   isInDialogue: 0
