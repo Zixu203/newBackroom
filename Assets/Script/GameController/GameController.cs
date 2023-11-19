@@ -41,6 +41,7 @@ public class GameController : MonoBehaviour {
     public void changeWorld() {
         //in backroom scene
         if(SceneManager.GetActiveScene().name == "BackRoomScenes") {
+            SaveLoader.setPositionInBackRoomScene(GameController.getInstance.targetPlayer.transform.position);
             SceneManager.LoadScene("SimilarWorldScenes");
         }
         //in similarWorld scene
@@ -50,6 +51,9 @@ public class GameController : MonoBehaviour {
     }
     private static void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
         GameController.getInstance.targetPlayer = GameObject.Find("player").GetComponent<Player>();
+        if(scene.name == "BackRoomScenes") {
+            GameController.getInstance.targetPlayer.transform.position = SaveLoader.getPositionInBackRoomScene();
+        }
     }
 
     public void LoadInGame() {

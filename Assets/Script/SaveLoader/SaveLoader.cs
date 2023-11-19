@@ -50,8 +50,23 @@ public class SaveLoader {
             Debug.Log("low give new");
         }
     }
+    #region HighFrequency
+    public static Vector3 getPositionInBackRoomScene() {
+        return new Vector3(
+            SaveLoader.highFrequencyData.positionInBackRoomSceneX,
+            SaveLoader.highFrequencyData.positionInBackRoomSceneY,
+            SaveLoader.highFrequencyData.positionInBackRoomSceneZ
+        );
+    }
+    public static void setPositionInBackRoomScene(Vector3 position) {
+        SaveLoader.highFrequencyData.positionInBackRoomSceneX = position.x;
+        SaveLoader.highFrequencyData.positionInBackRoomSceneY = position.y;
+        SaveLoader.highFrequencyData.positionInBackRoomSceneZ = position.z;
+        SaveLoader.SaveHigh();
+    }
+    #endregion
 
-
+    #region LowFrequency
     public static string getSceneName(){
         return SaveLoader.lowFrequencyData.sampleText;
     }
@@ -72,4 +87,5 @@ public class SaveLoader {
         SaveLoader.lowFrequencyData.dialogueSave[baseEntity.gameObject.name] = index;
         SaveLoader.SaveLow();
     }
+    #endregion
 }
