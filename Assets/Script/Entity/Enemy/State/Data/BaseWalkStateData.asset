@@ -9,8 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cc806fecaec541118e5e1618cba5145, type: 3}
-  m_Name: BaseIdleStateData
+  m_Script: {fileID: 11500000, guid: 97948cf2a43d84017877c1562f06758f, type: 3}
+  m_Name: BaseWalkStateData
   m_EditorClassIdentifier: 
-  minIdleTime: 3
-  maxIdleTime: 7

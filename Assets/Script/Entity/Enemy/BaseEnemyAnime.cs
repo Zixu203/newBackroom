@@ -11,6 +11,10 @@ public class BaseEnemyAnime : MonoBehaviour {
         this.baseEnemy.Animator.SetFloat("x", this.baseEnemy.Direction.x);
         this.baseEnemy.Animator.SetBool("walk", this.baseEnemy.Direction.x != 0);
     }
+
+    public virtual void Attack() {
+        this.baseEnemy.Animator.SetTrigger("attack");
+    }
     
     public virtual void BeenAttack() {
         this.baseEnemy.Animator.SetTrigger("beenAttack");

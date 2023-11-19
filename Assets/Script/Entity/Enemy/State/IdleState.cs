@@ -15,6 +15,7 @@ public class IdleState : State {
     }
     public override void Enter() {
         base.Enter();
+        this.baseEnemyActionMachine.BaseEnemy.Direction = Vector2.zero;
     }
     public override void Update() {
         base.Update();

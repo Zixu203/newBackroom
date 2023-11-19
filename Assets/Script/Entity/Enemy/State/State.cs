@@ -20,6 +20,9 @@ public class State {
     protected virtual void NextState() {
         
     }
+    public virtual bool CheckChange(State state) {
+        return true;
+    }
     public virtual void Exit() {
 
     }

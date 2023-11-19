@@ -58,7 +58,6 @@ public class BaseEnemy : CombatableEntity {
     }
 
     protected override void Update() {
-        // this.NavMeshAgent.SetDestination(GameController.getInstance.targetPlayer.transform.position);
     }
 
     protected override void FixedUpdate() {
@@ -66,31 +65,11 @@ public class BaseEnemy : CombatableEntity {
         this.AgentGameObject.transform.position = this.transform.position;
     }
 
-    public Vector3[] point;
+    // public Vector3[] point;
     protected void OnDrawGizmos() {
-        // NavMeshPath navMeshPath = new NavMeshPath();
         // if(GameController.getInstance?.targetPlayer ?? null != null){
-        //     bool isRoadFound = this.NavMeshAgent.CalculatePath(GameController.getInstance.targetPlayer.transform.position, navMeshPath);
-        //     if(isRoadFound) {
-        //         point = navMeshPath.corners.ToArray();
-        //         Gizmos.DrawLineStrip(point, false);
-        //     }
+        //     point = this.BaseEnemyActionMachine.NavMeshPath.corners.ToArray();
+        //     Gizmos.DrawLineStrip(point, false);
         // }
-        if(GameController.getInstance?.targetPlayer ?? null != null){
-            point = this.BaseEnemyActionMachine.NavMeshPath.corners.ToArray();
-            Gizmos.DrawLineStrip(point, false);
-        }
-
-
-        // Vector3 origin = new Vector3 (0,0,0);
-        // Vector3 direction = new Vector3 (1,0,0);
-        // Gizmos.color = Color.red;
-        // Gizmos.DrawWireSphere(this.gameObject.transform.position, scapeRange);
-        // Gizmos.color = Color.yellow;
-        // Gizmos.DrawWireSphere(this.gameObject.transform.position, attackRange);
-        // Gizmos.color = Color.green;
-        // Gizmos.DrawWireSphere(this.gameObject.transform.position, chaseRange);
-        // Gizmos.color = Color.blue;
-        // Gizmos.DrawWireSphere(this.gameObject.transform.position, patrolRange);
     }
 }

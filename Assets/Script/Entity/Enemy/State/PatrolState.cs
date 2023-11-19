@@ -14,7 +14,10 @@ public class PatrolState : State {
     public override void Init() {
         base.Init();
         do{
-            this.destination = this.baseEnemyActionMachine.BaseEnemy.SpawnPosition + new Vector3(UnityEngine.Random.Range(this.patrolStateData.minPatrolDistance, this.patrolStateData.maxPatrolDistance), UnityEngine.Random.Range(this.patrolStateData.minPatrolDistance, this.patrolStateData.maxPatrolDistance), 0);
+            this.destination = this.baseEnemyActionMachine.BaseEnemy.SpawnPosition
+                + UnityEngine.Random.onUnitSphere
+                * (UnityEngine.Random.Range(0,2)*2-1)
+                * UnityEngine.Random.Range(this.patrolStateData.minPatrolDistance, this.patrolStateData.maxPatrolDistance);
         } while(!this.baseEnemyActionMachine.BaseEnemy.NavMeshAgent.CalculatePath(this.destination, this.baseEnemyActionMachine.NavMeshPath));
         this.destination = this.baseEnemyActionMachine.NavMeshPath.corners.Last();
     }
@@ -24,19 +27,17 @@ public class PatrolState : State {
     public override void Update() {
         base.Update();
         bool isRoadFound = this.baseEnemyActionMachine.BaseEnemy.NavMeshAgent.CalculatePath(this.destination, this.baseEnemyActionMachine.NavMeshPath);
-        // Debug.Log(this.destination);
-        // Debug.Log(isRoadFound);
         if(isRoadFound) {
             this.baseEnemyActionMachine.BaseEnemy.Direction = (this.baseEnemyActionMachine.NavMeshPath.corners[1] - this.baseEnemyActionMachine.transform.position).normalized;
+            this.baseEnemyActionMachine.BaseEnemy.EnemyVisionDetector.lookAt(this.baseEnemyActionMachine.NavMeshPath.corners[1]);
         }
-        // Debug.Log(this.baseEnemyActionMachine.transform.position);
-        // Debug.Log(Vector3.Distance(this.baseEnemyActionMachine.transform.position, this.destination));
-        if(Vector3.Distance(this.baseEnemyActionMachine.transform.position, this.destination) <= 2.2f){
+        if(Vector3.Distance(this.baseEnemyActionMachine.transform.position, this.destination) <= 0.4f){
             this.NextState();
         }
     }
     protected override void NextState() {
         base.NextState();
+        this.baseEnemyActionMachine.BaseEnemy.Direction = Vector2.zero;
         base.baseEnemyActionMachine.ChangeState(this.baseEnemyActionMachine.IdleState);
     }
     public override void Exit() {
