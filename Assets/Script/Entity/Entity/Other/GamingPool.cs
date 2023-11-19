@@ -7,29 +7,30 @@ using UnityEngine;
 [System.Serializable]
 public class GamingPool {
     public string name;
-    public GameObject prefab;
-    public List<GameObject> unusedGameObjects;
-    public List<GameObject> usingGameObjects;
+    public GamingPoolGameObject prefab;
+    public List<GamingPoolGameObject> unusedGameObjects;
+    public List<GamingPoolGameObject> usingGameObjects;
     public GamingPool() {
-        unusedGameObjects = new List<GameObject>();
-        usingGameObjects = new List<GameObject>();
+        unusedGameObjects = new List<GamingPoolGameObject>();
+        usingGameObjects = new List<GamingPoolGameObject>();
     }
-    public GameObject GetGameObject(Vector3 place, quaternion orient) {
+    public GamingPoolGameObject GetGameObject(Vector3 place, quaternion orient) {
         if(unusedGameObjects.Count == 0){
-            usingGameObjects.Add(GamingPoolSystem.initGameObject(prefab, place, orient));
+            usingGameObjects.Add(GamingPoolSystem.initGameObject(prefab, place, orient).GetComponent<GamingPoolGameObject>());
         }else{
-            // unusedGameObjects.First().transform.SetPositionAndRotation(place, orient);
             usingGameObjects.Add(unusedGameObjects.First());
             unusedGameObjects.RemoveAt(0);
         }
-        usingGameObjects.Last().transform.SetPositionAndRotation(place, orient);
-        usingGameObjects.Last().SetActive(true);
-        return usingGameObjects.Last();
+        var obj = usingGameObjects.Last();
+        obj.transform.SetPositionAndRotation(place, orient);
+        obj.gameObject.SetActive(true);
+        obj.Init();
+        return obj;
     }
 
-    public void GiveBackGameObject(GameObject gameObject) {
+    public void GiveBackGameObject(GamingPoolGameObject gameObject) {
         usingGameObjects.Remove(gameObject);
         unusedGameObjects.Add(gameObject);
-        gameObject.SetActive(false);
+        gameObject.gameObject.SetActive(false);
     }
 }

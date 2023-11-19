@@ -54,7 +54,7 @@ public class BaseEnemyActionMachine : MonoBehaviour {
         this.CurrentState.Enter();
     }
     public virtual void Update() {
-        Debug.Log(this.CurrentState);
+        // Debug.Log(this.CurrentState);
         this.baseEnemy.Direction = Vector2.zero;
         this.CurrentState.Update();
         if(this.die) return;

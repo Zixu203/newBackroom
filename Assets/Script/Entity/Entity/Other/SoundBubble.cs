@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SoundBubble : MonoBehaviour {
+public class SoundBubble : GamingPoolGameObject {
     public enum SoundBubbleType { Normal }
     private BaseEntity owner;
     public BaseEntity Owner { get { return this.owner; } private set { this.owner = value; } }
@@ -20,7 +20,7 @@ public class SoundBubble : MonoBehaviour {
     }
     public IEnumerator waitAndGiveBack() {
         yield return new WaitForSeconds(0.1f);
-        GameController.getInstance.gamingPool.GiveBackGameObject("SoundBubble", this.gameObject);
+        GameController.getInstance.gamingPool.GiveBackGameObject("SoundBubble", this);
     }
     private void OnDrawGizmos() {
         Gizmos.color = Color.red;

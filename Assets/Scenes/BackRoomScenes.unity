@@ -1761,7 +1761,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gamingPools:
   - name: SoundBubble
-    prefab: {fileID: 6721711915472579851, guid: 314e34baaeb414c7f8cd53e7a038e767, type: 3}
+    prefab: {fileID: 5888179199239297427, guid: 314e34baaeb414c7f8cd53e7a038e767, type: 3}
     unusedGameObjects: []
     usingGameObjects: []
 --- !u!82 &340831944

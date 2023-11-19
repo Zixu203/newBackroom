@@ -47,6 +47,9 @@ public class Attribute {
         if(this.IsDead()) this.OnDeadEvent?.Invoke(this, new OnDeadEventArg());
         else this.OnBeenAtackEvent?.Invoke(this, new OnBeenAttackArg(attributePack.inputVector));
     }
+    public void HealMax() {
+        this.hp = this.maxHp;
+    }
     public void Heal(double heal) {
         this.hp = Math.Clamp(this.hp + heal, 0, this.maxHp);
     }

@@ -28,8 +28,11 @@ public class Player : CombatableEntity {
     public Player(){
         this.actionReset();
     }
-    public void Init() {
+    public void init() {
         this.attribute = new Attribute(10, 2, 1, 2, 2);
+    }
+    public override void Init() {
+        this.attribute.HealMax();
     }
     public Animator GetAnimator() {
         return base.animator;
@@ -55,7 +58,7 @@ public class Player : CombatableEntity {
     }
     protected override void Start() {
         base.Start();
-        this.Init();
+        this.init();
     }
     protected override void Update() {
         if(GameController.getInstance.targetPlayer.isInDialogue){
@@ -94,7 +97,7 @@ public class Player : CombatableEntity {
             this.interactor?.InteractAll();
         }
         if(Input.GetKeyDown(KeyCode.O)) {
-            GameObject bubble = GameController.getInstance.gamingPool.GetGameObject("SoundBubble", this.gameObject.transform.position, quaternion.identity);
+            GamingPoolGameObject bubble = GameController.getInstance.gamingPool.GetGameObject("SoundBubble", this.gameObject.transform.position, quaternion.identity);
             bubble.GetComponent<SoundBubble>().Init(this, SoundBubble.SoundBubbleType.Normal, 10);
         }
         if(Input.GetKeyDown(KeyCode.Escape)){

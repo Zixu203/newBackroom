@@ -14,7 +14,7 @@ public class EnemySpawner {
     }
     public void Start() {
         foreach(var enemy in this.enemies) {
-            GameController.getInstance.gamingPool.RegisterGamingPool(enemy.EnemyName, enemy.gameObject);
+            GameController.getInstance.gamingPool.RegisterGamingPool(enemy.EnemyName, enemy);
         }
     }
     public void Update() {
@@ -34,6 +34,6 @@ public class EnemySpawner {
         if(enemy.SpawnType == BaseEnemy.EnemySpawnType.Common){
             this.waitingEnemies.Add(new Tuple<BaseEnemy, float>(enemy, Time.time));
         }
-        GameController.getInstance.gamingPool.GiveBackGameObject(enemy.EnemyName, enemy.gameObject);
+        GameController.getInstance.gamingPool.GiveBackGameObject(enemy.EnemyName, enemy);
     }
 }

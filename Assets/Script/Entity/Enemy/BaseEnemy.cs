@@ -34,7 +34,7 @@ public class BaseEnemy : CombatableEntity {
     public Quaternion SpawnRotation { get { return this.spawnRotation; } }
     protected override void Start() {
         base.Start();
-        this.Init();
+        this.init();
         this.Attribute.OnDeadEvent += (s, e) => this.baseEnemyActionMachine.Die();
         this.Attribute.OnDeadEvent += (s, e) => this.baseEnemyAnime.Die();
         this.Attribute.OnBeenAtackEvent += (s, e) => this.baseEnemyActionMachine.BeenAttack(e);
@@ -47,14 +47,16 @@ public class BaseEnemy : CombatableEntity {
 
         this.spawnPosition = this.transform.position;
         this.spawnRotation = this.transform.rotation;
-        GameController.getInstance.gamingPool.RegisterGamingPool(this.EnemyName, this.gameObject);
+        GameController.getInstance.gamingPool.RegisterGamingPool(this.EnemyName, this);
 
         this.NavMeshAgent.updateRotation = false;
         this.NavMeshAgent.updateUpAxis = false;
     }
-
-    protected void Init() {
+    public void init() {
         base.attribute = new Attribute(10, 1, 1, 1, 1);
+    }
+    public override void Init() {
+        base.attribute.HealMax();
     }
 
     protected override void Update() {
