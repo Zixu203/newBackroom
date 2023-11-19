@@ -13,6 +13,7 @@ public class ChaseState : State {
     public override void Init() {
         base.Init();
         this.target = this.baseEnemyActionMachine.LastTargetPosition;
+        this.baseEnemyActionMachine.BaseEnemy.MoveSpeedMultiplier = this.chaseStateData.chaseSpeed;
     }
     public override void Enter() {
         base.Enter();
@@ -21,13 +22,7 @@ public class ChaseState : State {
         base.Update();
         bool isRoadFound = this.baseEnemyActionMachine.BaseEnemy.NavMeshAgent.CalculatePath(this.target, this.baseEnemyActionMachine.NavMeshPath);
         if(isRoadFound) {
-            // if(Vector2.Distance(this.baseEnemyActionMachine.transform.position, this.baseEnemyActionMachine.NavMeshPath.corners[1]) < 0.1f){
-            //     this.baseEnemyActionMachine.BaseEnemy.Direction = (this.baseEnemyActionMachine.NavMeshPath.corners[2] - this.baseEnemyActionMachine.transform.position).normalized;
-            // }else{
-            //     this.baseEnemyActionMachine.BaseEnemy.Direction = (this.baseEnemyActionMachine.NavMeshPath.corners[1] - this.baseEnemyActionMachine.transform.position).normalized;
-            // }
             this.baseEnemyActionMachine.BaseEnemy.Direction = (this.baseEnemyActionMachine.NavMeshPath.corners[1] - this.baseEnemyActionMachine.transform.position).normalized;
-            this.baseEnemyActionMachine.BaseEnemy.MoveSpeedMultiplier = this.chaseStateData.chaseSpeed;
             this.baseEnemyActionMachine.BaseEnemy.EnemyVisionDetector.lookAt(this.baseEnemyActionMachine.NavMeshPath.corners[1]);
         }
         if(Vector3.Distance(this.baseEnemyActionMachine.transform.position, this.target) <= 2f){

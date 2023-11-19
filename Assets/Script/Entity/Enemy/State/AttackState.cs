@@ -40,7 +40,7 @@ public class AttackState : State {
         this.baseEnemyActionMachine.ChangeState(this.baseEnemyActionMachine.SearchState);
     }
     public override bool CheckChange(State state) {
-        return !attacking;
+        return !attacking || state is BeenAttackState || state is DeadState;
     }
     public override void Exit() {
         base.Exit();

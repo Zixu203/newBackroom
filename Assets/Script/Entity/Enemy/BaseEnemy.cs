@@ -57,6 +57,8 @@ public class BaseEnemy : CombatableEntity {
     }
     public override void Init() {
         base.attribute.HealMax();
+        this.BaseEnemyActionMachine.init();
+        this.Collider2D.enabled = true;
     }
 
     protected override void Update() {

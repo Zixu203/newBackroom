@@ -51,6 +51,9 @@ public class BaseEnemyActionMachine : MonoBehaviour {
     public virtual void Start() {
         this.navMeshPath = new NavMeshPath();
         lastTargetPosition = this.gameObject.transform.position;
+        this.init();
+    }
+    public virtual void init() {
         this.CurrentState = this.idleState;
         this.CurrentState.Init();
         this.CurrentState.Enter();
@@ -77,8 +80,6 @@ public class BaseEnemyActionMachine : MonoBehaviour {
     public virtual void Die() {
         this.die = true;
         this.BaseEnemy.Collider2D.enabled = false;
-        // this.BaseEnemy.Collider2D.isTrigger = true;
-        // Debug.Log(this.baseEnemy.Collider2D);
         this.ChangeState(this.DeadState);
     }
     public virtual void Dead() {
