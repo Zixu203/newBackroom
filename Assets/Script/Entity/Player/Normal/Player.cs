@@ -54,6 +54,7 @@ public class Player : CombatableEntity {
         }
     }
     protected override void Start() {
+        base.Start();
         this.Init();
     }
     protected override void Update() {

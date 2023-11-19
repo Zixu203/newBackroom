@@ -33,6 +33,7 @@ public class BaseEnemy : CombatableEntity {
     Quaternion spawnRotation;
     public Quaternion SpawnRotation { get { return this.spawnRotation; } }
     protected override void Start() {
+        base.Start();
         this.Init();
         this.Attribute.OnDeadEvent += (s, e) => this.baseEnemyActionMachine.Die();
         this.Attribute.OnDeadEvent += (s, e) => this.baseEnemyAnime.Die();
