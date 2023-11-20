@@ -72,4 +72,32 @@ public class SaveLoader {
         SaveLoader.lowFrequencyData.dialogueSave[baseEntity.gameObject.name] = index;
         SaveLoader.SaveLow();
     }
+
+    public static double getLastStorySceneTime(){
+        return SaveLoader.lowFrequencyData.LastStorySceneTime;
+    }
+    public static void setLastStorySceneTime(double lastStorySceneTime)
+    {
+        SaveLoader.lowFrequencyData.LastStorySceneTime = lastStorySceneTime;
+        SaveLoader.lowFrequencyData.StorySceneRecordIndex++;
+        SaveLoader.SaveLow();
+    }
+    public static void setStorySceneRecordIndex(int StorySceneRecordIndex)
+    {
+        SaveLoader.lowFrequencyData.StorySceneRecordIndex=StorySceneRecordIndex;
+        SaveLoader.SaveLow();
+    }
+    public static int getStorySceneRecordIndex()
+    {
+        return SaveLoader.lowFrequencyData.StorySceneRecordIndex;
+    }
+    public static void setStorySceneRecordTextIndex(int StorySceneRecordTextIndex)
+    {
+        SaveLoader.lowFrequencyData.StorySceneRecordTextIndex = StorySceneRecordTextIndex;
+        SaveLoader.SaveLow();
+    }
+    public static int getStorySceneRecordTextIndex()
+    {
+        return SaveLoader.lowFrequencyData.StorySceneRecordTextIndex;
+    }
 }

@@ -25,6 +25,16 @@ public class change : MonoBehaviour
     private int textIndex = 0;
     public Text text;
     float showTextTime = 1f;
+    public void Start()
+    {
+        //SceneManager.sceneLoaded += OnSceneLoaded;
+        SaveLoader.Load();
+        //SaveLoader.setLastStorySceneTime(0);
+        //SaveLoader.setStorySceneRecordTextIndex(0);
+        Debug.Log(SaveLoader.getLastStorySceneTime());
+        player.time = SaveLoader.getLastStorySceneTime();
+        textIndex = SaveLoader.getStorySceneRecordTextIndex();
+    }
     public void Update() {
         if(Input.GetKeyDown(KeyCode.P)) {
             this.AnimeEnd();
@@ -50,5 +60,21 @@ public class change : MonoBehaviour
     public void AnimeEnd() {
         Debug.Log("animeEnd");
         SceneManager.LoadScene("BackRoomScenes");
+    }
+    public void AnimeChange()
+    {
+        //player.playableGraph.GetRootPlayable(0).SetSpeed(0);
+        SaveLoader.setLastStorySceneTime(player.time+0.1);
+        SaveLoader.setStorySceneRecordTextIndex(textIndex);
+        SceneManager.LoadScene("memory");
+    }
+    private void OnSceneLoaded(Scene scene, LoadSceneMode load)
+    {
+        var a = this.GetComponent<PlayableDirector>();
+        Debug.Log(a);
+        Debug.Log(player);
+        if (scene.name != "Storyscene") return;
+        Debug.Log(SaveLoader.getLastStorySceneTime());
+        player.time = SaveLoader.getLastStorySceneTime();
     }
 }

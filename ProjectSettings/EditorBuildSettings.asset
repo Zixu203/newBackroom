@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestScene.unity
     guid: b08f08b8ef245b74395a8f2f905bc876
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/Storyscene.unity
+    guid: 8326a1cda27839048bb38edac266139e
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/memory.unity
+    guid: 2cd498e4e7a7cde4a9b91fb5e87f9da5
   m_configObjects: {}
