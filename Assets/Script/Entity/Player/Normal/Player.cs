@@ -24,6 +24,7 @@ public class Player : CombatableEntity {
     [SerializeField]
     private Interactor interactor;
     public bool isInDialogue;
+    [SerializeField] AudioSource audioSource;
 
     public Player(){
         this.actionReset();
@@ -80,6 +81,10 @@ public class Player : CombatableEntity {
         bool actionKeyUp = this.actionCodes.Any(x=>Input.GetKeyUp(x));
         if(actionKeyDown || (lastPlayerState != this.playerDirection)){
             base.animator.SetTrigger("walk");
+            this.audioSource.Play();
+        }
+        if(base.direction.magnitude == 0) {
+            this.audioSource.Pause();
         }
         if(Input.GetKeyDown(KeyCode.K)){
             this.ShuffleInput();
