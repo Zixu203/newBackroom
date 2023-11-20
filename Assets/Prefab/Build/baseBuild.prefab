@@ -100,10 +100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b44462a822c87468fbcf67ed3266e15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0
-  animator: {fileID: 0}
-  rigidBody2D: {fileID: 7196606024798589128}
-  interactHint: {fileID: 8374980744492744252}
+  interactHints:
+  - {fileID: 8374980744492744252}
 --- !u!58 &8709292914915723294
 CircleCollider2D:
   m_ObjectHideFlags: 0
