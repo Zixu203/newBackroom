@@ -75,7 +75,7 @@ public class Player : CombatableEntity {
     }
     protected override void Update() {
         if(GameController.getInstance.targetPlayer.isInDialogue){
-            if(Input.GetKeyDown(KeyCode.Mouse0)){
+            if(Input.GetKeyDown(KeyCode.Space)){
                 GameController.getInstance.dialogueSystem.ClickAction?.Invoke();
             }
             return;

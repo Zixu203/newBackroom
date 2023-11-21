@@ -48,44 +48,23 @@ public class DialogueSystem {
                 new Dialogue(
                     this.npcs[0].name,
                     npcPicFileName,
-                    "幫我裝水",
+                    "First time?",
                     1,
                     false
                 ),
                 new Dialogue(
                     this.npcs[0].name,
                     npcPicFileName,
-                    "拜託",
+                    "hahaha",
                     new List<Tuple<string, int>>(){
-                        new Tuple<string, int>("要", 2),
-                        new Tuple<string, int>("不要", 3)
+                        new Tuple<string, int>("?", 2),
+                        new Tuple<string, int>("?", 2)
                     }
                 ),
                 new Dialogue(
                     this.npcs[0].name,
                     npcPicFileName,
-                    "謝拉啊啊啊啊",
-                    4,
-                    false
-                ),
-                new Dialogue(
-                    this.npcs[0].name,
-                    npcPicFileName,
-                    "為什麼不要 嗚嗚",
-                    5,
-                    false
-                ),
-                new Dialogue(
-                    this.npcs[0].name,
-                    npcPicFileName,
-                    "你拿回來了喔",
-                    0,
-                    true
-                ),
-                new Dialogue(
-                    this.npcs[0].name,
-                    npcPicFileName,
-                    "不理你了",
+                    "hahaha",
                     0,
                     true
                 )
