@@ -100,4 +100,9 @@ public class SaveLoader {
     {
         return SaveLoader.lowFrequencyData.StorySceneRecordTextIndex;
     }
+    public static int getStorySceneAudioIndexs()
+    {
+        lowFrequencyData.StorySceneAudioIndex++;
+        return SaveLoader.lowFrequencyData.StorySceneAudioIndex;
+    }
 }
