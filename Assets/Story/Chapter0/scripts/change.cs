@@ -31,7 +31,6 @@ public class change : MonoBehaviour
         SaveLoader.Load();
         //SaveLoader.setLastStorySceneTime(0);
         //SaveLoader.setStorySceneRecordTextIndex(0);
-        Debug.Log(SaveLoader.getLastStorySceneTime());
         player.time = SaveLoader.getLastStorySceneTime();
         textIndex = SaveLoader.getStorySceneRecordTextIndex();
     }
@@ -76,5 +75,9 @@ public class change : MonoBehaviour
         if (scene.name != "Storyscene") return;
         Debug.Log(SaveLoader.getLastStorySceneTime());
         player.time = SaveLoader.getLastStorySceneTime();
+    }
+    public void ChangeScene()
+    {
+        SceneManager.LoadScene("BackRoomScenes");
     }
 }
