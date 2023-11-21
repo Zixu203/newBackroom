@@ -19,6 +19,7 @@ public class GameController : MonoBehaviour {
     public GamingPoolSystem gamingPool;
     public DialogueSystem dialogueSystem;
     public InGameUIController inGameUIController;
+    public AudioSource bgm;
     void Awake() {
         GameController.instance = this;
     }
@@ -75,6 +76,9 @@ public class GameController : MonoBehaviour {
         if(scene.name == "BackRoomScenes") {
             GameController.getInstance.targetPlayer = GameObject.Find("player").GetComponent<Player>();
             GameController.getInstance.targetPlayer.transform.position = SaveLoader.getPositionInBackRoomScene();
+            GameController.getInstance.bgm.Play();
+        }else{
+            GameController.getInstance.bgm.Stop();
         }
         if(scene.name == "SimilarWorldScenes") {
             GameController.getInstance.targetPlayer = GameObject.Find("player").GetComponent<Player>();

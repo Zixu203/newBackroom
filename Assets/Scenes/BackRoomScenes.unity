@@ -1183,6 +1183,7 @@ MonoBehaviour:
     knapsackItemName: []
     knapsackUI: {fileID: 0}
     itemsCount: 0
+  bgm: {fileID: 340831944}
 --- !u!4 &340831942
 Transform:
   m_ObjectHideFlags: 0
