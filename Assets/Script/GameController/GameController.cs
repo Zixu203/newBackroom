@@ -78,6 +78,7 @@ public class GameController : MonoBehaviour {
         }
         if(scene.name == "SimilarWorldScenes") {
             GameController.getInstance.targetPlayer = GameObject.Find("player").GetComponent<Player>();
+            GameController.getInstance.inGameUIController.init();
         }
     }
 
