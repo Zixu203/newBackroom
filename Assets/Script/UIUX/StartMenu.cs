@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 public class StartMenu : MonoBehaviour
 {
     public void loadScene(){
+        SaveLoader.Load();
+        SaveLoader.setLastStorySceneTime(0);
+        SaveLoader.setStorySceneRecordTextIndex(0);
         SceneManager.LoadScene("StoryScene");
     }
 

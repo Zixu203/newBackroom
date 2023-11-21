@@ -27,10 +27,7 @@ public class change : MonoBehaviour
     float showTextTime = 1f;
     public void Start()
     {
-        //SceneManager.sceneLoaded += OnSceneLoaded;
         SaveLoader.Load();
-        //SaveLoader.setLastStorySceneTime(0);
-        //SaveLoader.setStorySceneRecordTextIndex(0);
         player.time = SaveLoader.getLastStorySceneTime();
         textIndex = SaveLoader.getStorySceneRecordTextIndex();
     }
