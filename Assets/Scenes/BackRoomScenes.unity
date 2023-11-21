@@ -3395,56 +3395,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 255abb0224bef504ba8f613a9a7787b8, type: 3}
---- !u!1 &1046584397 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4227392699792427010, guid: bc3424d9bc1194678876c2edb53a9622, type: 3}
-  m_PrefabInstance: {fileID: 7653122396377975029}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &1046584404
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1046584397}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4, y: 4}
-    newSize: {x: 25, y: 25}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4, y: 4}
-  m_EdgeRadius: 0
 --- !u!1001 &1086439466
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6210,10 +6160,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 305468801811622098, guid: bc3424d9bc1194678876c2edb53a9622, type: 3}
-      propertyPath: power
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 401547775775719540, guid: bc3424d9bc1194678876c2edb53a9622, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.1
@@ -6258,17 +6204,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Speaker
       objectReference: {fileID: 0}
-    - target: {fileID: 9112739277043595187, guid: bc3424d9bc1194678876c2edb53a9622, type: 3}
-      propertyPath: m_BodyType
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4227392699792427010, guid: bc3424d9bc1194678876c2edb53a9622, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1046584404}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc3424d9bc1194678876c2edb53a9622, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

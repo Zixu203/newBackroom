@@ -16,10 +16,14 @@ public class Speaker : BaseBuild {
     }
     public override void BeenInteract() {
         power = !power;
+        if(power) {
+            audioSource.Play();
+        } else {
+            audioSource.Stop();
+        }
     }
     protected virtual void MakeSound() {
         GamingPoolGameObject bubble = GameController.getInstance.gamingPool.GetGameObject("SoundBubble", this.gameObject.transform.position, quaternion.identity);
         bubble.GetComponent<SoundBubble>().Init(this, SoundBubble.SoundBubbleType.Eletronic, 20);
-        audioSource.Play();
     }
 }
