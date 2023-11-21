@@ -28,7 +28,7 @@ public class PlayerWeapon : MonoBehaviour {
         }
     }
     public void slashAttack(Player.PlayerDirection playerDirection) {
-        this.slash.transform.position = this.player.transform.position + this.DirectionToForward(playerDirection) * 0.3f;
+        this.slash.transform.position = this.player.transform.position + this.DirectionToForward(playerDirection) * 0.8f;
         this.slash.setAttribute(new AttributePack(this.player, 5, this.DirectionToForward(playerDirection)));
         this.slash?.gameObject.SetActive(true);
         switch(playerDirection){

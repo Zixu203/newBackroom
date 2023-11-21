@@ -24,12 +24,14 @@ public class Player : CombatableEntity {
     [SerializeField]
     private Interactor interactor;
     public bool isInDialogue;
+    [HideInInspector] public bool canMove;
     [SerializeField] AudioSource audioSource;
 
     public Player(){
         this.actionReset();
     }
     public void init() {
+        this.canMove = true;
         this.attribute = new Attribute(10, 2, 1, 2, 2);
         this.attribute.OnDeadEvent += (s, e) => {
             if(SaveLoader.getIsRespawnPointUsed()){
@@ -83,6 +85,7 @@ public class Player : CombatableEntity {
         PlayerDirection lastPlayerState = this.playerDirection;
         base.direction.x = Input.GetKey(this.actionCodes[0]) ? (Input.GetKey(this.actionCodes[1]) ? 0 : 1) : (Input.GetKey(this.actionCodes[1]) ? -1 : 0);
         base.direction.y = Input.GetKey(this.actionCodes[2]) ? (Input.GetKey(this.actionCodes[3]) ? 0 : 1) : (Input.GetKey(this.actionCodes[3]) ? -1 : 0);
+        if(!canMove) base.direction = Vector2.zero;
         this.calcRunSpeed = Input.GetKey(KeyCode.C) ? this.runSpeed : 1f;
         base.animator.SetInteger("xspeed", Convert.ToInt16(math.sign(base.direction.x) * math.ceil(math.abs(base.direction.x * this.calcRunSpeed))));
         base.animator.SetInteger("yspeed", Convert.ToInt16(math.sign(base.direction.y) * math.ceil(math.abs(base.direction.y * this.calcRunSpeed))));
@@ -103,9 +106,11 @@ public class Player : CombatableEntity {
         }
         if(Input.GetKeyDown(KeyCode.T)){
             this.playerWeapon.slashAttack(this.playerDirection);
+            this.canMove = false;
         }
         if(Input.GetKeyDown(KeyCode.Y)){
             this.playerWeapon.shootAttack(this.playerDirection);
+            this.canMove = false;
         }
         if(Input.GetKeyDown(KeyCode.F)){
             this.interactor?.Interact();
