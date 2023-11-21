@@ -72,9 +72,12 @@ public class GameController : MonoBehaviour {
         }
     }
     private static void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
-        GameController.getInstance.targetPlayer = GameObject.Find("player").GetComponent<Player>();
         if(scene.name == "BackRoomScenes") {
+            GameController.getInstance.targetPlayer = GameObject.Find("player").GetComponent<Player>();
             GameController.getInstance.targetPlayer.transform.position = SaveLoader.getPositionInBackRoomScene();
+        }
+        if(scene.name == "SimilarWorldScenes") {
+            GameController.getInstance.targetPlayer = GameObject.Find("player").GetComponent<Player>();
         }
     }
 
