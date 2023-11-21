@@ -1226,12 +1226,12 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 340831940}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bc6aa2359bac94023824556f703c342a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3386,6 +3386,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4759259412229796677, guid: 255abb0224bef504ba8f613a9a7787b8, type: 3}
+      propertyPath: m_Pitch
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4759259412229796677, guid: 255abb0224bef504ba8f613a9a7787b8, type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 6544120372383631950, guid: 255abb0224bef504ba8f613a9a7787b8, type: 3}
       propertyPath: m_Name
       value: door1
@@ -4603,11 +4611,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8465498520287465841, guid: 06855b67c30cc42aeba0637e934b2e1e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -44.86
+      value: -18
       objectReference: {fileID: 0}
     - target: {fileID: 8465498520287465841, guid: 06855b67c30cc42aeba0637e934b2e1e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 34.91
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 8465498520287465841, guid: 06855b67c30cc42aeba0637e934b2e1e, type: 3}
       propertyPath: m_LocalPosition.z
