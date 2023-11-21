@@ -10,4 +10,9 @@ public class LowFrequencyData {
     public int StorySceneRecordTextIndex { get; set; }
     public int StorySceneAudioIndex = 0;
     public int StorySceneAudioIndexs { get; }
+    public int deadTime { get; set; }
+    public bool isRespawnPointUsed { get; set; }
+    public float lastRespawnPointX { get; set; }
+    public float lastRespawnPointY { get; set; }
+    public float lastRespawnPointZ { get; set; }
 }

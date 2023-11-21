@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 using System.IO;
 
 public class SaveLoader {
-    private static string baseDir = Application.persistentDataPath + "/";
+    public static string baseDir = Application.persistentDataPath + "/";
     private static HighFrequencyData highFrequencyData;
     private static LowFrequencyData lowFrequencyData;
     public static void SaveAll() {
@@ -88,32 +88,57 @@ public class SaveLoader {
         SaveLoader.SaveLow();
     }
 
-    public static double getLastStorySceneTime(){
+    public static double getLastStorySceneTime() {
         return SaveLoader.lowFrequencyData.LastStorySceneTime;
     }
-    public static void setLastStorySceneTime(double lastStorySceneTime)
-    {
+    public static void setLastStorySceneTime(double lastStorySceneTime) {
         SaveLoader.lowFrequencyData.LastStorySceneTime = lastStorySceneTime;
         SaveLoader.lowFrequencyData.StorySceneRecordIndex++;
         SaveLoader.SaveLow();
     }
-    public static void setStorySceneRecordIndex(int StorySceneRecordIndex)
-    {
+    public static int getStorySceneRecordIndex() {
+        return SaveLoader.lowFrequencyData.StorySceneRecordIndex;
+    }
+    public static void setStorySceneRecordIndex(int StorySceneRecordIndex) {
         SaveLoader.lowFrequencyData.StorySceneRecordIndex=StorySceneRecordIndex;
         SaveLoader.SaveLow();
     }
-    public static int getStorySceneRecordIndex()
-    {
-        return SaveLoader.lowFrequencyData.StorySceneRecordIndex;
+    public static int getStorySceneRecordTextIndex() {
+        return SaveLoader.lowFrequencyData.StorySceneRecordTextIndex;
     }
-    public static void setStorySceneRecordTextIndex(int StorySceneRecordTextIndex)
-    {
+    public static void setStorySceneRecordTextIndex(int StorySceneRecordTextIndex) {
         SaveLoader.lowFrequencyData.StorySceneRecordTextIndex = StorySceneRecordTextIndex;
         SaveLoader.SaveLow();
     }
-    public static int getStorySceneRecordTextIndex()
-    {
-        return SaveLoader.lowFrequencyData.StorySceneRecordTextIndex;
+    public static int getDeadTime() {
+        return SaveLoader.lowFrequencyData.deadTime;
+    }
+    public static void setDeadTime(int deadTime) {
+        SaveLoader.lowFrequencyData.deadTime = deadTime;
+        SaveLoader.SaveLow();
+    }
+    public static void setIsRespawnPointUsed(bool isRespawnPointUsed) {
+        SaveLoader.lowFrequencyData.isRespawnPointUsed = isRespawnPointUsed;
+        SaveLoader.SaveLow();
+    }
+    public static bool getIsRespawnPointUsed() {
+        return SaveLoader.lowFrequencyData.isRespawnPointUsed;
+    }
+    public static Vector3 getLastRespawnPoint() {
+        return new Vector3(
+            SaveLoader.lowFrequencyData.lastRespawnPointX,
+            SaveLoader.lowFrequencyData.lastRespawnPointY,
+            SaveLoader.lowFrequencyData.lastRespawnPointZ
+        );
+    }
+    public static void setLastRespawnPoint(Vector3 lastRespawnPoint) {
+        SaveLoader.lowFrequencyData.lastRespawnPointX = lastRespawnPoint.x;
+        SaveLoader.lowFrequencyData.lastRespawnPointY = lastRespawnPoint.y;
+        SaveLoader.lowFrequencyData.lastRespawnPointZ = lastRespawnPoint.z;
+        SaveLoader.SaveLow();
+    }
+    public static int getNextSaveTime() {
+        return SaveLoader.getDeadTime() * (SaveLoader.getDeadTime() + 1) / 2;
     }
     public static int getStorySceneAudioIndexs()
     {

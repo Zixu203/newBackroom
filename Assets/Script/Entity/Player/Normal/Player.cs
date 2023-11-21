@@ -31,6 +31,18 @@ public class Player : CombatableEntity {
     }
     public void init() {
         this.attribute = new Attribute(10, 2, 1, 2, 2);
+        this.attribute.OnDeadEvent += (s, e) => {
+            if(SaveLoader.getIsRespawnPointUsed()){
+                //todo: totally dead.
+                Debug.Log("totally dead.");
+                return;
+            }
+            SaveLoader.setIsRespawnPointUsed(true);
+            SaveLoader.setDeadTime(SaveLoader.getDeadTime() + 1);
+            Vector3 respawnPoint = SaveLoader.getLastRespawnPoint();
+            this.transform.position = respawnPoint;
+            this.Init();
+        };
     }
     public override void Init() {
         this.attribute.HealMax();

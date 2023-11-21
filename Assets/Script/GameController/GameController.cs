@@ -23,7 +23,12 @@ public class GameController : MonoBehaviour {
         GameController.instance = this;
     }
     void Start() {
+        Debug.Log("Data load at : " + SaveLoader.baseDir);
         SaveLoader.Load();
+        //first game time should run.
+        SaveLoader.setIsRespawnPointUsed(true);
+        SaveLoader.setDeadTime(0);
+        //first game time should run.
         this.inGameUIController = new InGameUIController();
         this.inGameUIController.init();
         //this.dialogueSystem = new DialogueSystem();
@@ -35,8 +40,25 @@ public class GameController : MonoBehaviour {
         this.enemySpawner.Start();
     }
 
+    float StepSaveTime = 10f;
+    float TempSaveTime = 0;
+
     void Update() {
         this.enemySpawner.Update();
+        this.DeathSave();
+    }
+    void DeathSave() {
+        if(!SaveLoader.getIsRespawnPointUsed()) return;
+
+        TempSaveTime += Time.deltaTime;
+        if(TempSaveTime < StepSaveTime) return;
+        TempSaveTime = 0;
+
+        if(Time.time > SaveLoader.getNextSaveTime()) {
+            // Debug.Log("player respawn save, " + GameController.getInstance.targetPlayer.transform.position);
+            SaveLoader.setIsRespawnPointUsed(false);
+            SaveLoader.setLastRespawnPoint(GameController.getInstance.targetPlayer.transform.position);
+        }
     }
     public void changeWorld() {
         //in backroom scene
