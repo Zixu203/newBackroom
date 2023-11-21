@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SoundBubble : GamingPoolGameObject {
-    public enum SoundBubbleType { Normal }
+    public enum SoundBubbleType { Normal, Eletronic }
     private BaseEntity owner;
     public BaseEntity Owner { get { return this.owner; } private set { this.owner = value; } }
     private SoundBubbleType soundType;
@@ -23,7 +23,17 @@ public class SoundBubble : GamingPoolGameObject {
         GameController.getInstance.gamingPool.GiveBackGameObject("SoundBubble", this);
     }
     private void OnDrawGizmos() {
-        Gizmos.color = Color.red;
+        switch(this.SoundType) {
+            case SoundBubbleType.Normal:
+                Gizmos.color = Color.red;
+                break;
+            case SoundBubbleType.Eletronic:
+                Gizmos.color = Color.blue;
+                break;
+            default:
+                Gizmos.color = Color.red;
+                break;
+        }
         Gizmos.DrawWireSphere(this.gameObject.transform.position, this.circleCollider2D.radius);
     }
 }
