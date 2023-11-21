@@ -24,7 +24,7 @@ public class WalkState : State {
             this.baseEnemyActionMachine.BaseEnemy.Direction = (this.baseEnemyActionMachine.NavMeshPath.corners[1] - this.baseEnemyActionMachine.transform.position).normalized;
             this.baseEnemyActionMachine.BaseEnemy.EnemyVisionDetector.lookAt(this.baseEnemyActionMachine.NavMeshPath.corners[1]);
         }
-        if(Vector3.Distance(this.baseEnemyActionMachine.transform.position, this.destination) <= 0.4f){
+        if(Vector2.Distance(this.baseEnemyActionMachine.BaseEnemy.transform.position, this.destination) <= 1f){
             this.NextState();
         }
     }

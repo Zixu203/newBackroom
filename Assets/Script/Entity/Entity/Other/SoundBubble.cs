@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SoundBubble : GamingPoolGameObject {
-    public enum SoundBubbleType { Normal, Eletronic }
+    public enum SoundBubbleType { Normal, Eletronic, Wood }
     private BaseEntity owner;
     public BaseEntity Owner { get { return this.owner; } private set { this.owner = value; } }
     private SoundBubbleType soundType;

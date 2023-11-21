@@ -40,8 +40,8 @@ public class BaseEnemy : CombatableEntity {
         this.Attribute.OnBeenAtackEvent += (s, e) => this.baseEnemyActionMachine.BeenAttack(e);
         this.Attribute.OnBeenAtackEvent += (s, e) => this.baseEnemyAnime.BeenAttack();
 
-        this.EnemyHearingDetector.OnTriggerEnterEvent += (s, e) => this.baseEnemyActionMachine.HearSound(e.element.Owner.transform.position);
-        this.enemyHearingDetector.OnTriggerEnterEvent += (s, e) => this.EnemyVisionDetector.lookAt(e.element.Owner.transform);
+        this.EnemyHearingDetector.OnTriggerEnterEvent += (s, e) => this.baseEnemyActionMachine.HearSound(e.element.transform.position);
+        this.enemyHearingDetector.OnTriggerEnterEvent += (s, e) => this.EnemyVisionDetector.lookAt(e.element.transform);
         this.EnemyVisionDetector.OnUpdateEvent += (s, e) => this.baseEnemyActionMachine.SetChaseTarget(e.FirstOrDefault().element.transform);
         this.enemyVisionDetector.OnUpdateEvent += (s, e) => this.EnemyVisionDetector.lookAt(e.FirstOrDefault().element.transform);
 
