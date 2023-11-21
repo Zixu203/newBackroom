@@ -32,7 +32,7 @@ public class Player : CombatableEntity {
     }
     public void init() {
         this.canMove = true;
-        this.attribute = new Attribute(10, 2, 1, 2, 2);
+        this.attribute = new Attribute(11, 2, 1, 2, 2);
         this.attribute.OnDeadEvent += (s, e) => {
             if(SaveLoader.getIsRespawnPointUsed()){
                 //todo: totally dead.
@@ -100,6 +100,8 @@ public class Player : CombatableEntity {
         }
         if(base.direction.magnitude == 0) {
             this.audioSource.Pause();
+        }else{
+            this.WalkSound();
         }
         if(Input.GetKeyDown(KeyCode.K)){
             this.ShuffleInput();
@@ -126,6 +128,17 @@ public class Player : CombatableEntity {
             GameController.getInstance.inGameUIController.openSetting();
         }
 
+    }
+    float StepWalkSoundTime = 0.4f;
+    float TempWalkSoundTime = 0;
+    void WalkSound() {
+
+        TempWalkSoundTime += Time.deltaTime;
+        if(TempWalkSoundTime < StepWalkSoundTime) return;
+        TempWalkSoundTime = 0;
+
+        GamingPoolGameObject bubble = GameController.getInstance.gamingPool.GetGameObject("SoundBubble", this.gameObject.transform.position, quaternion.identity);
+        bubble.GetComponent<SoundBubble>().Init(this, SoundBubble.SoundBubbleType.Normal, 1);
     }
     protected override void FixedUpdate() {
         base.FixedUpdate();
