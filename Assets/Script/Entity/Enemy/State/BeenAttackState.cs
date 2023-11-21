@@ -29,7 +29,7 @@ public class BeenAttackState : State {
         this.baseEnemyActionMachine.ChangeState(base.baseEnemyActionMachine.SearchState);
     }
     public override bool CheckChange(State state) {
-        return !stuning;
+        return !stuning || state is DeadState;
     }
     public override void Exit() {
         base.Exit();
