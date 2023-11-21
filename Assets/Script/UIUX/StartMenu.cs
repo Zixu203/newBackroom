@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class StartMenu : MonoBehaviour
 {
     public void loadScene(){
-        SceneManager.LoadScene("BackRoomScenes");
+        SceneManager.LoadScene("StoryScene");
     }
 
     public void exitGame(){
