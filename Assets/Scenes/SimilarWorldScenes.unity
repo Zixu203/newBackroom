@@ -337,6 +337,101 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 268554309}
   m_CullTransparentMesh: 1
+--- !u!1 &371319263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 371319265}
+  - component: {fileID: 371319264}
+  - component: {fileID: 371319266}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &371319264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371319263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6d43a5b20d741d8979edcfb1dbf9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetPlayer: {fileID: 1957323101}
+  enemySpawner:
+    enemies: []
+  gamingPool: {fileID: 371319266}
+  dialogueSystem:
+    npcs: []
+    dialogueBox: {fileID: 969967467}
+    dialogueText: {fileID: 1183177611}
+    dialogueTalker: {fileID: 1486404393}
+    dialogueImage: {fileID: 1943695387}
+    ResponceButtons:
+    - {fileID: 467439312}
+    - {fileID: 2026529899}
+    ResponceButtonTexts:
+    - {fileID: 268554311}
+    - {fileID: 1396140865}
+  inGameUIController:
+    settingMenu: {fileID: 0}
+    settingBtn: {fileID: 0}
+    continueBtn: {fileID: 0}
+    playerOpBtn: {fileID: 0}
+    exitBtn: {fileID: 0}
+    redoBtn: {fileID: 0}
+    playerContorlUI: {fileID: 0}
+    haveWindow: 0
+    knapsackItems: []
+    knapsackItemName: []
+    knapsackUI: {fileID: 0}
+    itemsCount: 0
+--- !u!4 &371319265
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371319263}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.049261, y: 17.262203, z: -0.43917572}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &371319266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371319263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdd168a5522424df5bcdd630ae6ac6fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gamingPools:
+  - name: SoundBubble
+    prefab: {fileID: 5888179199239297427, guid: 314e34baaeb414c7f8cd53e7a038e767, type: 3}
+    unusedGameObjects: []
+    usingGameObjects: []
+  - name: AttackBox
+    prefab: {fileID: 2104199148558698700, guid: ddbe21b5a189f4c0e8b649a3e4419f48, type: 3}
+    unusedGameObjects: []
+    usingGameObjects: []
 --- !u!114 &381024092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3668,6 +3763,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06855b67c30cc42aeba0637e934b2e1e, type: 3}
+--- !u!114 &1957323101 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3195495084369526714, guid: 06855b67c30cc42aeba0637e934b2e1e, type: 3}
+  m_PrefabInstance: {fileID: 1957323100}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49cb86c2ff8547ea9eaf623a882a25f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!213 &1979950954
 Sprite:
   m_ObjectHideFlags: 0
@@ -4450,6 +4556,7 @@ MonoBehaviour:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 371319265}
   - {fileID: 1359092293}
   - {fileID: 399994243}
   - {fileID: 2044384186}

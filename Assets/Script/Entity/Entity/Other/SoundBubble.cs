@@ -20,7 +20,7 @@ public class SoundBubble : GamingPoolGameObject {
     }
     public IEnumerator waitAndGiveBack() {
         yield return new WaitForSeconds(0.1f);
-        GameController.getInstance.gamingPool.GiveBackGameObject("SoundBubble", this);
+        GameController.getInstance.GetManager<GamePlayManager>().gamingPool.GiveBackGameObject("SoundBubble", this);
     }
     private void OnDrawGizmos() {
         switch(this.SoundType) {

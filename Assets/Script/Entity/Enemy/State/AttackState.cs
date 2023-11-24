@@ -23,7 +23,7 @@ public class AttackState : State {
         this.baseEnemyActionMachine.BaseEnemy.BaseEnemyAnime.Attack();
         var tra = this.baseEnemyActionMachine.BaseEnemy.EnemyVisionDetector.transform;
         var b = tra.rotation * Vector3.right * 3;
-        GamingPoolGameObject AttackBox = GameController.getInstance.gamingPool.GetGameObject("AttackBox", tra.position + b, tra.rotation);
+        GamingPoolGameObject AttackBox = GameController.getInstance.GetManager<GamePlayManager>().gamingPool.GetGameObject("AttackBox", tra.position + b, tra.rotation);
         AttackBox attackBox = (AttackBox)AttackBox;
         attackBox.setAttribute(new AttributePack(this.baseEnemyActionMachine.BaseEnemy, 5, tra.rotation * Vector3.right));
         // bubble.GetComponent<SoundBubble>().Init(this, SoundBubble.SoundBubbleType.Normal, 10);

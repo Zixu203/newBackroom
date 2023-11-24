@@ -23,7 +23,7 @@ public class Speaker : BaseBuild {
         }
     }
     protected virtual void MakeSound() {
-        GamingPoolGameObject bubble = GameController.getInstance.gamingPool.GetGameObject("SoundBubble", this.gameObject.transform.position, quaternion.identity);
+        GamingPoolGameObject bubble = GameController.getInstance.GetManager<GamePlayManager>().gamingPool.GetGameObject("SoundBubble", this.gameObject.transform.position, quaternion.identity);
         bubble.GetComponent<SoundBubble>().Init(this, SoundBubble.SoundBubbleType.Eletronic, 20);
     }
 }

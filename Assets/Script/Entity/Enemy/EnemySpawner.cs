@@ -14,13 +14,13 @@ public class EnemySpawner {
     }
     public void Start() {
         foreach(var enemy in this.enemies) {
-            GameController.getInstance.gamingPool.RegisterGamingPool(enemy.EnemyName, enemy);
+            GameController.getInstance.GetManager<GamePlayManager>().gamingPool.RegisterGamingPool(enemy.EnemyName, enemy);
         }
     }
     public void Update() {
         for (int i = this.waitingEnemies.Count - 1; i >= 0; i--) {
             if(Time.time - this.waitingEnemies[i].Item2 > EnemySpawner.respawnTime) {
-                GameController.getInstance.gamingPool.GetGameObject(
+                GameController.getInstance.GetManager<GamePlayManager>().gamingPool.GetGameObject(
                     this.waitingEnemies[i].Item1.EnemyName,
                     this.waitingEnemies[i].Item1.SpawnPosition,
                     this.waitingEnemies[i].Item1.SpawnRotation
@@ -34,6 +34,6 @@ public class EnemySpawner {
         if(enemy.SpawnType == BaseEnemy.EnemySpawnType.Common){
             this.waitingEnemies.Add(new Tuple<BaseEnemy, float>(enemy, Time.time));
         }
-        GameController.getInstance.gamingPool.GiveBackGameObject(enemy.EnemyName, enemy);
+        GameController.getInstance.GetManager<GamePlayManager>().gamingPool.GiveBackGameObject(enemy.EnemyName, enemy);
     }
 }

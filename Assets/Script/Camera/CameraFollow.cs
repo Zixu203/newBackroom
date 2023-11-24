@@ -20,15 +20,15 @@ public class CameraFollow : MonoBehaviour {
     }
     private void LateUpdate() {
         if(vignette){
-            vignette.intensity.value = 1.0f - (float)(GameController.getInstance.targetPlayer.Attribute.hp / GameController.getInstance.targetPlayer.Attribute.maxHp * 0.5f);
+            vignette.intensity.value = 1.0f - (float)(GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.Attribute.hp / GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.Attribute.maxHp * 0.5f);
         }
         if(colorGrading) {
-            this.colorGrading.mixerGreenOutGreenIn.value = 100f * (float)(GameController.getInstance.targetPlayer.Attribute.hp / GameController.getInstance.targetPlayer.Attribute.maxHp);
-            this.colorGrading.mixerBlueOutBlueIn.value = 100f * (float)(GameController.getInstance.targetPlayer.Attribute.hp / GameController.getInstance.targetPlayer.Attribute.maxHp);
+            this.colorGrading.mixerGreenOutGreenIn.value = 100f * (float)(GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.Attribute.hp / GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.Attribute.maxHp);
+            this.colorGrading.mixerBlueOutBlueIn.value = 100f * (float)(GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.Attribute.hp / GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.Attribute.maxHp);
         }
         this.transform.position = new Vector3(
-            GameController.getInstance.targetPlayer.transform.position.x,
-            GameController.getInstance.targetPlayer.transform.position.y,
+            GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.transform.position.x,
+            GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.transform.position.y,
             -10
         );
 

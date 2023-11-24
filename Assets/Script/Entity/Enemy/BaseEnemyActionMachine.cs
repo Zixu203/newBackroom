@@ -83,6 +83,6 @@ public class BaseEnemyActionMachine : MonoBehaviour {
         this.ChangeState(this.DeadState);
     }
     public virtual void Dead() {
-        GameController.getInstance.enemySpawner.EnemyDie(this.baseEnemy);
+        GameController.getInstance.GetManager<GamePlayManager>().enemySpawner.EnemyDie(this.baseEnemy);
     }
 }

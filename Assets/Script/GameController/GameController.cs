@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -5,7 +6,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
-    public Player targetPlayer;
+    private Manager manager;
     public static GameController instance;
     public static GameController getInstance {
         get {
@@ -15,13 +16,10 @@ public class GameController : MonoBehaviour {
         }
         
     }
-    public EnemySpawner enemySpawner;
-    public GamingPoolSystem gamingPool;
-    public DialogueSystem dialogueSystem;
-    public InGameUIController inGameUIController;
     public AudioSource bgm;
     void Awake() {
         GameController.instance = this;
+        GameController.getInstance.manager = GameObject.Find("Manager").GetComponent<Manager>();
     }
     void Start() {
         Debug.Log("Data load at : " + SaveLoader.baseDir);
@@ -30,41 +28,18 @@ public class GameController : MonoBehaviour {
         SaveLoader.setIsRespawnPointUsed(true);
         SaveLoader.setDeadTime(0);
         //first game time should run.
-        this.inGameUIController = new InGameUIController();
-        this.inGameUIController.init();
-        //this.dialogueSystem = new DialogueSystem();
-        this.dialogueSystem.init();
         DontDestroyOnLoad(this.gameObject);
         SceneManager.sceneLoaded += OnSceneLoaded;
         // enemySpawner = new EnemySpawner();
         // this.gamingPool = new GamingPoolSystem();
-        this.enemySpawner.Start();
     }
-
-    float StepSaveTime = 10f;
-    float TempSaveTime = 0;
 
     void Update() {
-        this.enemySpawner.Update();
-        this.DeathSave();
-    }
-    void DeathSave() {
-        if(!SaveLoader.getIsRespawnPointUsed()) return;
-
-        TempSaveTime += Time.deltaTime;
-        if(TempSaveTime < StepSaveTime) return;
-        TempSaveTime = 0;
-
-        if(Time.time > SaveLoader.getNextSaveTime()) {
-            // Debug.Log("player respawn save, " + GameController.getInstance.targetPlayer.transform.position);
-            SaveLoader.setIsRespawnPointUsed(false);
-            SaveLoader.setLastRespawnPoint(GameController.getInstance.targetPlayer.transform.position);
-        }
     }
     public void changeWorld() {
         //in backroom scene
         if(SceneManager.GetActiveScene().name == "BackRoomScenes") {
-            SaveLoader.setPositionInBackRoomScene(GameController.getInstance.targetPlayer.transform.position);
+            SaveLoader.setPositionInBackRoomScene(GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.transform.position);
             SceneManager.LoadScene("SimilarWorldScenes");
         }
         //in similarWorld scene
@@ -73,17 +48,23 @@ public class GameController : MonoBehaviour {
         }
     }
     private static void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
+        GameController.getInstance.manager = GameObject.Find("Manager").GetComponent<Manager>();
         if(scene.name == "BackRoomScenes") {
-            GameController.getInstance.targetPlayer = GameObject.Find("player").GetComponent<Player>();
-            GameController.getInstance.targetPlayer.transform.position = SaveLoader.getPositionInBackRoomScene();
+            // GameController.getInstance.targetPlayer = GameObject.Find("player").GetComponent<Player>();
+            GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.transform.position = SaveLoader.getPositionInBackRoomScene();
             GameController.getInstance.bgm.Play();
         }else{
             GameController.getInstance.bgm.Stop();
         }
         if(scene.name == "SimilarWorldScenes") {
-            GameController.getInstance.targetPlayer = GameObject.Find("player").GetComponent<Player>();
-            GameController.getInstance.inGameUIController.init();
+            // GameController.getInstance.targetPlayer = GameObject.Find("player").GetComponent<Player>();
+            GameController.getInstance.GetManager<GamePlayManager>().inGameUIController.init();
         }
+    }
+
+
+    public T GetManager<T>() where T : Manager {
+        return this.manager as T;
     }
 
     public void LoadInGame() {

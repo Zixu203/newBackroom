@@ -7,7 +7,7 @@ public class Slash : MonoBehaviour {
     public Animator animator;
     public void OnAnimeEnd() {
         this.gameObject.SetActive(false);
-        GameController.getInstance.targetPlayer.canMove = true;
+        GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.canMove = true;
     }
     public void setAttribute(AttributePack attributePack) {
         this.attributePack = attributePack;

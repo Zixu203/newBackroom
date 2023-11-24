@@ -47,7 +47,7 @@ public class BaseEnemy : CombatableEntity {
 
         this.spawnPosition = this.transform.position;
         this.spawnRotation = this.transform.rotation;
-        GameController.getInstance.gamingPool.RegisterGamingPool(this.EnemyName, this);
+        GameController.getInstance.GetManager<GamePlayManager>().gamingPool.RegisterGamingPool(this.EnemyName, this);
 
         this.NavMeshAgent.updateRotation = false;
         this.NavMeshAgent.updateUpAxis = false;

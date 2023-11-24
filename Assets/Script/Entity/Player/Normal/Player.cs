@@ -76,9 +76,9 @@ public class Player : CombatableEntity {
         this.init();
     }
     protected override void Update() {
-        if(GameController.getInstance.targetPlayer.isInDialogue){
+        if(GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.isInDialogue){
             if(Input.GetKeyDown(KeyCode.Space)){
-                GameController.getInstance.dialogueSystem.ClickAction?.Invoke();
+                GameController.getInstance.GetManager<GamePlayManager>().dialogueSystem.ClickAction?.Invoke();
             }
             return;
         }
@@ -121,11 +121,11 @@ public class Player : CombatableEntity {
             this.interactor?.InteractAll();
         }
         if(Input.GetKeyDown(KeyCode.O)) {
-            GamingPoolGameObject bubble = GameController.getInstance.gamingPool.GetGameObject("SoundBubble", this.gameObject.transform.position, quaternion.identity);
+            GamingPoolGameObject bubble = GameController.getInstance.GetManager<GamePlayManager>().gamingPool.GetGameObject("SoundBubble", this.gameObject.transform.position, quaternion.identity);
             bubble.GetComponent<SoundBubble>().Init(this, SoundBubble.SoundBubbleType.Normal, 10);
         }
         if(Input.GetKeyDown(KeyCode.Escape)){
-            GameController.getInstance.inGameUIController.openSetting();
+            GameController.getInstance.GetManager<GamePlayManager>().inGameUIController.openSetting();
         }
 
     }
@@ -137,7 +137,7 @@ public class Player : CombatableEntity {
         if(TempWalkSoundTime < StepWalkSoundTime) return;
         TempWalkSoundTime = 0;
 
-        GamingPoolGameObject bubble = GameController.getInstance.gamingPool.GetGameObject("SoundBubble", this.gameObject.transform.position, quaternion.identity);
+        GamingPoolGameObject bubble = GameController.getInstance.GetManager<GamePlayManager>().gamingPool.GetGameObject("SoundBubble", this.gameObject.transform.position, quaternion.identity);
         bubble.GetComponent<SoundBubble>().Init(this, SoundBubble.SoundBubbleType.Normal, 1);
     }
     protected override void FixedUpdate() {

@@ -9,7 +9,7 @@ public class Curebag : BaseBuild
     //public BoxCollider2D KeyCollider2D;
     public override void BeenInteract() {
         this.gameObject.SetActive(false);
-        GameController.getInstance.targetPlayer.Attribute.Heal(20);
+        GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.Attribute.Heal(20);
         
         //GameController.getInstance.targetPlayer.have_door_key = true;
         //KeyCollider2D.isTrigger = false;

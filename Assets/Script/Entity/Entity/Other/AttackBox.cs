@@ -15,7 +15,7 @@ public class AttackBox : GamingPoolGameObject {
     }
     public IEnumerator waitAndGiveBack() {
         yield return new WaitForSeconds(0.1f);
-        GameController.getInstance.gamingPool.GiveBackGameObject("AttackBox", this);
+        GameController.getInstance.GetManager<GamePlayManager>().gamingPool.GiveBackGameObject("AttackBox", this);
     }
     private void OnDrawGizmos() {
         Gizmos.color = Color.red;

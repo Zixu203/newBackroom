@@ -15,7 +15,7 @@ public class Door : BaseBuild {
             GameController.getInstance.changeWorld();
             return;
         }
-        GamingPoolGameObject bubble = GameController.getInstance.gamingPool.GetGameObject("SoundBubble", this.gameObject.transform.position + Vector3.down * 2.5f, quaternion.identity);
+        GamingPoolGameObject bubble = GameController.getInstance.GetManager<GamePlayManager>().gamingPool.GetGameObject("SoundBubble", this.gameObject.transform.position + Vector3.down * 2.5f, quaternion.identity);
         bubble.GetComponent<SoundBubble>().Init(this, SoundBubble.SoundBubbleType.Wood, 10);
         is_open = !is_open;
         if(is_open) {

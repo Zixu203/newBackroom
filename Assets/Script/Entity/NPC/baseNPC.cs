@@ -4,6 +4,6 @@ using UnityEngine;
 
 public class BaseNPC : InteractableEntity {
     public override void BeenInteract() {
-        GameController.getInstance.dialogueSystem.StartDialogue(this);
+        GameController.getInstance.GetManager<GamePlayManager>().dialogueSystem.StartDialogue(this);
     }
 }

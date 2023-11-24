@@ -113,7 +113,7 @@ public class DialogueSystem {
     }
 
     public void StartDialogue(BaseEntity baseEntity) {
-        GameController.getInstance.targetPlayer.isInDialogue = true;
+        GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.isInDialogue = true;
         this.currentDialogue = baseEntity;
         this.currentIndex = SaveLoader.getEntityDialogueIndex(this.currentDialogue);
         SetObjectActive(true);
@@ -152,7 +152,7 @@ public class DialogueSystem {
     private void EndDialogue(BaseEntity baseEntity, int index){
         this.ClickAction = null;
         SetObjectActive(false);
-        GameController.getInstance.targetPlayer.isInDialogue = false;
+        GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.isInDialogue = false;
         SaveLoader.setEntityDialogueIndex(baseEntity, index); 
     }
 
