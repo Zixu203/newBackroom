@@ -9,6 +9,7 @@ public class CameraFollow : MonoBehaviour {
     public PostProcessVolume postProcessVolume;
     public Vignette vignette;
     public ColorGrading colorGrading;
+    public AudioSource bgm;
     public void Awake() {
         if(postProcessVolume) {
             postProcessVolume.profile.TryGetSettings<Vignette>(out vignette);

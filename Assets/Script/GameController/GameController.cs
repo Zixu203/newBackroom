@@ -16,10 +16,14 @@ public class GameController : MonoBehaviour {
         }
         
     }
-    public AudioSource bgm;
     void Awake() {
+        if(GameController.instance != null){
+            Destroy(this.gameObject);
+            return;
+        }
         GameController.instance = this;
-        GameController.getInstance.manager = GameObject.Find("Manager").GetComponent<Manager>();
+        GameObject manager = GameObject.Find("Manager");
+        if(manager != null) GameController.getInstance.manager = manager.GetComponent<Manager>();
     }
     void Start() {
         Debug.Log("Data load at : " + SaveLoader.baseDir);
@@ -48,13 +52,11 @@ public class GameController : MonoBehaviour {
         }
     }
     private static void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
-        GameController.getInstance.manager = GameObject.Find("Manager").GetComponent<Manager>();
+        GameObject manager = GameObject.Find("Manager");
+        if(manager != null) GameController.getInstance.manager = manager.GetComponent<Manager>();
         if(scene.name == "BackRoomScenes") {
             // GameController.getInstance.targetPlayer = GameObject.Find("player").GetComponent<Player>();
             GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.transform.position = SaveLoader.getPositionInBackRoomScene();
-            GameController.getInstance.bgm.Play();
-        }else{
-            GameController.getInstance.bgm.Stop();
         }
         if(scene.name == "SimilarWorldScenes") {
             // GameController.getInstance.targetPlayer = GameObject.Find("player").GetComponent<Player>();
@@ -62,6 +64,9 @@ public class GameController : MonoBehaviour {
         }
     }
 
+    public static T GetInsManager<T>() where T : Manager {
+        return GameController.getInstance.GetManager<T>();
+    }
 
     public T GetManager<T>() where T : Manager {
         return this.manager as T;
