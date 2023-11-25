@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -75,5 +76,25 @@ public class GameController : MonoBehaviour {
     public void LoadInGame() {
 
     }
+
+    public IEnumerator delayAndLockPlayer(int sec){
+        GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.isInDialogue = true;
+		yield return new WaitForSeconds(sec);
+        GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.isInDialogue = false;
+	}
+
+    public IEnumerator lockPlayerAndBright(float sec){
+        GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.isInDialogue = true;
+        string s = GameController.getInstance.GetManager<GamePlayManager>().inGameUIController.currentLight;
+        GameObject g =  GameObject.Find(s).transform.GetChild(0).gameObject;
+        for(int i=0; i<3; ++i){
+            g.SetActive(true);
+            yield return new WaitForSeconds(sec);
+            g.SetActive(false);
+            yield return new WaitForSeconds(sec);
+        }
+        
+        GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.isInDialogue = false;
+	}
 
 }
