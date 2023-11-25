@@ -21,6 +21,9 @@ public class InGameUIController
 	public Image knapsackUI;
 	public Dictionary<string, string> itemToImg;
 	public int itemsCount=0;
+	public Text tutorialText;
+	public int tutorialIndex=0;
+	public string currentLight;
 
 	public void init(){
 		settingBtn = GameObject.Find("UI").transform.GetChild(0).GetComponent<UnityEngine.UI.Button>();
@@ -58,6 +61,8 @@ public class InGameUIController
 
 		redoBtn.onClick.AddListener(redoFun);
 		haveWindow = false;
+
+		tutorialText = GameObject.Find("UI").transform.GetChild(1).GetComponent<UnityEngine.UI.Text>();
 	}
 	public void pushInKnapsack(string itemName)
     {
@@ -108,4 +113,53 @@ public class InGameUIController
 		playerContorlUI.gameObject.SetActive(false);
 		settingMenu.gameObject.SetActive(true);
 	}
+
+	public void startTutorialText(){
+
+		if(tutorialIndex == 0){
+			tutorialText.gameObject.SetActive(true);
+			tutorialText.text = "使用WASD操作玩家";
+			GameObject.Find("UI").transform.GetChild(2).gameObject.SetActive(true);
+			tutorialIndex++;
+		}else if(tutorialIndex == 1){
+			GameObject.Find("UI").transform.GetChild(2).gameObject.SetActive(false);
+			tutorialText.text = "按F與醫療包互動";
+			currentLight = "Light";
+			GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.Attribute.Damage(new AttributePack(null, 10));
+			GameController.getInstance.StartCoroutine("lockPlayerAndBright", 0.2);
+			tutorialIndex++;
+		}else if(tutorialIndex == 2){
+			tutorialText.text = "可以推動箱子";
+			currentLight = "Light2";
+			GameController.getInstance.StartCoroutine("lockPlayerAndBright", 0.2);
+			tutorialIndex++;
+		}else if(tutorialIndex == 3){
+			tutorialText.text = "收音機可以播放音樂吸引怪物";
+			currentLight = "Light3";
+			GameController.getInstance.StartCoroutine("lockPlayerAndBright", 0.2);
+			tutorialIndex++;
+		}else if(tutorialIndex == 4){
+			tutorialText.text = "使用F撿起鑰匙";
+			currentLight = "Light4";
+			GameController.getInstance.StartCoroutine("lockPlayerAndBright", 0.2);
+			tutorialIndex++;
+		}else if(tutorialIndex == 5){
+			tutorialText.text = "按F與NPC對話";
+			currentLight = "Light5";
+			GameController.getInstance.StartCoroutine("lockPlayerAndBright", 0.2);
+			tutorialIndex++;
+		}else if(tutorialIndex == 6){
+			tutorialText.text = "按F開門,再按一次進門";
+			currentLight = "Light6";
+			GameController.getInstance.StartCoroutine("lockPlayerAndBright", 0.2);
+			tutorialIndex++;
+		}
+		
+	}
+
+	public void tutorialKnapsack(){
+		knapsackUI.gameObject.SetActive(true);
+		tutorialText.text = "持有物會顯示在右側";
+	}
+	
 }

@@ -95,7 +95,6 @@ GameObject:
   - component: {fileID: 5090458818070974182}
   - component: {fileID: 7278908671571755381}
   - component: {fileID: 341561800592667900}
-  - component: {fileID: 2005286138630217528}
   m_Layer: 0
   m_Name: Curebag
   m_TagString: Untagged
@@ -191,17 +190,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &2005286138630217528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7910986205646424862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 343ee2b318434304eaab6a07ff2c7df8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactHint: {fileID: 0}
-  curebag: {fileID: 7910986205646424862}
