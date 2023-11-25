@@ -25,6 +25,6 @@ public class Door : BaseBuild {
         }
         this.audioSource.Play();
         door.SetActive(is_open);
-        BoxCollider2D.isTrigger = is_open;
+        //BoxCollider2D.isTrigger = is_open;
     }
 }
