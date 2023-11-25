@@ -10610,9 +10610,6 @@ MonoBehaviour:
     enemies: []
   gamingPool: {fileID: 964708912}
   dialogueSystem:
-    npcs:
-    - {fileID: 410163837274930030}
-    - {fileID: 1757737299}
     dialogueBox: {fileID: 362263432}
     dialogueText: {fileID: 2110023847}
     dialogueTalker: {fileID: 997847926}
@@ -13583,22 +13580,15 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4111210854180139840, guid: 4edc98657d25c44cc992ae49bf026f08, type: 3}
+      propertyPath: InDialogueName
+      value: htead
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4edc98657d25c44cc992ae49bf026f08, type: 3}
---- !u!114 &410163837274930030 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4111210854180139840, guid: 4edc98657d25c44cc992ae49bf026f08, type: 3}
-  m_PrefabInstance: {fileID: 410163837274930025}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c95c9524213b47228f3166b07c9d830, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &7374606601641155093
 PrefabInstance:
   m_ObjectHideFlags: 0

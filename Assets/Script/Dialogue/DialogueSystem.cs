@@ -28,32 +28,31 @@ public class Dialogue {
 
 [Serializable]
 public class DialogueSystem {
-    [SerializeField] private List<BaseEntity> npcs;
     [SerializeField] private Image dialogueBox;
     [SerializeField] private Text dialogueText;
     [SerializeField] private Text dialogueTalker;
     [SerializeField] private Image dialogueImage;
     [SerializeField] private List<Button> ResponceButtons;
     [SerializeField] private List<Text> ResponceButtonTexts;
-    private BaseEntity currentDialogue;
+    private BaseNPC currentDialogueNPC;
     private int currentIndex;
-    private Dictionary<BaseEntity, List<Dialogue>> EntityToDialogues;
+    private Dictionary<string, List<Dialogue>> EntityToDialogues;
     public Action ClickAction = null;
     public void init(){
         // string npcString = "1413566-photo-1-source-small";
         string npcPicFileName = "heshi";
 
-        this.EntityToDialogues = new Dictionary<BaseEntity, List<Dialogue>>(){
-            [this.npcs[0]] = new List<Dialogue>() {
+        this.EntityToDialogues = new Dictionary<string, List<Dialogue>>(){
+            ["htead"] = new List<Dialogue>() {
                 new Dialogue(
-                    this.npcs[0].name,
+                    "htead",
                     npcPicFileName,
                     "First time?",
                     1,
                     false
                 ),
                 new Dialogue(
-                    this.npcs[0].name,
+                    "htead",
                     npcPicFileName,
                     "hahaha",
                     new List<Tuple<string, int>>(){
@@ -62,7 +61,7 @@ public class DialogueSystem {
                     }
                 ),
                 new Dialogue(
-                    this.npcs[0].name,
+                    "htead",
                     npcPicFileName,
                     "hahaha",
                     0,
@@ -70,9 +69,9 @@ public class DialogueSystem {
                 )
             },
 
-            [this.npcs[1]] = new List<Dialogue>() {
+            ["yu"] = new List<Dialogue>() {
                 new Dialogue(
-                    this.npcs[1].name,
+                    "yu",
                     npcPicFileName,
                     "你是張雨生嗎?",
                     new List<Tuple<string, int>>(){
@@ -81,28 +80,28 @@ public class DialogueSystem {
                     }
                 ),
                 new Dialogue(
-                    this.npcs[1].name,
+                    "yu",
                     npcPicFileName,
                     "我是張雨生",
                     3,
                     false
                 ),
                 new Dialogue(
-                    this.npcs[1].name,
+                    "yu",
                     npcPicFileName,
                     "不是，我是吳克蘭",
                     4,
                     false
                 ),
                 new Dialogue(
-                    this.npcs[1].name,
+                    "yu",
                     npcPicFileName,
                     "我是歌手",
                     0,
                     true
                 ),
                 new Dialogue(
-                    this.npcs[1].name,
+                    "yu",
                     npcPicFileName,
                     "我是丹麥記者",
                     0,
@@ -112,15 +111,15 @@ public class DialogueSystem {
         };
     }
 
-    public void StartDialogue(BaseEntity baseEntity) {
+    public void StartDialogue(BaseNPC baseEntity) {
         GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.isInDialogue = true;
-        this.currentDialogue = baseEntity;
-        this.currentIndex = SaveLoader.getEntityDialogueIndex(this.currentDialogue);
+        this.currentDialogueNPC = baseEntity;
+        this.currentIndex = SaveLoader.getEntityDialogueIndex(this.currentDialogueNPC);
         SetObjectActive(true);
         this.ContinueDialogue();
     }
     private void ContinueDialogue(){
-        Dialogue dialogue = this.EntityToDialogues[currentDialogue][currentIndex];
+        Dialogue dialogue = this.EntityToDialogues[this.currentDialogueNPC.InDialogueName][currentIndex];
         this.dialogueText.text = dialogue.TalkString;
         this.dialogueTalker.text = dialogue.TalkerName;
         this.dialogueImage.sprite = Resources.Load<Sprite>(dialogue.TalkerPicPath);
@@ -140,7 +139,7 @@ public class DialogueSystem {
             this.ClickAction = null;
         } else if(dialogue.IsEnd) {
             this.ClickAction = () => {
-                EndDialogue(currentDialogue, dialogue.NextDialogueIndex);
+                EndDialogue(currentDialogueNPC, dialogue.NextDialogueIndex);
             };
         } else {
             this.ClickAction = () => {
@@ -149,7 +148,7 @@ public class DialogueSystem {
             };
         }
     }
-    private void EndDialogue(BaseEntity baseEntity, int index){
+    private void EndDialogue(BaseNPC baseEntity, int index){
         this.ClickAction = null;
         SetObjectActive(false);
         GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.isInDialogue = false;
