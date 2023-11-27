@@ -13,11 +13,8 @@ public class change : MonoBehaviour
         "看地址應該在這附近",
         "隊長真是的，寫這麼不清楚",
         "嗯? 衣服嗎..,過去看看好了",
-        "…好漂亮",
-        "........",
-        "？!",
         "!……",
-        "看來是我太緊張了",
+        "......氣球嗎?",
         "喂，你這什麼姿勢阿",
         "嗯？!"
     };
@@ -28,6 +25,8 @@ public class change : MonoBehaviour
     public void Start()
     {
         SaveLoader.Load();
+        //SaveLoader.setLastStorySceneTime(0);
+        //SaveLoader.setStorySceneRecordTextIndex(0);
         player.time = SaveLoader.getLastStorySceneTime();
         textIndex = SaveLoader.getStorySceneRecordTextIndex();
     }
@@ -41,12 +40,36 @@ public class change : MonoBehaviour
         StartCoroutine("typingText", textList[textIndex]);
         textIndex++;
     }
+    public void show()
+    {
+        StartCoroutine("typing", textList[textIndex]);
+        textIndex++;
+    }
     private IEnumerator typingText(string str)
     {
         text.text = "";
         foreach (var c in str)
         {
             text.text += c;
+            yield return new WaitForSeconds(showTextTime / str.Length);
+        }
+        player.playableGraph.GetRootPlayable(0).SetSpeed(0);
+        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
+        player.playableGraph.GetRootPlayable(0).SetSpeed(1);
+    }
+    private IEnumerator typing(string str)
+    {
+        int i = 0;
+        text.text = "";
+        foreach (var c in str)
+        {
+            text.text += c;
+            i++;
+            if (i == 2)
+            {
+                Debug.Log(i);
+                yield return new WaitForSeconds(3);
+            }
             yield return new WaitForSeconds(showTextTime / str.Length);
         }
         player.playableGraph.GetRootPlayable(0).SetSpeed(0);

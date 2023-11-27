@@ -30,7 +30,7 @@ public class changeaudio : MonoBehaviour
         while (t > 0)
         {
             yield return null;
-            t -= Time.deltaTime;
+            t -= (Time.deltaTime/4);
             audioplayer.volume = t;
         }
         yield break;
