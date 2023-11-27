@@ -62,7 +62,9 @@ public class InGameUIController
 
 		redoBtn.onClick.AddListener(redoFun);
 		haveWindow = false;
+	}
 
+	public void tutorialInit(){
 		tutorialText = GameController.getInstance.GetManager<TutorialManager>().tutorialText;
 		lightList = GameController.getInstance.GetManager<TutorialManager>().lightList;
 		tutorialList = GameController.getInstance.GetManager<TutorialManager>().tutorialList;

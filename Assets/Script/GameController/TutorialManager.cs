@@ -10,6 +10,7 @@ public class TutorialManager :GamePlayManager {
     public List<GameObject> lightList;
     public override void Start() {
         base.Start();
+        GameController.getInstance.GetManager<GamePlayManager>().inGameUIController.tutorialInit();
     }
     public override void Update() {
         base.Update();
