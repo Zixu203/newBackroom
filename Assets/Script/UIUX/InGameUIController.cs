@@ -62,7 +62,7 @@ public class InGameUIController
 		redoBtn.onClick.AddListener(redoFun);
 		haveWindow = false;
 
-		tutorialText = GameObject.Find("UI").transform.GetChild(1).GetComponent<UnityEngine.UI.Text>();
+		tutorialText = GameController.getInstance.GetManager<TutorialManager>().tutorialText;
 	}
 	public void pushInKnapsack(string itemName)
     {
