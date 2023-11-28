@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TutorialObject : BaseBuild
+public class TutorialObject : InteractableEntity
 {
-    public GameObject tutorialObject;   
-    public override void BeenInteract() {
-        this.gameObject.SetActive(false);
+    public GameObject tutorialObject;
+    public override void OnInteractIn()
+    {
         GameController.getInstance.GetManager<GamePlayManager>().inGameUIController.startTutorialText();
-        
+        base.OnInteractIn();
     }
 }

@@ -13,9 +13,9 @@ public class Interactor : TriggerDetector<BaseEntity, InteractableEntity> {
         }
     }
     public override void OnTriggerEnterAction(InteractableEntity obj) {
-        obj.ShowInteractor();
+        obj.OnInteractIn();
     }
     public override void OnTriggerExitAction(InteractableEntity obj) {
-        obj.HideInteractor();
+        obj.OnInteractOut();
     }
 }

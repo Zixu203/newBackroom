@@ -2,14 +2,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class InteractableEntity : BaseEntity {
-    // [SerializeField] private GameObject interactHint;
     [SerializeField] private List<GameObject> interactHints;
-    public void ShowInteractor() {
-        // if(this.interactHint) this.interactHint.SetActive(true);
+    public virtual void OnInteractIn() {
         if(this.interactHints.Count > 0) this.interactHints.ForEach(x => x.SetActive(true));
     }
-    public void HideInteractor() {
-        // if(this.interactHint) this.interactHint.SetActive(false);
+    public virtual void OnInteractOut() {
         if(this.interactHints.Count > 0) this.interactHints.ForEach(x => x.SetActive(false));
     }
     public virtual void BeenInteract() {
