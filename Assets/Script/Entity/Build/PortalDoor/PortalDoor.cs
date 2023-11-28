@@ -15,7 +15,7 @@ public class PortalDoor_a : BaseBuild
     {
         if (is_open && !Input.GetKey(KeyCode.G))
         {
-            GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.transform.position = door_b.transform.position + Vector3.down*0.5f;
+            GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.transform.position = door_b.transform.position + Vector3.down*1.0f;
             door_a.SetActive(false);
             door_b.SetActive(false);
             is_open = false;
