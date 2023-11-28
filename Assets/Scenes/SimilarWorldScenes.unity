@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -372,7 +372,6 @@ MonoBehaviour:
     enemies: []
   gamingPool: {fileID: 371319266}
   dialogueSystem:
-    npcs: []
     dialogueBox: {fileID: 969967467}
     dialogueText: {fileID: 1183177611}
     dialogueTalker: {fileID: 1486404393}
@@ -396,6 +395,10 @@ MonoBehaviour:
     knapsackItemName: []
     knapsackUI: {fileID: 0}
     itemsCount: 0
+    tutorialText: {fileID: 0}
+    tutorialIndex: 0
+    lightList: []
+    tutorialList: []
 --- !u!4 &371319265
 Transform:
   m_ObjectHideFlags: 0
@@ -817,6 +820,63 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &589571317
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 225066195383751991, guid: dd776c7e63c1f7545a69be0e9fece3ec, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 48.546734
+      objectReference: {fileID: 0}
+    - target: {fileID: 225066195383751991, guid: dd776c7e63c1f7545a69be0e9fece3ec, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -173.50845
+      objectReference: {fileID: 0}
+    - target: {fileID: 225066195383751991, guid: dd776c7e63c1f7545a69be0e9fece3ec, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.14339095
+      objectReference: {fileID: 0}
+    - target: {fileID: 225066195383751991, guid: dd776c7e63c1f7545a69be0e9fece3ec, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 225066195383751991, guid: dd776c7e63c1f7545a69be0e9fece3ec, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 225066195383751991, guid: dd776c7e63c1f7545a69be0e9fece3ec, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 225066195383751991, guid: dd776c7e63c1f7545a69be0e9fece3ec, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 225066195383751991, guid: dd776c7e63c1f7545a69be0e9fece3ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 225066195383751991, guid: dd776c7e63c1f7545a69be0e9fece3ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 225066195383751991, guid: dd776c7e63c1f7545a69be0e9fece3ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104631774640871701, guid: dd776c7e63c1f7545a69be0e9fece3ec, type: 3}
+      propertyPath: m_Name
+      value: Key
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dd776c7e63c1f7545a69be0e9fece3ec, type: 3}
 --- !u!114 &630071787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1070,12 +1130,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4612984977707390913, guid: 255abb0224bef504ba8f613a9a7787b8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7988594
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612984977707390913, guid: 255abb0224bef504ba8f613a9a7787b8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.76256245
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612984977707390913, guid: 255abb0224bef504ba8f613a9a7787b8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 76.516235
+      value: 100.49
       objectReference: {fileID: 0}
     - target: {fileID: 4612984977707390913, guid: 255abb0224bef504ba8f613a9a7787b8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -151.21802
+      value: -151.97
       objectReference: {fileID: 0}
     - target: {fileID: 4612984977707390913, guid: 255abb0224bef504ba8f613a9a7787b8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2096,6 +2164,7 @@ MonoBehaviour:
   postProcessVolume: {fileID: 0}
   vignette: {fileID: 0}
   colorGrading: {fileID: 0}
+  bgm: {fileID: 0}
 --- !u!213 &1393521002
 Sprite:
   m_ObjectHideFlags: 0
@@ -4567,3 +4636,4 @@ SceneRoots:
   - {fileID: 1628003315}
   - {fileID: 1197570821}
   - {fileID: 237884837}
+  - {fileID: 589571317}
