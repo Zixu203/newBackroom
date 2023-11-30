@@ -1,0 +1,1262 @@
+fileFormatVersion: 2
+guid: e67fa2e3d0a43164dbfce175ee3877e9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 399
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea804934f5abf7b44bbbfae96c8724b1
+      internalID: 587390859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 399
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed47b4467ff32a41b5e6efb57ae0444
+      internalID: 601336900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 399
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05bdd5a198f1fe4a84ba09c0ec1caf4
+      internalID: 2057193913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 399
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179354f9ecbcf5a46a768da2bac4e4c0
+      internalID: 125216662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 399
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da31c0bcb9f915a4b92a9539b8f860f1
+      internalID: -1947120266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 399
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1ba74471a0f9242af5047c82fb51bf
+      internalID: -466099863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 399
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4548bf9c8d50946bd0cccf378f91fd
+      internalID: 1625031400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 399
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4042e24e4def0b247b644bcfb4d9a011
+      internalID: -522666208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 399
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50302d302d1db244c803e50e63221b1b
+      internalID: -501610743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 399
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf1d5f9b54d12e4d956efce9f3b39b9
+      internalID: 57809468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 399
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5dc7417cb77554db7560201921fca3
+      internalID: 1556730098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 399
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1a1fb788b81e8488ca7dee4716c3c6
+      internalID: -863625356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 399
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8138716da853e4fba6c68b2710b6c4
+      internalID: 1348485544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 399
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cbf7135601c9e48a12303289ff2512
+      internalID: 318996131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 399
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34638417d5249d0488827cd9490d60b5
+      internalID: 948865574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 399
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918e1d67352d270408c09c4015e7d8d3
+      internalID: -2132297513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9522bed253da34eaaa72a35fadbf8a
+      internalID: -1024469272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 266
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080154a5ea647874c89c00cf756c00c2
+      internalID: -668066235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 266
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e8538e85529c14d8bb89dd9c23b7d9
+      internalID: -376230986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 266
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0a1ab36946f7e42913c42635e3c4c2
+      internalID: -99738112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 266
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984532bee9af6ab4dab6b872f33d47b3
+      internalID: -90241307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 266
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a14a1fd4cef07b42bf11bac1b4df21b
+      internalID: 720181820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 266
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9d4bf07e5f7e0469e24a8356cf7061
+      internalID: 1845292110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 266
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9284cfb16f7c93f42b9fee1d25a7d073
+      internalID: 107571299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 266
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7b17acbc118074083fe0e68d80a253
+      internalID: -313353543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 266
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ac34b6357c61b43bab16becb3b75c6
+      internalID: 1205232854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 266
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea88de7fc095dc41b3cd976deb76e64
+      internalID: 1200936042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 266
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73be3fe15c3ae6a44922a6b051c557d0
+      internalID: -1581912017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 266
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d597918cde4854692f3dd1f8e182ed
+      internalID: -169977737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 266
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82beecc5cef92d74eb72babf1bc8d8b0
+      internalID: -1337978477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 266
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120f1ec4e20fb7b4e92d2c31cd6bf09f
+      internalID: 155540409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 266
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb554f7da23bc64295856666ce44b72
+      internalID: 1110777553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 133
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fbe20822123584fb0c921a83cb54c6
+      internalID: 1430672025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 133
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfceaf92c7eb66f409c3fe7199b6a5d6
+      internalID: -1683141852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 133
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e41afbef2e5cd4489e850a10f2adc44
+      internalID: 1564432203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 133
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d85490b09ab334aa803c4c7491e11a
+      internalID: 1242086446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 133
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9d9916a7ac2b84898d211f3066f48a
+      internalID: 549894251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 133
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b1b4f8dbd20ce41b3fa2885b8a4a5f
+      internalID: -1347212625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 133
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f002173b43b31b14b90d863955450e72
+      internalID: -1172694907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 133
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845fcd5f2fdc0294cab934919e7b3770
+      internalID: 1798722767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 133
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1014f794adfaa064fa58225d299e6469
+      internalID: -1291415834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 133
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11395661168a5f647a52f9d1073bc3c2
+      internalID: -494110881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 133
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90eff801029bfc0479c7b5015ff104f2
+      internalID: -1087439621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 133
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7917bbd47582a3b44a75b5a19b81bbb0
+      internalID: -1040796815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 133
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ab771de73e0114495333c41fefddcf
+      internalID: 1610474131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 133
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafb3bf57e4f4fe4d829aed1f11a895b
+      internalID: -1640984317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 133
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d98f5e8488e80c4a92cd416c2bc1731
+      internalID: 127033330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 133
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cdfe8146358e04e8c9e4c399d9ee46
+      internalID: 1213395850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8f6cdd24e505241938f79b91afeff1
+      internalID: 886105265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3acbf46bc9abf84db42d4699497ca4c
+      internalID: -1635452660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady_attack-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 70
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9836b50d07b04954a835bcc8920f5a0a
+      internalID: -969271194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 48c9399d44cbb20409be2ca7bd833ede
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      lakelady_attack-Sheet_0: 587390859
+      lakelady_attack-Sheet_1: 601336900
+      lakelady_attack-Sheet_10: 1556730098
+      lakelady_attack-Sheet_11: -863625356
+      lakelady_attack-Sheet_12: 1348485544
+      lakelady_attack-Sheet_13: 318996131
+      lakelady_attack-Sheet_14: 948865574
+      lakelady_attack-Sheet_15: -2132297513
+      lakelady_attack-Sheet_16: -1024469272
+      lakelady_attack-Sheet_17: -668066235
+      lakelady_attack-Sheet_18: -376230986
+      lakelady_attack-Sheet_19: -99738112
+      lakelady_attack-Sheet_2: 2057193913
+      lakelady_attack-Sheet_20: -90241307
+      lakelady_attack-Sheet_21: 720181820
+      lakelady_attack-Sheet_22: 1845292110
+      lakelady_attack-Sheet_23: 107571299
+      lakelady_attack-Sheet_24: -313353543
+      lakelady_attack-Sheet_25: 1205232854
+      lakelady_attack-Sheet_26: 1200936042
+      lakelady_attack-Sheet_27: -1581912017
+      lakelady_attack-Sheet_28: -169977737
+      lakelady_attack-Sheet_29: -1337978477
+      lakelady_attack-Sheet_3: 125216662
+      lakelady_attack-Sheet_30: 155540409
+      lakelady_attack-Sheet_31: 1110777553
+      lakelady_attack-Sheet_32: 1430672025
+      lakelady_attack-Sheet_33: -1683141852
+      lakelady_attack-Sheet_34: 1564432203
+      lakelady_attack-Sheet_35: 1242086446
+      lakelady_attack-Sheet_36: 549894251
+      lakelady_attack-Sheet_37: -1347212625
+      lakelady_attack-Sheet_38: -1172694907
+      lakelady_attack-Sheet_39: 1798722767
+      lakelady_attack-Sheet_4: -1947120266
+      lakelady_attack-Sheet_40: -1291415834
+      lakelady_attack-Sheet_41: -494110881
+      lakelady_attack-Sheet_42: -1087439621
+      lakelady_attack-Sheet_43: -1040796815
+      lakelady_attack-Sheet_44: 1610474131
+      lakelady_attack-Sheet_45: -1640984317
+      lakelady_attack-Sheet_46: 127033330
+      lakelady_attack-Sheet_47: 1213395850
+      lakelady_attack-Sheet_48: 886105265
+      lakelady_attack-Sheet_49: -1635452660
+      lakelady_attack-Sheet_5: -466099863
+      lakelady_attack-Sheet_50: -969271194
+      lakelady_attack-Sheet_6: 1625031400
+      lakelady_attack-Sheet_7: -522666208
+      lakelady_attack-Sheet_8: -501610743
+      lakelady_attack-Sheet_9: 57809468
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
