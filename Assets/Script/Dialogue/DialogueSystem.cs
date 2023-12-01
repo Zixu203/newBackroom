@@ -112,6 +112,10 @@ public class DialogueSystem {
     }
 
     public void StartDialogue(BaseNPC baseEntity) {
+        if(!this.EntityToDialogues.ContainsKey(baseEntity.InDialogueName)){
+            Debug.Log("npc dialogue not found");
+            return;
+        }
         GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.isInDialogue = true;
         this.currentDialogueNPC = baseEntity;
         this.currentIndex = SaveLoader.getEntityDialogueIndex(this.currentDialogueNPC);
