@@ -34,16 +34,8 @@ public class Player : CombatableEntity {
         this.canMove = true;
         this.attribute = new Attribute(11, 2, 1, 2, 2);
         this.attribute.OnDeadEvent += (s, e) => {
-            if(SaveLoader.getIsRespawnPointUsed()){
-                //todo: totally dead.
-                Debug.Log("totally dead.");
-                return;
-            }
-            SaveLoader.setIsRespawnPointUsed(true);
-            SaveLoader.setDeadTime(SaveLoader.getDeadTime() + 1);
-            Vector3 respawnPoint = SaveLoader.getLastRespawnPoint();
-            this.transform.position = respawnPoint;
-            this.Init();
+            this.isInDialogue = true;
+            this.animator.SetTrigger("die");
         };
     }
     public override void Init() {
@@ -143,5 +135,20 @@ public class Player : CombatableEntity {
     protected override void FixedUpdate() {
         base.FixedUpdate();
         this.rigidBody2D.velocity *= this.calcRunSpeed;
+    }
+
+    public void AnimeDead() {
+        if(SaveLoader.getIsRespawnPointUsed()){
+            //todo: totally dead.
+            Debug.Log("totally dead.");
+            return;
+        }
+        SaveLoader.setIsRespawnPointUsed(true);
+        SaveLoader.setDeadTime(SaveLoader.getDeadTime() + 1);
+        Vector3 respawnPoint = SaveLoader.getLastRespawnPoint();
+        this.transform.position = respawnPoint;
+        this.Init();
+        this.isInDialogue = false;
+        this.animator.Play("IdleDown");
     }
 }
