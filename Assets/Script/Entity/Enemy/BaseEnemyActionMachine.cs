@@ -17,7 +17,7 @@ public class BaseEnemyActionMachine : MonoBehaviour {
     [SerializeField] WalkState walkState;
     public WalkState WalkState { get { return this.walkState; } }
     [SerializeField] ChaseState chaseState;
-    public ChaseState ChaseState { get { return this.chaseState; } }
+    public ChaseState ChaseState { get { return this.chaseState; } protected set { this.chaseState = value; } }
     [SerializeField] AttackState attackState;
     public AttackState AttackState { get { return this.attackState; } }
     [SerializeField] SearchState searchState;

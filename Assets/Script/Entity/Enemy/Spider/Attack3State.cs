@@ -4,12 +4,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
-public class AttackState : State {
-    [SerializeField] protected AttackStateData attackStateData;
+public class Attack3State : State {
+    [SerializeField] protected Attack3StateData attackStateData;
     protected Vector3 target;
     protected bool attacking = true;
     protected float AnimeLength;
-    public AttackState(BaseEnemyActionMachine baseEnemyActionMachine) : base(baseEnemyActionMachine) {
+    public Attack3State(BaseEnemyActionMachine baseEnemyActionMachine) : base(baseEnemyActionMachine) {
     }
     public override void Init() {
         base.Init();
@@ -20,9 +20,9 @@ public class AttackState : State {
     }
     public override void Enter() {
         base.Enter();
-        this.baseEnemyActionMachine.BaseEnemy.BaseEnemyAnime.Attack();
+        (this.baseEnemyActionMachine.BaseEnemy.BaseEnemyAnime as SpiderAnime).Attack3();
         // var tra = this.baseEnemyActionMachine.BaseEnemy.EnemyVisionDetector.transform;
-        // var b = tra.rotation * Vector3.right * 3;
+        // var b = tra.rotation * Vector3.right * 4;
         // GamingPoolGameObject AttackBox = GameController.getInstance.GetManager<GamePlayManager>().gamingPool.GetGameObject("AttackBox", tra.position + b, tra.rotation);
         // AttackBox attackBox = (AttackBox)AttackBox;
         // attackBox.setAttribute(new AttributePack(this.baseEnemyActionMachine.BaseEnemy, 5, tra.rotation * Vector3.right));
