@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 269461266747424534}
   - component: {fileID: 7601241142744373657}
   - component: {fileID: 4324690648147097570}
-  - component: {fileID: 3997675780180615062}
+  - component: {fileID: 8109220407096860520}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -260,7 +260,7 @@ Transform:
   m_GameObject: {fileID: 2882374915349846368}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 2.6, z: 0}
+  m_LocalPosition: {x: -1, y: 5.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -384,7 +384,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6, y: 1}
   m_EdgeRadius: 0
---- !u!114 &3997675780180615062
+--- !u!114 &8109220407096860520
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -393,7 +393,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2882374915349846368}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58ddcb14a408248d1b1882152ae56b62, type: 3}
+  m_Script: {fileID: 11500000, guid: 0c828f7f2892d42069ed50208c74b73e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   baseEnemy: {fileID: 2069078318239229708}
@@ -407,7 +407,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7599119525281572766}
   - component: {fileID: 2069078318239229708}
-  - component: {fileID: 5568201759592902558}
+  - component: {fileID: 3865356632274204379}
   - component: {fileID: 2919913497705771524}
   - component: {fileID: 7632396894960843701}
   m_Layer: 0
@@ -449,18 +449,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 50
+  maxHealth: 10
   animator: {fileID: 7601241142744373657}
   rigidBody2D: {fileID: 2919913497705771524}
   _collider2D: {fileID: 7632396894960843701}
-  baseEnemyAnime: {fileID: 3997675780180615062}
-  baseEnemyActionMachine: {fileID: 5568201759592902558}
+  baseEnemyAnime: {fileID: 8109220407096860520}
+  baseEnemyActionMachine: {fileID: 3865356632274204379}
   enemyHearingDetector: {fileID: 1808830272842691663}
   enemyVisionDetector: {fileID: 6044358097561349533}
   enemyName: Spider
   spawnType: 0
   navMeshAgent: {fileID: 3068111502050665162}
   AgentGameObject: {fileID: 1798000175389292671}
---- !u!114 &5568201759592902558
+--- !u!114 &3865356632274204379
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -469,35 +470,45 @@ MonoBehaviour:
   m_GameObject: {fileID: 8676051638240702064}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43b1decfb870b4122ac2bb27aec913f6, type: 3}
+  m_Script: {fileID: 11500000, guid: ddfbe32f1138d487abf4f66f1cc3f664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   idleState:
-    baseEnemyActionMachine: {fileID: 5568201759592902558}
+    baseEnemyActionMachine: {fileID: 3865356632274204379}
     idleStateData: {fileID: 11400000, guid: 62ba8ce56ba7b440293f0cf0febaa3f8, type: 2}
   patrolState:
-    baseEnemyActionMachine: {fileID: 5568201759592902558}
+    baseEnemyActionMachine: {fileID: 3865356632274204379}
     patrolStateData: {fileID: 11400000, guid: 20a180ec0476f4d58b605394c32e1c37, type: 2}
   walkState:
-    baseEnemyActionMachine: {fileID: 5568201759592902558}
+    baseEnemyActionMachine: {fileID: 3865356632274204379}
     walkStateData: {fileID: 11400000, guid: bf6364aef07ef4dd68fe457bf2f40165, type: 2}
   chaseState:
-    baseEnemyActionMachine: {fileID: 5568201759592902558}
-    chaseStateData: {fileID: 11400000, guid: 2b4c7030fbfb14ec89edd30da72c2fcf, type: 2}
+    baseEnemyActionMachine: {fileID: 3865356632274204379}
+    chaseStateData: {fileID: 11400000, guid: 4940a279d357f4822a752b0f2fd17534, type: 2}
   attackState:
-    baseEnemyActionMachine: {fileID: 5568201759592902558}
+    baseEnemyActionMachine: {fileID: 3865356632274204379}
     attackStateData: {fileID: 11400000, guid: deb56af3743454b17b533da29b1ab784, type: 2}
   searchState:
-    baseEnemyActionMachine: {fileID: 5568201759592902558}
+    baseEnemyActionMachine: {fileID: 3865356632274204379}
     searchStateData: {fileID: 11400000, guid: 055ca073c77a54727a3bcfe68a242b6a, type: 2}
   beenAttackState:
-    baseEnemyActionMachine: {fileID: 5568201759592902558}
+    baseEnemyActionMachine: {fileID: 3865356632274204379}
     beenAttackStateData: {fileID: 11400000, guid: e0b15d7d954f54267b9f3b6465e3144c, type: 2}
   deadState:
-    baseEnemyActionMachine: {fileID: 5568201759592902558}
+    baseEnemyActionMachine: {fileID: 3865356632274204379}
     deadStateData: {fileID: 11400000, guid: 9d8cf86dde47a4bcbae8f67c0838eecf, type: 2}
   die: 0
-  baseEnemy: {fileID: 0}
+  baseEnemy: {fileID: 2069078318239229708}
+  attack2State:
+    baseEnemyActionMachine: {fileID: 3865356632274204379}
+    attackStateData: {fileID: 11400000, guid: 93de033bc1d1145618185a356cb22d97, type: 2}
+  attack3State:
+    baseEnemyActionMachine: {fileID: 3865356632274204379}
+    attackStateData: {fileID: 11400000, guid: 0fe7994c4183544e8a7f198067e81903, type: 2}
+  spiderChaseState:
+    baseEnemyActionMachine: {fileID: 3865356632274204379}
+    chaseStateData: {fileID: 11400000, guid: 2b4c7030fbfb14ec89edd30da72c2fcf, type: 2}
+    spiderChaseStateData: {fileID: 11400000, guid: 4940a279d357f4822a752b0f2fd17534, type: 2}
 --- !u!50 &2919913497705771524
 Rigidbody2D:
   serializedVersion: 4

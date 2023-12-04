@@ -6,6 +6,7 @@ public class CombatableEntity : BaseEntity {
     [Header("CombatableAttribute")]
     [SerializeField] protected float moveSpeed;
     public float MoveSpeedMultiplier { get; set; }
+    [SerializeField] protected float maxHealth;
     protected Vector2 direction;
     public Vector2 Direction {
         get { return this.direction; }
@@ -29,6 +30,7 @@ public class CombatableEntity : BaseEntity {
     protected override void Start() {
         base.Start();
         this.MoveSpeedMultiplier = 1f;
+
     }
     protected virtual void FixedUpdate() {
         this.rigidBody2D.velocity = direction.normalized * moveSpeed * this.MoveSpeedMultiplier * Time.deltaTime;

@@ -53,7 +53,7 @@ public class BaseEnemy : CombatableEntity {
         this.NavMeshAgent.updateUpAxis = false;
     }
     public void init() {
-        base.attribute = new Attribute(10, 1, 1, 1, 1);
+        base.attribute = new Attribute(base.maxHealth, 1, 1, 1, 1);
     }
     public override void Init() {
         base.attribute.HealMax();
