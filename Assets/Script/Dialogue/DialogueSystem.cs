@@ -73,60 +73,53 @@ public class DialogueSystem {
                     true
                 ),
                 new Dialogue(
-                    "白夜",
-                    "baiye",
-                    "(這個人有點奇怪，要小心一點。)",
-                    5,
-                    true
-                ),
-                new Dialogue(
                     "赫塔德",
                     npcPicFileName,
                     "你想問什麼?",
-                    6,
+                    5,
                     false
                 ),
                 new Dialogue(
                     "白夜",
                     "baiye",
                     "這裡是哪裡?",
-                    7,
+                    6,
                     false
                 ),
                 new Dialogue(
                     "赫塔德",
                     npcPicFileName,
                     "我也不知道，但這裡的空間是透過門連接在一起的。",
-                    8,
+                    7,
                     false
                 ),
                 new Dialogue(
                     "赫塔德",
                     npcPicFileName,
                     "只要穿過門就可以傳送到其他空間。",
-                    9,
+                    8,
                     false
                 ),
                 new Dialogue(
                     "白夜",
                     "baiye",
                     "那你知道要怎麼出去嗎?",
-                    10,
+                    9,
                     false
                 ),
                 new Dialogue(
                     "赫塔德",
                     npcPicFileName,
-                    "可能有一扇門連接著，你只要找到他就能回去。",
-                    11,
+                    "可能有一扇門連接著，你只要找到它就能回去。",
+                    10,
                     false
                 ),
                 new Dialogue(
                     "白夜",
                     "baiye",
-                    "",
-                    12,
-                    false
+                    "好，那我現在去找。",
+                    0,
+                    true
                 ),
             },
 
@@ -170,6 +163,13 @@ public class DialogueSystem {
                     "白夜",
                     "baiye",
                     "(前面有一個人，從他那獲取一點資訊好了。)",
+                    6,
+                    true
+                ),
+                new Dialogue(
+                    "白夜",
+                    "baiye",
+                    "(雖然一起行動比較好，但不知道他的身分，還是自己探察比較保險。)",
                     0,
                     true
                 ),
@@ -224,10 +224,13 @@ public class DialogueSystem {
         SetObjectActive(false);
         GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.isInDialogue = false;
         SaveLoader.setEntityDialogueIndex(baseEntity, index); 
-        bool b = GameController.getInstance.GetManager<GamePlayManager>().inGameUIController.isTur;
-        if(b){
+        int b = GameController.getInstance.GetManager<GamePlayManager>().inGameUIController.isTur;
+        if(b == 0){
             GameController.getInstance.GetManager<GamePlayManager>().inGameUIController.moveTur();
-            GameController.getInstance.GetManager<GamePlayManager>().inGameUIController.isTur=false;
+            GameController.getInstance.GetManager<GamePlayManager>().inGameUIController.isTur++;
+        }else if(b == 1){
+            GameController.getInstance.GetManager<GamePlayManager>().inGameUIController.diaTur();
+            GameController.getInstance.GetManager<GamePlayManager>().inGameUIController.isTur++;
         }
     }
 

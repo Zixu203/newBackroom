@@ -75,6 +75,6 @@ public class change : MonoBehaviour
     }
     public void ChangeScene()
     {
-        SceneManager.LoadScene("BackRoomScenes");
+        SceneManager.LoadScene("TutorialScenes");
     }
 }
