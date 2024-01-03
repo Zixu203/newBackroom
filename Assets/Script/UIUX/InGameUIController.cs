@@ -24,7 +24,7 @@ public class InGameUIController
 	public Text tutorialText;
 	public int tutorialIndex=0;
 	public List<GameObject> tutorialList;
-	public bool isTur = true;
+	public int isTur = 0;
 
 	public void init(){
 		settingBtn = GameObject.Find("UI").transform.GetChild(0).GetComponent<UnityEngine.UI.Button>();
@@ -124,6 +124,8 @@ public class InGameUIController
 			baiye.BeenInteract();
 		}else if(tutorialIndex == 1){
 			GameObject.Find("UI").transform.GetChild(1).gameObject.SetActive(false);
+			GameObject.Find("UI").transform.GetChild(2).gameObject.SetActive(false);
+			GameObject.Find("UI").transform.GetChild(3).gameObject.SetActive(false);
 			GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.Attribute.Damage(new AttributePack(null, 10));
 			tutorialList[tutorialIndex].SetActive(false);
 			tutorialIndex++;
@@ -137,7 +139,6 @@ public class InGameUIController
 			tutorialList[tutorialIndex].SetActive(false);
 			tutorialIndex++;			
 		}else if(tutorialIndex == 5){
-			isTur = true;
 			BaseNPC baiye = GameController.getInstance.GetManager<TutorialManager>().baiye;
 			baiye.BeenInteract();
 		}else if(tutorialIndex == 6){
@@ -151,6 +152,12 @@ public class InGameUIController
 	public void moveTur(){
 		if(SceneManager.GetActiveScene().name != "TutorialScenes") return;
 		GameObject.Find("UI").transform.GetChild(1).gameObject.SetActive(true);
+		GameObject.Find("UI").transform.GetChild(2).gameObject.SetActive(true);
+		GameObject.Find("UI").transform.GetChild(3).gameObject.SetActive(true);
+		tutorialList[tutorialIndex].SetActive(false);
+		tutorialIndex++;
+	}
+	public void diaTur(){
 		tutorialList[tutorialIndex].SetActive(false);
 		tutorialIndex++;
 	}
