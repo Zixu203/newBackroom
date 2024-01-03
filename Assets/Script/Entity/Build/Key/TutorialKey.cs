@@ -10,7 +10,6 @@ public class TutorialKey : BaseBuild
     //public BoxCollider2D KeyCollider2D;
     public override void BeenInteract()
     {
-        myLight.SetActive(false);
         this.gameObject.SetActive(false);
         GameController.getInstance.GetManager<GamePlayManager>().inGameUIController.pushInKnapsack("key");
         GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.have_door_key = true;

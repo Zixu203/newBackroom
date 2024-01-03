@@ -23,8 +23,8 @@ public class InGameUIController
 	public int itemsCount=0;
 	public Text tutorialText;
 	public int tutorialIndex=0;
-	public List<GameObject> lightList;
 	public List<GameObject> tutorialList;
+	public bool isTur = true;
 
 	public void init(){
 		settingBtn = GameObject.Find("UI").transform.GetChild(0).GetComponent<UnityEngine.UI.Button>();
@@ -65,8 +65,6 @@ public class InGameUIController
 	}
 
 	public void tutorialInit(){
-		tutorialText = GameController.getInstance.GetManager<TutorialManager>().tutorialText;
-		lightList = GameController.getInstance.GetManager<TutorialManager>().lightList;
 		tutorialList = GameController.getInstance.GetManager<TutorialManager>().tutorialList;
 	}
 	public void pushInKnapsack(string itemName)
@@ -122,55 +120,38 @@ public class InGameUIController
 	public void startTutorialText(){
 
 		if(tutorialIndex == 0){
-			tutorialText.gameObject.SetActive(true);
-			tutorialText.text = "使用WASD操作玩家";
-			GameObject.Find("UI").transform.GetChild(2).gameObject.SetActive(true);
-			tutorialList[tutorialIndex].SetActive(false);
-			tutorialIndex++;
+			BaseNPC baiye = GameController.getInstance.GetManager<TutorialManager>().baiye;
+			baiye.BeenInteract();
 		}else if(tutorialIndex == 1){
-			GameObject.Find("UI").transform.GetChild(2).gameObject.SetActive(false);
-			tutorialText.text = "按F與醫療包互動回復血量";
+			GameObject.Find("UI").transform.GetChild(1).gameObject.SetActive(false);
 			GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.Attribute.Damage(new AttributePack(null, 10));
-			lightList[0].SetActive(true);
 			tutorialList[tutorialIndex].SetActive(false);
 			tutorialIndex++;
 		}else if(tutorialIndex == 2){
-			tutorialText.gameObject.SetActive(true);
-			tutorialText.text = "可以推動箱子";
-			lightList[1].SetActive(true);
 			tutorialList[tutorialIndex].SetActive(false);
 			tutorialIndex++;
 		}else if(tutorialIndex == 3){
-			tutorialText.gameObject.SetActive(true);
-			tutorialText.text = "收音機可以播放音樂吸引怪物";
-			lightList[2].SetActive(true);
 			tutorialList[tutorialIndex].SetActive(false);
 			tutorialIndex++;
 		}else if(tutorialIndex == 4){
-			tutorialText.gameObject.SetActive(true);
-			tutorialText.text = "使用F撿起鑰匙";
-			lightList[3].SetActive(true);
 			tutorialList[tutorialIndex].SetActive(false);
-			tutorialIndex++;
+			tutorialIndex++;			
 		}else if(tutorialIndex == 5){
-			tutorialText.gameObject.SetActive(true);
-			tutorialText.text = "按F與NPC對話";
-			lightList[4].SetActive(true);
-			tutorialList[tutorialIndex].SetActive(false);
-			tutorialIndex++;
+			isTur = true;
+			BaseNPC baiye = GameController.getInstance.GetManager<TutorialManager>().baiye;
+			baiye.BeenInteract();
 		}else if(tutorialIndex == 6){
-			tutorialText.gameObject.SetActive(true);
-			tutorialText.text = "按F開門,再按一次進門";
-			lightList[5].SetActive(true);
 			tutorialList[tutorialIndex].SetActive(false);
 			tutorialIndex++;
-		}
-		
+		}	
 	}
-
 	public void tutorialKnapsack(){
 		knapsackUI.gameObject.SetActive(true);
-		tutorialText.text = "持有物會顯示在右側";
 	}
-	
+	public void moveTur(){
+		if(SceneManager.GetActiveScene().name != "TutorialScenes") return;
+		GameObject.Find("UI").transform.GetChild(1).gameObject.SetActive(true);
+		tutorialList[tutorialIndex].SetActive(false);
+		tutorialIndex++;
+	}
 }

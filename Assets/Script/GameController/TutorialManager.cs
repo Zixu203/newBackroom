@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class TutorialManager :GamePlayManager {
 
-    public Text tutorialText;
+    public BaseNPC baiye;
     public List<GameObject> tutorialList;
     public List<GameObject> lightList;
     public override void Start() {

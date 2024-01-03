@@ -16,8 +16,6 @@ public class TutorialSpeaker : BaseBuild {
         }
     }
     public override void BeenInteract() {
-        GameController.getInstance.GetManager<GamePlayManager>().inGameUIController.tutorialText.gameObject.SetActive(false);
-        myLight.SetActive(false);
         power = !power;
         if(power) {
             audioSource.Play();

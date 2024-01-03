@@ -42,6 +42,11 @@ public class GameController : MonoBehaviour {
     void Update() {
     }
     public void changeWorld() {
+        //in tutorial scene
+        if(SceneManager.GetActiveScene().name == "TutorialScenes") {
+            SaveLoader.setPositionInBackRoomScene(GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.transform.position);
+            SceneManager.LoadScene("BackRoomScenes");
+        }
         //in backroom scene
         if(SceneManager.GetActiveScene().name == "BackRoomScenes") {
             SaveLoader.setPositionInBackRoomScene(GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.transform.position);

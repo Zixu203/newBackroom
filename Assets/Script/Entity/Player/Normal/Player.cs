@@ -95,9 +95,9 @@ public class Player : CombatableEntity {
         }else{
             this.WalkSound();
         }
-        if(Input.GetKeyDown(KeyCode.K)){
-            this.ShuffleInput();
-        }
+        // if(Input.GetKeyDown(KeyCode.K)){
+        //     this.ShuffleInput();
+        // }
         if(Input.GetKeyDown(KeyCode.J)){
             this.playerWeapon.slashAttack(this.playerDirection);
             this.canMove = false;

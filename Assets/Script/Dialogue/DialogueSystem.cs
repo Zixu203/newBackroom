@@ -45,69 +45,136 @@ public class DialogueSystem {
         this.EntityToDialogues = new Dictionary<string, List<Dialogue>>(){
             ["htead"] = new List<Dialogue>() {
                 new Dialogue(
-                    "htead",
+                    "赫塔德",
                     npcPicFileName,
-                    "First time?",
+                    "喔，你是新來的?",
                     1,
                     false
                 ),
                 new Dialogue(
-                    "htead",
-                    npcPicFileName,
-                    "hahaha",
-                    new List<Tuple<string, int>>(){
-                        new Tuple<string, int>("?", 2),
-                        new Tuple<string, int>("?", 2)
-                    }
+                    "白夜",
+                    "baiye",
+                    "你好，我叫白夜",
+                    2,
+                    false
                 ),
                 new Dialogue(
-                    "htead",
+                    "赫塔德",
                     npcPicFileName,
-                    "hahaha",
-                    0,
-                    true
-                )
-            },
-
-            ["yu"] = new List<Dialogue>() {
-                new Dialogue(
-                    "yu",
-                    npcPicFileName,
-                    "你是張雨生嗎?",
-                    new List<Tuple<string, int>>(){
-                        new Tuple<string, int>("是", 1),
-                        new Tuple<string, int>("不是", 2)
-                    }
-                ),
-                new Dialogue(
-                    "yu",
-                    npcPicFileName,
-                    "我是張雨生",
+                    "我叫赫塔德，你應該需要導遊吧，這裡不安全，先去安全的地方再聊吧。",
                     3,
                     false
                 ),
                 new Dialogue(
-                    "yu",
+                    "白夜",
+                    "baiye",
+                    "(這個人有點奇怪，要小心一點。)",
+                    4,
+                    true
+                ),
+                new Dialogue(
+                    "白夜",
+                    "baiye",
+                    "(這個人有點奇怪，要小心一點。)",
+                    5,
+                    true
+                ),
+                new Dialogue(
+                    "赫塔德",
                     npcPicFileName,
-                    "不是，我是吳克蘭",
+                    "你想問什麼?",
+                    6,
+                    false
+                ),
+                new Dialogue(
+                    "白夜",
+                    "baiye",
+                    "這裡是哪裡?",
+                    7,
+                    false
+                ),
+                new Dialogue(
+                    "赫塔德",
+                    npcPicFileName,
+                    "我也不知道，但這裡的空間是透過門連接在一起的。",
+                    8,
+                    false
+                ),
+                new Dialogue(
+                    "赫塔德",
+                    npcPicFileName,
+                    "只要穿過門就可以傳送到其他空間。",
+                    9,
+                    false
+                ),
+                new Dialogue(
+                    "白夜",
+                    "baiye",
+                    "那你知道要怎麼出去嗎?",
+                    10,
+                    false
+                ),
+                new Dialogue(
+                    "赫塔德",
+                    npcPicFileName,
+                    "可能有一扇門連接著，你只要找到他就能回去。",
+                    11,
+                    false
+                ),
+                new Dialogue(
+                    "白夜",
+                    "baiye",
+                    "",
+                    12,
+                    false
+                ),
+            },
+
+            ["baiye"] = new List<Dialogue>() {
+                new Dialogue(
+                    "白夜",
+                    "baiye",
+                    "頭好痛...",
+                    1,
+                    false
+                ),
+                new Dialogue(
+                    "白夜",
+                    "baiye",
+                    "這裡是哪裡?",
+                    2,
+                    false
+                ),
+                new Dialogue(
+                    "白夜",
+                    "baiye",
+                    "我記得我剛剛還在逛街。",
+                    3,
+                    false
+                ),
+                new Dialogue(
+                    "白夜",
+                    "baiye",
+                    "明明才剛放假，最近總是遇到怪事。",
                     4,
                     false
                 ),
                 new Dialogue(
-                    "yu",
-                    npcPicFileName,
-                    "我是歌手",
-                    0,
+                    "白夜",
+                    "baiye",
+                    "算了，先去附近看看。",
+                    5,
                     true
                 ),
                 new Dialogue(
-                    "yu",
-                    npcPicFileName,
-                    "我是丹麥記者",
+                    "白夜",
+                    "baiye",
+                    "(前面有一個人，從他那獲取一點資訊好了。)",
                     0,
                     true
-                )
+                ),
             }
+            
         };
     }
 
@@ -157,6 +224,11 @@ public class DialogueSystem {
         SetObjectActive(false);
         GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.isInDialogue = false;
         SaveLoader.setEntityDialogueIndex(baseEntity, index); 
+        bool b = GameController.getInstance.GetManager<GamePlayManager>().inGameUIController.isTur;
+        if(b){
+            GameController.getInstance.GetManager<GamePlayManager>().inGameUIController.moveTur();
+            GameController.getInstance.GetManager<GamePlayManager>().inGameUIController.isTur=false;
+        }
     }
 
     private void SetObjectActive(bool b){

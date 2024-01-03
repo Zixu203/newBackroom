@@ -13,6 +13,10 @@ public class LockedDoor : Door {
         if (base.is_open == false){
             GameController.getInstance.GetManager<GamePlayManager>().inGameUIController.popOutKnapsack("key");
         }
+        if (base.is_open == true){
+            GameObject.Find("player").SetActive(false);
+            GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.isInDialogue = true;    
+        }
         base.BeenInteract();
     }
 }
