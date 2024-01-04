@@ -78,3 +78,4 @@ public class change : MonoBehaviour
         SceneManager.LoadScene("TutorialScenes");
     }
 }
+

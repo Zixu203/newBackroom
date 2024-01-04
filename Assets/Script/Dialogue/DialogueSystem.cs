@@ -170,6 +170,20 @@ public class DialogueSystem {
                     "白夜",
                     "baiye",
                     "(雖然一起行動比較好，但不知道他的身分，還是自己探察比較保險。)",
+                    7,
+                    true
+                ),
+                new Dialogue(
+                    "白夜",
+                    "baiye",
+                    "終於回來了。",
+                    8,
+                    true
+                ),
+                new Dialogue(
+                    "白夜",
+                    "baiye",
+                    "好像有點怪怪的",
                     0,
                     true
                 ),
@@ -224,6 +238,7 @@ public class DialogueSystem {
         SetObjectActive(false);
         GameController.getInstance.GetManager<GamePlayManager>().GetTargetPlayer.isInDialogue = false;
         SaveLoader.setEntityDialogueIndex(baseEntity, index); 
+        baseEntity.EndDialogue();
         int b = GameController.getInstance.GetManager<GamePlayManager>().inGameUIController.isTur;
         if(b == 0){
             GameController.getInstance.GetManager<GamePlayManager>().inGameUIController.moveTur();

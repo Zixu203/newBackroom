@@ -158,6 +158,7 @@ public class InGameUIController
 		tutorialIndex++;
 	}
 	public void diaTur(){
+		if(SceneManager.GetActiveScene().name != "TutorialScenes") return;
 		tutorialList[tutorialIndex].SetActive(false);
 		tutorialIndex++;
 	}
