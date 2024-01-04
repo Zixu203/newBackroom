@@ -58,4 +58,8 @@ public class dialogue : MonoBehaviour
         yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
         player.playableGraph.GetRootPlayable(0).SetSpeed(1);
     }
+    public void AnimeChange()
+    {
+        SceneManager.LoadScene("endScenes");
+    }
 }

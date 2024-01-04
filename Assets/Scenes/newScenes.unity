@@ -2245,12 +2245,27 @@ MonoBehaviour:
   m_Events:
     m_Signals:
     - {fileID: 11400000, guid: 70db0c62cc0e32b4680bc2dce7c582ba, type: 2}
+    - {fileID: 11400000, guid: a3c9cb56865e49f4db97139675858299, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 407723244}
           m_TargetAssemblyTypeName: dialogue, Assembly-CSharp
           m_MethodName: showText
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 407723244}
+          m_TargetAssemblyTypeName: dialogue, Assembly-CSharp
+          m_MethodName: AnimeChange
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
