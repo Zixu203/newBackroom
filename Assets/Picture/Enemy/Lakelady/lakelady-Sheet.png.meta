@@ -1,0 +1,4012 @@
+fileFormatVersion: 2
+guid: 5034bc49dd094ce40b1aa0fbf475a251
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lakelady-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1617
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be57e780f30b624797a7c56f61f62bf
+      internalID: 1498913092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1617
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2074daf9b14ab6d46bbd4d83e817cd13
+      internalID: -178220303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1617
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c7641b60c978346bd6571d50ad7fae
+      internalID: 1507393130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1617
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882f9fdcac267b8499d3e003762fa4a2
+      internalID: -466042080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1617
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424e22091ab0c1c448dcf18fd91b4e0e
+      internalID: -2020318612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1617
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7713e1822df36e4f9c6a6e981346370
+      internalID: -242679626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1617
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7b63d8225930247bee63caf6aec351
+      internalID: -1553584045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1617
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd9b93c91b90f0468dd3672a7c5d1e1
+      internalID: 1284837597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1617
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a4061772c0d7347a8caef14ae345dd
+      internalID: 725997764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1617
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e19020a08b579e48ab76c3ac4812425
+      internalID: -1070573401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1617
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabb11aa32d5fc34d9eeeb0a6881bf26
+      internalID: 941608150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 1617
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a2eebd5d3571449922f95cdb01b315
+      internalID: 1281944332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 1617
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690a81810462e1d4b954f04822c9e476
+      internalID: -904963685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 1617
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63db346d3e32db44a922b080ecffc61
+      internalID: 1321881430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 1617
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6967272ef176e414a8582a8d6ac34b25
+      internalID: 820370941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 1617
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcf248f67faaae499334a4380912ea5
+      internalID: 1807194879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1617
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53fe30fd28435e4d814c96e67b71798
+      internalID: 616349699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 1617
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01ab4d5f70398f4db879d441a86c9ee
+      internalID: 1541625811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1470
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c85743b0d3aca4c9fc1f3689521d0b
+      internalID: -1232379103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1470
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddbd26e55df7f54cb6bfe59ed08e514
+      internalID: 2075404600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1470
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3940caeb5e7fc41b913bdf5e91e867
+      internalID: -558142542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1470
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927ab4fb4fb63654880aa3e9839da501
+      internalID: -1528265959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1470
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c70c1418ffccea42a28ca586a845d9b
+      internalID: -2147397285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1470
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a68e5a1776c7ff4eae0db268a43e588
+      internalID: -1034744414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1470
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7321c1ebd7dbe9346b6794479ea6cecf
+      internalID: 1512702337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1470
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9123fc9c934bded4bbb79c670077b914
+      internalID: -719687029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1470
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b702d9356690bdf4796710834e768785
+      internalID: 1000661774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1470
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68726629065ec8544b68e3d3dc4a28dc
+      internalID: -227692233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1470
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2507227aaa05b0e409e6c6b4f5d79515
+      internalID: -793444721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 1470
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffc47959f78ce54784a0044e740a2ee
+      internalID: -1158514165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 1470
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd692aaaae35d447a4b149144261a88
+      internalID: 1591915252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 1470
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72949150bf71f6049a63358c64c5ccd2
+      internalID: -1433319981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 1470
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f81f4e2dd03744c9d8d82c5d4740c2
+      internalID: -1737976606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 1470
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4ef20fb5755224d8086633020a5f37
+      internalID: -1631403757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1470
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc224556d4ab6c4cb54ea515f886e77
+      internalID: -1618134876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 1470
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7ed56f913c8c34f9e53ee5abce9d57
+      internalID: -1218408876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1323
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e6598f6774ba144baa1199b2c62b86
+      internalID: 419355218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1323
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507c299d499b6314d80c64920f310969
+      internalID: -36709540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1323
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c566161d0fac2d64e858ec5173868634
+      internalID: -298827379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1323
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39405c11f31846a449758dc0b601c938
+      internalID: 1996053223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1323
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f06833661b5212448fff7e51a8880d8
+      internalID: -95043186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1323
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ba71374989aa14d8d1cf50885844c9
+      internalID: -988044796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1323
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b97fba6ff887d42a446e84bcbf493e
+      internalID: 2123308379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1323
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4affd2c5a7412c44addda4990ce4ca0
+      internalID: 612904849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1323
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e6f26a69c377b4baae07f9893ad546
+      internalID: -1709513940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1323
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc98798dd15d51c42abf11c8e262a237
+      internalID: -1269893875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1323
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b535df972089b4a9ff0676fb99c8f2
+      internalID: -2056556854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 1323
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef269da7457396f429c429f42fa5e9bb
+      internalID: 1697617226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 1323
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b655a718e63b1d49828273accb02ee0
+      internalID: 263251495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 1323
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb1fabed69b5ab43af1dd132f9b128a
+      internalID: -1206051607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 1323
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5754732ca78cf3e449c3d94bde05899b
+      internalID: -942772302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 1323
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f78b03248466b84a842e10958b11a30
+      internalID: 1288739356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1323
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242997a1339221441afd886f50a3e178
+      internalID: 1360712161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 1323
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2346a1f5c4e9d2940acc8233abba4f3b
+      internalID: -632437652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1176
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93de25e021088dd4e95c9de790daeb9e
+      internalID: 1372204440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1176
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2a78dea70000544835a3e737e853bd
+      internalID: 231004315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1176
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb88790edd7d9a46abc4306dc6d7cc4
+      internalID: 1760494654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1176
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8c7eeb3b2586545a46a758b08002d3
+      internalID: -349342699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1176
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4395ed9b8b796d841ac6ba09ef8b7efd
+      internalID: 1842588183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1176
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d26e4cd624b304da5d66c6dc3f1a2e
+      internalID: 750793617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1176
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f073e2f9e92143428f6b50617b307ee
+      internalID: 1884675305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1176
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d7fd17417dfa0409618fd206c25550
+      internalID: 1243222270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1176
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f92de966311ca4b8316ef3015b78e8
+      internalID: -303271259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1176
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413e90f4e54dab443b36f208dbcef17d
+      internalID: 710188432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1176
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3889c29f69c2d1142ad66e42106c9a5a
+      internalID: 1418221522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 1176
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1b5a80d4145ad4a854dc8436814eb9
+      internalID: 1208298163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 1176
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2dec995e7661a4d87722ed1714af5e
+      internalID: 710267629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 1176
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f73c723fd84724f88cd4afee3c2e68
+      internalID: 1708629724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 1176
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c9a2b650bd6a8499b3e63f199917e6
+      internalID: -1891713484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 1176
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854dc70bc61adc348a10bb0298dfd2a8
+      internalID: -325131723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1176
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f892c1e269fcfcf4d8af97b8e88daeb9
+      internalID: 839214114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 1176
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a7731627e0fa544a3ad72d7ba44aab
+      internalID: 1438368326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1029
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31fd8160b2c2bb4080c3c6bea2dd419
+      internalID: -2048299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1029
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea7c127dd580f7459673584a0446b3b
+      internalID: 993858968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1029
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb41323f181f0ad4183eaeeb97f06ded
+      internalID: 1063350001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1029
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb850262e3c1b3f47ba59d8e58bd73ea
+      internalID: -1152044602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1029
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72ecf07541b9fe4c9071ea40e2dab15
+      internalID: -94110282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 882
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d70e6e5304c0f7479eeb7bf464f0d0b
+      internalID: 1557850995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 882
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a9cc6a68177c044aa7a9b9e9d53db2
+      internalID: -1145205353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 882
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75908011e621fd64d88ceffb318cca81
+      internalID: -744889521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 882
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a31f24b32b81574baca0d481298da21
+      internalID: 1121504540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 882
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00743119e1594d44bd58808b5a29a39
+      internalID: -1173334263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 735
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7394d8671ec082f46a08602d4befc9fa
+      internalID: 447949184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 735
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26cc0a87556668d4e8e54418a8390bec
+      internalID: -723892733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 735
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8098b1ef2d3ec48a5ae2a2bbe2fea3
+      internalID: -282964768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 735
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fde5ff3cb4d5b2418e02c9181806663
+      internalID: -1350717972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 735
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606bf508d67dfbd40a94180d4f9aa401
+      internalID: 2095104207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 735
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435c1c994a0b2e84194bff8666648da1
+      internalID: 1827808187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 735
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0da03632cc7e349a4ebc7704cdb461
+      internalID: -388255360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 735
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0088ee154efba6b4bbd63b6ecdcc3491
+      internalID: -1286358721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 735
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678c4ebbcdd8d1641ac329bf553fbca1
+      internalID: -918984822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 735
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d686ee35761ee43bd96eedb83f023c
+      internalID: -826772722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 735
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa2c594cb1e5ba43b83cced712a0d7c
+      internalID: 2041251386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 735
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5777b7ae3b704459055906ac29cce4
+      internalID: 1083767527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 588
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6594ed5ade180c94188588540ef0b3e0
+      internalID: 2019848702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 588
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c11f5f4a44832438d97c3fbf792479
+      internalID: -666960866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 588
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd71b58b7921fa44db6cb53a24816240
+      internalID: -1349640969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 588
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89c9f029016f924bb41354a249e4c78
+      internalID: 1671710048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 588
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee61a64ad3303ce46824ad0d4f23fdeb
+      internalID: 1520146785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 588
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee10794cb99c954b8d2f45aea93d778
+      internalID: -1110237476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 588
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac422a85764db348a176de3bcec5159
+      internalID: 1522409078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 588
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3570ec5eb5b405f4ba97b0dbeeb92aed
+      internalID: -237543163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 588
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5761a0a8292f5d449a2bdf4da62d8651
+      internalID: 135664316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 588
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfddb92d42f8dc4eba75940e0210fea
+      internalID: 1989606332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 588
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d988fac4cb4cc1948b60bd0084b6769b
+      internalID: 875157805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 588
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767169e0ce54e98449edcc4168a7b311
+      internalID: 1046222197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 441
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa56818346ace34a96c5e4928efcc44
+      internalID: -2066488527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 441
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c5df6ee6c509047bac5132e7847f7b
+      internalID: 1744513032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 441
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1f6bc3b01b3784b9fbf8e8b4f6b557
+      internalID: -566487038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 441
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e5978b504608f459abfc2ad5f552ce
+      internalID: -121007247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 441
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb01f3fcaa7b5f44924dc9b225f35a8
+      internalID: 746678517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 441
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69272759b1f534043bdd44420ecb354f
+      internalID: 86033834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 441
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813892cf25cd65c4db83901037b158a3
+      internalID: -851136864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 441
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7afc7dd9c25384284fcfd9c967bd83
+      internalID: -944899296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 441
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f770de8a7a2b9c9418682ec509cd353a
+      internalID: -169097711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 441
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a0fd06b19426d4f9f4c5b4a1a0dec1
+      internalID: -709600718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 441
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90842723c0300a44a3eb12e272fa10c
+      internalID: -1820119636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 441
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae018245b0166a4aacee251a5172c1e
+      internalID: 187382349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 441
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4e30d01a73c93478420333e67f5649
+      internalID: -1528903555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 441
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f3d9b0122a25044998ffc8cb0f30f1
+      internalID: -1119461995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 441
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb86ce1bfd292645a828d0095816819
+      internalID: 854543072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 441
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5339184121d168941bc13742c89c075d
+      internalID: -545955086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 441
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be31b4653b836c14e86391e176d65ad1
+      internalID: 526039133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 441
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2bbce19e826434ab6507d2d5e1b112
+      internalID: -1963031201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c932c393973c00f4b98f87f9588d397b
+      internalID: 2105132167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 294
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310054422bd28c046be794b35c4a784c
+      internalID: -2046260082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_126
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 294
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7bd0c4215e88948af36bb4c64960f7
+      internalID: 1218855651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_127
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 294
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3231108507d55354b822ed1c33f32d14
+      internalID: -1822745613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_128
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 294
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db34276ba48ad6742a769c9c2358a25b
+      internalID: -116116829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_129
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 294
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13e95ab95b717048962d7ef52b8058a
+      internalID: -1126443397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_130
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 294
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e0b0845c447e548a7044e30dda2d1b
+      internalID: 428927775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_131
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 294
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0613043ba9485e84688b6ea8334b9ba1
+      internalID: 318185751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_132
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 294
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00358828c8384a84ea4c38fb4c18a4b8
+      internalID: -1992329010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_133
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 294
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144f57f4c91b682498c886a89585a527
+      internalID: -183718563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_134
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 294
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c9f61d50033ae4e8b20198d6219c04
+      internalID: -558474255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_135
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 294
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56523391bae43c459c34ba960acdf6b
+      internalID: -965397083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_136
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 294
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df5d68f4573df149912eaae76c0b990
+      internalID: 1455007186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_137
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 294
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1209f4e03fb90e408e27f178bab188f
+      internalID: -1138389218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_138
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 294
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885414ef18d8577418150fcc11185473
+      internalID: -752720299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_139
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 294
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a29afd2a338564694860880c745cc0
+      internalID: -99302244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_140
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 294
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e30a2c3fcb35742b476edd35dcd347
+      internalID: 936534966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_141
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 147
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5353fa6e5f43b7f44a7e1a57588f3c79
+      internalID: 1434946965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_142
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 147
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea237aa77b0eb0f4193399b1d94adb93
+      internalID: 1235407953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_143
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 147
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1975255bc90a552489249449b3810a63
+      internalID: 1020393706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_144
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 147
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e3f08d3bf701f449f30e7c6772e4b9
+      internalID: -746714205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_145
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 147
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa62cb4f87b2a049926eca51d11a092
+      internalID: -232326120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_146
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 147
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328b0efa18217a74a8eee51de6062ebf
+      internalID: 2071456218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_147
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 147
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb48cf54a3e74cc489a48b726cdff489
+      internalID: -1954598961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_148
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 147
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39eb7de5a02a5ae4eb4acd4a7374f00c
+      internalID: -1466754548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_149
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 147
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28487ffaa892d6b4db026c220c2fac1b
+      internalID: -1451554871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_150
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 147
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d28eacf64e1fb418fe338a5f7ec9bc
+      internalID: -325891824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_151
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 147
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929a3afe163f78840a11a0b7ca9dd7c8
+      internalID: -259679656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_152
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 147
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d9bbc597d174f429f7ca75c869c917
+      internalID: -1051662564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_153
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 147
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb23f4db181f2f44eb8d9c5fc31cf85f
+      internalID: -1734199612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_154
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 147
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00b897627b2fcb45bd9ef64b3d5f4df
+      internalID: 1944820883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_155
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 147
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb263ad7ad875f49b9a245cf6f069f4
+      internalID: -1161957678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_156
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 147
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59492b64ea69a7747b795c49fedbd37d
+      internalID: 572872539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_157
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 147
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f5355107d3c8c4c9de8f316757433b
+      internalID: -1491206087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_158
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 147
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08f23d4c043f844496d72aef167ddb7
+      internalID: 745550059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6084ea1663e52043b31660af7dfe3b0
+      internalID: 1631666264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_160
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30ff8c5fc79fcf4592d52bafa9c2cb0
+      internalID: 1054238949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_161
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfcf75d20e5ecc4f8a52cd60b2636eb
+      internalID: 1362910733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_162
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 0
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f228f8640d20c4e4882298c0a5acdc52
+      internalID: 495474121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_163
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88453c06b56cf214e83dd9c337f02d08
+      internalID: 2137926582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_164
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76e146a991cbd54d9edfa004f89a72c
+      internalID: 1366957566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_165
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 0
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6839843f8df864f8f94f33348a2552
+      internalID: 1951543957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_166
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 0
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5f638411493374fa3ec80c4245f427
+      internalID: -350040290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_167
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 0
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855e8333928b4534883d9a88c710c29d
+      internalID: 482219245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_168
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 0
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3ab7877dca8934e833f6022176dac0
+      internalID: 1166229941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_169
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7dd989d3ce0e9147aa228d3fa064774
+      internalID: 1385957726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_170
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 0
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895145705ec63d74a92d3c96a829d517
+      internalID: -691760051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_171
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 0
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc21733d37653745b21062ff0b7ac9f
+      internalID: 323061211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_172
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 0
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74d457d41279904cae4d69ce8044243
+      internalID: 400032160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_173
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 0
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2434ac39b9b8d2d4ca284ebd0354f25c
+      internalID: -1841488163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_174
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 0
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c81ad02b18df724cb95ae8951a033c3
+      internalID: -705684113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakelady-Sheet_175
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 0
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd36c9e1777e444eb190df5a8f9af74
+      internalID: -80329708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 06a136053d6e2014abd43c77d14fdca0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      lakelady-Sheet_0: 1498913092
+      lakelady-Sheet_1: -178220303
+      lakelady-Sheet_10: 941608150
+      lakelady-Sheet_100: 1522409078
+      lakelady-Sheet_101: -237543163
+      lakelady-Sheet_102: 135664316
+      lakelady-Sheet_103: 1989606332
+      lakelady-Sheet_104: 875157805
+      lakelady-Sheet_105: 1046222197
+      lakelady-Sheet_106: -2066488527
+      lakelady-Sheet_107: 1744513032
+      lakelady-Sheet_108: -566487038
+      lakelady-Sheet_109: -121007247
+      lakelady-Sheet_11: 1281944332
+      lakelady-Sheet_110: 746678517
+      lakelady-Sheet_111: 86033834
+      lakelady-Sheet_112: -851136864
+      lakelady-Sheet_113: -944899296
+      lakelady-Sheet_114: -169097711
+      lakelady-Sheet_115: -709600718
+      lakelady-Sheet_116: -1820119636
+      lakelady-Sheet_117: 187382349
+      lakelady-Sheet_118: -1528903555
+      lakelady-Sheet_119: -1119461995
+      lakelady-Sheet_12: -904963685
+      lakelady-Sheet_120: 854543072
+      lakelady-Sheet_121: -545955086
+      lakelady-Sheet_122: 526039133
+      lakelady-Sheet_123: -1963031201
+      lakelady-Sheet_124: 2105132167
+      lakelady-Sheet_125: -2046260082
+      lakelady-Sheet_126: 1218855651
+      lakelady-Sheet_127: -1822745613
+      lakelady-Sheet_128: -116116829
+      lakelady-Sheet_129: -1126443397
+      lakelady-Sheet_13: 1321881430
+      lakelady-Sheet_130: 428927775
+      lakelady-Sheet_131: 318185751
+      lakelady-Sheet_132: -1992329010
+      lakelady-Sheet_133: -183718563
+      lakelady-Sheet_134: -558474255
+      lakelady-Sheet_135: -965397083
+      lakelady-Sheet_136: 1455007186
+      lakelady-Sheet_137: -1138389218
+      lakelady-Sheet_138: -752720299
+      lakelady-Sheet_139: -99302244
+      lakelady-Sheet_14: 820370941
+      lakelady-Sheet_140: 936534966
+      lakelady-Sheet_141: 1434946965
+      lakelady-Sheet_142: 1235407953
+      lakelady-Sheet_143: 1020393706
+      lakelady-Sheet_144: -746714205
+      lakelady-Sheet_145: -232326120
+      lakelady-Sheet_146: 2071456218
+      lakelady-Sheet_147: -1954598961
+      lakelady-Sheet_148: -1466754548
+      lakelady-Sheet_149: -1451554871
+      lakelady-Sheet_15: 1807194879
+      lakelady-Sheet_150: -325891824
+      lakelady-Sheet_151: -259679656
+      lakelady-Sheet_152: -1051662564
+      lakelady-Sheet_153: -1734199612
+      lakelady-Sheet_154: 1944820883
+      lakelady-Sheet_155: -1161957678
+      lakelady-Sheet_156: 572872539
+      lakelady-Sheet_157: -1491206087
+      lakelady-Sheet_158: 745550059
+      lakelady-Sheet_159: 1631666264
+      lakelady-Sheet_16: 616349699
+      lakelady-Sheet_160: 1054238949
+      lakelady-Sheet_161: 1362910733
+      lakelady-Sheet_162: 495474121
+      lakelady-Sheet_163: 2137926582
+      lakelady-Sheet_164: 1366957566
+      lakelady-Sheet_165: 1951543957
+      lakelady-Sheet_166: -350040290
+      lakelady-Sheet_167: 482219245
+      lakelady-Sheet_168: 1166229941
+      lakelady-Sheet_169: 1385957726
+      lakelady-Sheet_17: 1541625811
+      lakelady-Sheet_170: -691760051
+      lakelady-Sheet_171: 323061211
+      lakelady-Sheet_172: 400032160
+      lakelady-Sheet_173: -1841488163
+      lakelady-Sheet_174: -705684113
+      lakelady-Sheet_175: -80329708
+      lakelady-Sheet_18: -1232379103
+      lakelady-Sheet_19: 2075404600
+      lakelady-Sheet_2: 1507393130
+      lakelady-Sheet_20: -558142542
+      lakelady-Sheet_21: -1528265959
+      lakelady-Sheet_22: -2147397285
+      lakelady-Sheet_23: -1034744414
+      lakelady-Sheet_24: 1512702337
+      lakelady-Sheet_25: -719687029
+      lakelady-Sheet_26: 1000661774
+      lakelady-Sheet_27: -227692233
+      lakelady-Sheet_28: -793444721
+      lakelady-Sheet_29: -1158514165
+      lakelady-Sheet_3: -466042080
+      lakelady-Sheet_30: 1591915252
+      lakelady-Sheet_31: -1433319981
+      lakelady-Sheet_32: -1737976606
+      lakelady-Sheet_33: -1631403757
+      lakelady-Sheet_34: -1618134876
+      lakelady-Sheet_35: -1218408876
+      lakelady-Sheet_36: 419355218
+      lakelady-Sheet_37: -36709540
+      lakelady-Sheet_38: -298827379
+      lakelady-Sheet_39: 1996053223
+      lakelady-Sheet_4: -2020318612
+      lakelady-Sheet_40: -95043186
+      lakelady-Sheet_41: -988044796
+      lakelady-Sheet_42: 2123308379
+      lakelady-Sheet_43: 612904849
+      lakelady-Sheet_44: -1709513940
+      lakelady-Sheet_45: -1269893875
+      lakelady-Sheet_46: -2056556854
+      lakelady-Sheet_47: 1697617226
+      lakelady-Sheet_48: 263251495
+      lakelady-Sheet_49: -1206051607
+      lakelady-Sheet_5: -242679626
+      lakelady-Sheet_50: -942772302
+      lakelady-Sheet_51: 1288739356
+      lakelady-Sheet_52: 1360712161
+      lakelady-Sheet_53: -632437652
+      lakelady-Sheet_54: 1372204440
+      lakelady-Sheet_55: 231004315
+      lakelady-Sheet_56: 1760494654
+      lakelady-Sheet_57: -349342699
+      lakelady-Sheet_58: 1842588183
+      lakelady-Sheet_59: 750793617
+      lakelady-Sheet_6: -1553584045
+      lakelady-Sheet_60: 1884675305
+      lakelady-Sheet_61: 1243222270
+      lakelady-Sheet_62: -303271259
+      lakelady-Sheet_63: 710188432
+      lakelady-Sheet_64: 1418221522
+      lakelady-Sheet_65: 1208298163
+      lakelady-Sheet_66: 710267629
+      lakelady-Sheet_67: 1708629724
+      lakelady-Sheet_68: -1891713484
+      lakelady-Sheet_69: -325131723
+      lakelady-Sheet_7: 1284837597
+      lakelady-Sheet_70: 839214114
+      lakelady-Sheet_71: 1438368326
+      lakelady-Sheet_72: -2048299
+      lakelady-Sheet_73: 993858968
+      lakelady-Sheet_74: 1063350001
+      lakelady-Sheet_75: -1152044602
+      lakelady-Sheet_76: -94110282
+      lakelady-Sheet_77: 1557850995
+      lakelady-Sheet_78: -1145205353
+      lakelady-Sheet_79: -744889521
+      lakelady-Sheet_8: 725997764
+      lakelady-Sheet_80: 1121504540
+      lakelady-Sheet_81: -1173334263
+      lakelady-Sheet_82: 447949184
+      lakelady-Sheet_83: -723892733
+      lakelady-Sheet_84: -282964768
+      lakelady-Sheet_85: -1350717972
+      lakelady-Sheet_86: 2095104207
+      lakelady-Sheet_87: 1827808187
+      lakelady-Sheet_88: -388255360
+      lakelady-Sheet_89: -1286358721
+      lakelady-Sheet_9: -1070573401
+      lakelady-Sheet_90: -918984822
+      lakelady-Sheet_91: -826772722
+      lakelady-Sheet_92: 2041251386
+      lakelady-Sheet_93: 1083767527
+      lakelady-Sheet_94: 2019848702
+      lakelady-Sheet_95: -666960866
+      lakelady-Sheet_96: -1349640969
+      lakelady-Sheet_97: 1671710048
+      lakelady-Sheet_98: 1520146785
+      lakelady-Sheet_99: -1110237476
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

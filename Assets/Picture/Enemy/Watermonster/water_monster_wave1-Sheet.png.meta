@@ -1,0 +1,954 @@
+fileFormatVersion: 2
+guid: 196f0289c783e694b9b1d9d85b48d8c1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 273
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a862ec23f8da647a1824e416d2ef1c
+      internalID: -804230460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 273
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bacfe5a01b9de04f80145e82b32c6e5
+      internalID: -1664829129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 273
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a736ad531dd39245b5d784842dccc51
+      internalID: 1569749019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 273
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b194a28129629aa4fa0ee3aba3f3dce2
+      internalID: -1663407820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 273
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8815b3cb726a60448de5c9efd5b3f30
+      internalID: 125169906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381b9d4ef1e47854b92f972393868e1f
+      internalID: 1724820958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 234
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fea6cff0eb905f4695907fdf60f1ce1
+      internalID: -83952310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 234
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2352d1782cb3b4aa6f9fd54d798f01
+      internalID: -833939669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 234
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147c201e08d7bc9439b060ed4c7754ba
+      internalID: -1843944842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 234
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb3dcc5133239e40ba6376b7938f8f1
+      internalID: 595111538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 195
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa8be8efa43f4c49b69349e7c05f5b1
+      internalID: -688010695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 195
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441026634014bce4d92b7798e1ab2817
+      internalID: 1023032791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 195
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e089e9ca4675a49ba556b8857bf18d
+      internalID: 1680858756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 195
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6094b8cec1b1c654ea9853d0173a60f2
+      internalID: 321192645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 195
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074e649ac71b8a447a086a648af62aec
+      internalID: 1545399959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b476fcaadb014e94982b0dc01ccd0e21
+      internalID: 1747073702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 156
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f115c16ad70b048a8668ed089c8fb1
+      internalID: 2014353827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 156
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a41899b833ae5a4a93643138ef2330d
+      internalID: -2104767905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 156
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ba9c1347ebdc14881dad64749b33fa
+      internalID: -1815518556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 156
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e46d10843d7e946b0e57e9f11c5f1a
+      internalID: -1135023019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 117
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203c2dc0d4dde45429ea28d77934d1c9
+      internalID: 24735026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 117
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032328b3c8223e54988f4ed84b9e95ea
+      internalID: 254533301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 117
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c45c5bf613c118499e72634c89a0439
+      internalID: 731319999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 117
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7469935a6dd674b97be0bc4e27dd50
+      internalID: -461375133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 117
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d0baf3fde28134297ce0d0497696ff
+      internalID: -1450271106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf40c6860586d1b47815e7f557497961
+      internalID: -200859103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 78
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be703939fc47bf647b72c830160b36c8
+      internalID: -1053736374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 78
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a71e96915c233740bf8fb2324fab25a
+      internalID: 1684013582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 78
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24390972e1048943a32a04705d27cdf
+      internalID: 976335985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 78
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb6f83b8a3191045af361fd57e98b52
+      internalID: -1612179007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a9c4e1b30ce24418632434c05ea629
+      internalID: 1853334809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 39
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cc31f3f3d4ae14d82752f46986d55b
+      internalID: -1996663400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 39
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266e9b03e3ef65f42924e79e7d0b524f
+      internalID: 1614850809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 39
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe868c82d21cba249846a9459d94bd61
+      internalID: -267267350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 39
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e849e71a3ca33da42b856bfd6e1d06f8
+      internalID: 1900210433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e4ac7df84bea64c97b05eaaa726ba2
+      internalID: -2136661733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_monster_wave1-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d442271f38cd9249a9b39e0b053f644
+      internalID: -1322409133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2b4099693b1901c4ab2c3e6c0996405b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      water_monster_wave1-Sheet_0: -804230460
+      water_monster_wave1-Sheet_1: -1664829129
+      water_monster_wave1-Sheet_10: -688010695
+      water_monster_wave1-Sheet_11: 1023032791
+      water_monster_wave1-Sheet_12: 1680858756
+      water_monster_wave1-Sheet_13: 321192645
+      water_monster_wave1-Sheet_14: 1545399959
+      water_monster_wave1-Sheet_15: 1747073702
+      water_monster_wave1-Sheet_16: 2014353827
+      water_monster_wave1-Sheet_17: -2104767905
+      water_monster_wave1-Sheet_18: -1815518556
+      water_monster_wave1-Sheet_19: -1135023019
+      water_monster_wave1-Sheet_2: 1569749019
+      water_monster_wave1-Sheet_20: 24735026
+      water_monster_wave1-Sheet_21: 254533301
+      water_monster_wave1-Sheet_22: 731319999
+      water_monster_wave1-Sheet_23: -461375133
+      water_monster_wave1-Sheet_24: -1450271106
+      water_monster_wave1-Sheet_25: -200859103
+      water_monster_wave1-Sheet_26: -1053736374
+      water_monster_wave1-Sheet_27: 1684013582
+      water_monster_wave1-Sheet_28: 976335985
+      water_monster_wave1-Sheet_29: -1612179007
+      water_monster_wave1-Sheet_3: -1663407820
+      water_monster_wave1-Sheet_30: 1853334809
+      water_monster_wave1-Sheet_31: -1996663400
+      water_monster_wave1-Sheet_32: 1614850809
+      water_monster_wave1-Sheet_33: -267267350
+      water_monster_wave1-Sheet_34: 1900210433
+      water_monster_wave1-Sheet_35: -2136661733
+      water_monster_wave1-Sheet_36: -1322409133
+      water_monster_wave1-Sheet_4: 125169906
+      water_monster_wave1-Sheet_5: 1724820958
+      water_monster_wave1-Sheet_6: -83952310
+      water_monster_wave1-Sheet_7: -833939669
+      water_monster_wave1-Sheet_8: -1843944842
+      water_monster_wave1-Sheet_9: 595111538
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
